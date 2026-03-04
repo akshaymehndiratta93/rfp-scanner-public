@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T22:00:02.352905",
-  "total_accounts": 67,
-  "last_batch_scored": 0,
-  "last_batch_no_signals": 5,
+  "generated_at": "2026-03-04T22:13:23.290333",
+  "total_accounts": 68,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -4668,6 +4668,66 @@
       "ae": "Innovaccer admin",
       "sdr": "",
       "state": "MI",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Viatris",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The sole signal is extremely dated (June 2023), meaning the core IT separation project is likely complete.",
+        "No recent evidence confirms ongoing or new data platform initiatives.",
+        "Viatris's status as a pharmaceutical company may alter its fit for Innovaccer's traditionally provider/payer-focused solutions."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "Directly addresses the core need for data consolidation and IT infrastructure overhaul post-divestiture."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 70,
+          "rationale": "Logical next step to enable advanced analytics on a newly consolidated data foundation."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 60,
+          "rationale": "Supports the need to re-engage with physicians and patients under the new, focused business strategy."
+        }
+      ],
+      "initiative_theme": "Post-Divestiture IT Infrastructure Modernization",
+      "top_evidence": [
+        {
+          "signal": "Viatris Divests Major Business Units, Forcing Complete IT Infrastructure Separation and Overhaul",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-06-26",
+          "relevance": "Describes a foundational, large-scale IT transformation and data migration initiative, though the timing is very old."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "As Viatris settles into its new structure post-divestiture, now is the time to ensure the new IT foundation is optimized to support advanced analytics and operational efficiency in your core therapeutic areas.",
+        "target_persona": "CIO, CTO, VP of IT Infrastructure, Head of Enterprise Architecture",
+        "suggested_action": "Post-Transformation Data Strategy Assessment",
+        "suggested_asset": "Case Study: Life Sciences Data Platform Modernization Post-M&A",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "PA",
       "signals_count": 1
     }
   ]

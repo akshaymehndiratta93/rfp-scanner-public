@@ -1715,5 +1715,32 @@
     },
     "recommended_action": "Review award for Cardinal Health. Deadline: N/A. Coordinate response with Anirudh kanwar.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304221323_0",
+    "created_at": "2026-03-04T22:13:23.320738",
+    "account_name": "Blue Cross And Blue Shield Of Nebraska",
+    "doc_type": "award",
+    "headline": "Blue Cross and Blue Shield of Nebraska and Volante Health Partner on Value-Based Primary Care Program",
+    "summary": "Announcement of a partnership with Volante Health to launch a value-based advanced primary care program. The program focuses on improving health outcomes and managing costs for members with chronic conditions through proactive and coordinated care, indicating a strategic focus on population health and care management capabilities.",
+    "source_url": "https://www.prnewswire.com/news-releases/blue-cross-and-blue-shield-of-nebraska-and-volante-health-partner-on-value-based-primary-care-program-301549463.html",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Cured",
+      "Galaxy",
+      "Atlas",
+      "Gravity",
+      "Comet"
+    ],
+    "fit_score": 0.85,
+    "routing": {
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "tier": "Top",
+      "state": "NE"
+    },
+    "recommended_action": "Review award for Blue Cross And Blue Shield Of Nebraska. Deadline: N/A. Coordinate response with Hannah Schuyler.",
+    "status": "new"
   }
 ]
