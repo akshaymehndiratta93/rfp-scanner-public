@@ -41,13 +41,24 @@ function initNavigation() {
 // ─── Stats ──────────────────────────────────────────────
 async function loadStats() {
     try {
-        const res = await fetch(`${API_BASE}/stats`);
+        const res = await fetch("../data/scorecards.json");
         const data = await res.json();
-        document.getElementById("stat-total").textContent = data.total_accounts || 0;
-        document.getElementById("stat-high-prob").textContent = data.high_probability_90d || 0;
-        document.getElementById("stat-outreach").textContent = data.outreach_count || 0;
-        document.getElementById("stat-alerts").textContent = data.active_alerts || 0;
-        document.getElementById("alert-badge").textContent = data.active_alerts || 0;
+        const scorecards = data.scorecards || [];
+
+        // Calculate stats client-side since there is no backend
+        const highProb = scorecards.filter(s => (s.rfp_probability?.["90_days"] || 0) >= 0.5).length;
+        const outreach = scorecards.filter(s => s.outreach?.priority_tier === "immediate" || s.outreach?.priority_tier === "high").length;
+
+        document.getElementById("stat-total").textContent = data.total_accounts || scorecards.length;
+        document.getElementById("stat-high-prob").textContent = highProb;
+        document.getElementById("stat-outreach").textContent = outreach;
+
+        // Load alerts count
+        const alertRes = await fetch("../data/alerts.json");
+        const alertData = await alertRes.json();
+        document.getElementById("stat-alerts").textContent = alertData.length || 0;
+        document.getElementById("alert-badge").textContent = alertData.length || 0;
+
         if (data.last_updated) {
             document.getElementById("lastUpdated").textContent = `Updated ${new Date(data.last_updated).toLocaleDateString()}`;
         }
@@ -58,19 +69,27 @@ async function loadStats() {
 
 // ─── Scorecards ─────────────────────────────────────────
 async function loadScorecards() {
-    const search = document.getElementById("scorecardSearch").value;
+    const search = document.getElementById("scorecardSearch").value.toLowerCase();
     const tier = document.getElementById("tierFilter").value;
     const product = document.getElementById("productFilter").value;
 
-    let url = `${API_BASE}/scorecards?`;
-    if (search) url += `search=${encodeURIComponent(search)}&`;
-    if (tier) url += `tier=${tier}&`;
-    if (product) url += `product=${product}&`;
-
     try {
-        const res = await fetch(url);
+        const res = await fetch("../data/scorecards.json");
         const data = await res.json();
-        renderScorecards(data.scorecards || []);
+        let scorecards = data.scorecards || [];
+
+        // Apply filters client-side
+        if (search) {
+            scorecards = scorecards.filter(s => s.account_name.toLowerCase().includes(search));
+        }
+        if (tier) {
+            scorecards = scorecards.filter(s => s.tier === tier);
+        }
+        if (product) {
+            scorecards = scorecards.filter(s => s.product_fit?.some(p => p.product === product));
+        }
+
+        renderScorecards(scorecards);
     } catch (e) {
         renderEmptyState("scorecardsBody", "radar", "No Data Yet", "Run the pipeline to generate scorecards.");
     }
@@ -185,28 +204,24 @@ function showDetail(card) {
 // ─── Outreach ───────────────────────────────────────────
 async function loadOutreach() {
     try {
-        const res = await fetch(`${API_BASE}/outreach`);
+        const res = await fetch("../data/outreach_list.json");
         const data = await res.json();
         const grid = document.getElementById("outreachGrid");
 
-        if (data.week_of) {
-            document.getElementById("outreachWeek").textContent = `Week of ${data.week_of}`;
-        }
-
-        const list = data.outreach_list || [];
+        const list = data.outreach_list || data || []; // Handle both object and array formats
         if (!list.length) {
             grid.innerHTML = emptyHTML("send", "No Outreach Actions", "Run the pipeline to generate recommendations.");
             return;
         }
 
-        grid.innerHTML = list.map(item => `
+        grid.innerHTML = list.map((item, idx) => `
             <div class="outreach-card">
-                <div class="outreach-rank">${item.rank}</div>
+                <div class="outreach-rank">${item.rank || (idx + 1)}</div>
                 <h4>${item.account_name}</h4>
                 <div class="outreach-meta">
-                    <span class="tier-badge">${item.tier}</span>
-                    <span class="product-tag">${item.top_product}</span>
-                    <span class="prob-cell ${probClass(item.rfp_prob_90d)}">${(item.rfp_prob_90d * 100).toFixed(0)}% (90d)</span>
+                    <span class="tier-badge">${item.tier || "—"}</span>
+                    <span class="product-tag">${item.top_product || "—"}</span>
+                    <span class="prob-cell ${probClass(item.rfp_prob_90d || 0)}">${((item.rfp_prob_90d || 0) * 100).toFixed(0)}% (90d)</span>
                 </div>
                 <div class="outreach-why">${item.why_now || "—"}</div>
                 <div class="outreach-actions">
@@ -217,14 +232,14 @@ async function loadOutreach() {
             </div>
         `).join("");
     } catch (e) {
-        document.getElementById("outreachGrid").innerHTML = emptyHTML("send", "Backend Offline", "Start the API server to view outreach data.");
+        console.warn("Outreach data unavailable:", e);
     }
 }
 
 // ─── Alerts ─────────────────────────────────────────────
 async function loadAlerts() {
     try {
-        const res = await fetch(`${API_BASE}/alerts`);
+        const res = await fetch("../data/alerts.json");
         const data = await res.json();
         const feed = document.getElementById("alertsFeed");
 
@@ -240,7 +255,7 @@ async function loadAlerts() {
                 <div class="alert-header">
                     <div>
                         <strong>${a.account_name}</strong>
-                        <span style="font-size:12px; color:var(--text-secondary); margin-left:8px;">${new Date(a.created_at).toLocaleDateString()}</span>
+                        <span style="font-size:12px; color:var(--text-secondary); margin-left:8px;">${new Date(a.created_at || Date.now()).toLocaleDateString()}</span>
                     </div>
                     <span class="alert-type-badge">${a.doc_type || "RFP"}</span>
                 </div>
@@ -257,31 +272,40 @@ async function loadAlerts() {
             </div>`;
         }).join("");
     } catch (e) {
-        document.getElementById("alertsFeed").innerHTML = emptyHTML("bell", "Backend Offline", "Start the API server.");
+        console.warn("Alerts unavailable:", e);
     }
 }
 
 // ─── Leadership ─────────────────────────────────────────
 async function loadLeadership() {
     try {
-        const res = await fetch(`${API_BASE}/leadership`);
+        const res = await fetch("../data/scorecards.json");
         const data = await res.json();
+        const scorecards = data.scorecards || [];
 
-        // Pipeline
-        const pf = data.pipeline_forecast || {};
+        // Pipeline Forecast
+        const high90 = scorecards.filter(s => (s.rfp_probability?.["90_days"] || 0) >= 0.5).length;
+        const high180 = scorecards.filter(s => (s.rfp_probability?.["180_days"] || 0) >= 0.5).length;
+
         document.getElementById("pipelineContent").innerHTML = `
             <div style="display:flex; gap:32px; margin-bottom:16px;">
-                <div><span class="metric-big">${pf.likely_rfp_90d || 0}</span><br><span class="metric-label">Likely RFP in 90 days</span></div>
-                <div><span class="metric-big" style="color:var(--orange);">${pf.likely_rfp_180d || 0}</span><br><span class="metric-label">Likely RFP in 180 days</span></div>
+                <div><span class="metric-big">${high90}</span><br><span class="metric-label">Likely RFP in 90 days</span></div>
+                <div><span class="metric-big" style="color:var(--orange);">${high180}</span><br><span class="metric-label">Likely RFP in 180 days</span></div>
             </div>
-            <p style="font-size:13px; color:var(--text-secondary);">Total accounts tracked: ${pf.total_accounts || 0}</p>
+            <p style="font-size:13px; color:var(--text-secondary);">Accounts tracked: ${scorecards.length}</p>
         `;
 
-        // Product demand
-        const pd = data.product_demand || {};
-        const maxDemand = Math.max(...Object.values(pd), 1);
-        document.getElementById("productContent").innerHTML = Object.entries(pd)
+        // Product Demand
+        const demand = {};
+        scorecards.forEach(s => {
+            (s.product_fit || []).forEach(p => {
+                demand[p.product] = (demand[p.product] || 0) + 1;
+            });
+        });
+        const maxDemand = Math.max(...Object.values(demand), 1);
+        document.getElementById("productContent").innerHTML = Object.entries(demand)
             .sort((a, b) => b[1] - a[1])
+            .slice(0, 5)
             .map(([name, count]) => `
                 <div class="bar-row">
                     <span class="bar-label">${name}</span>
@@ -290,36 +314,22 @@ async function loadLeadership() {
                 </div>
             `).join("") || "<p>No data</p>";
 
-        // Themes
-        const themes = data.top_themes || [];
-        document.getElementById("themesContent").innerHTML = themes.length
-            ? themes.map(t => `<span class="theme-tag">${t.theme} <strong>(${t.count})</strong></span>`).join("")
-            : "<p>No themes detected</p>";
-
-        // By tier
-        const bt = data.by_tier || {};
-        document.getElementById("tierContent").innerHTML = Object.entries(bt)
-            .map(([tier, info]) => `
+        // Distribution by Tier
+        const tiers = ["Strategics", "Top", "Enterprises"];
+        document.getElementById("tierContent").innerHTML = tiers.map(t => {
+            const total = scorecards.filter(s => s.tier === t).length;
+            const highProb = scorecards.filter(s => s.tier === t && (s.rfp_probability?.["90_days"] || 0) >= 0.5).length;
+            return `
                 <div class="bar-row">
-                    <span class="bar-label">${tier}</span>
-                    <div class="bar-track"><div class="bar-fill" style="width:${(info.high_prob / Math.max(info.total, 1) * 100)}%"></div></div>
-                    <span class="bar-value">${info.high_prob}/${info.total}</span>
+                    <span class="bar-label">${t}</span>
+                    <div class="bar-track"><div class="bar-fill" style="width:${(highProb / Math.max(total, 1) * 100)}%"></div></div>
+                    <span class="bar-value">${highProb}/${total}</span>
                 </div>
-            `).join("") || "<p>No data</p>";
-
-        // Coverage gaps
-        const gaps = data.coverage_gaps || [];
-        document.getElementById("gapsContent").innerHTML = gaps.length
-            ? gaps.slice(0, 10).map(g => `
-                <div style="display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid var(--border);">
-                    <span style="font-size:13px;">${g.account}</span>
-                    <span class="prob-cell prob-high" style="font-size:13px;">${(g.prob_90d * 100).toFixed(0)}%</span>
-                </div>
-            `).join("")
-            : `<p style="color:var(--green); font-size:13px;">✓ All high-probability accounts have assigned owners.</p>`;
+            `;
+        }).join("");
 
     } catch (e) {
-        document.getElementById("pipelineContent").innerHTML = "<p>Backend offline</p>";
+        console.warn("Leadership data unavailable:", e);
     }
 }
 
