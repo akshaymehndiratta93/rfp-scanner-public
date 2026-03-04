@@ -1663,5 +1663,30 @@
     },
     "recommended_action": "Review award for AlohaCare. Deadline: Not Applicable. Coordinate response with Michael Rime.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304214645_0",
+    "created_at": "2026-03-04T21:46:45.963120",
+    "account_name": "Astellas Pharma",
+    "doc_type": "award",
+    "headline": "Astellas Taps Komodo Health as a Foundational Partner for U.S. Real-World Data and Analytics",
+    "summary": "Astellas Pharma has entered a multi-year, enterprise-level agreement to leverage Komodo Health's Healthcare Map and its suite of software applications. The partnership aims to use real-world data (RWD) and analytics to accelerate drug development, uncover insights on disease burden, and enhance the design and execution of clinical trials across Astellas' therapeutic areas.",
+    "source_url": "https://www.businesswire.com/news/home/20240108502573/en/Astellas-Taps-Komodo-Health-as-a-Foundational-Partner-for-U.S.-Real-World-Data-and-Analytics",
+    "deadline": "N/A - Selection Made (Announced Jan 8, 2024)",
+    "estimated_value": "Not Disclosed",
+    "products_relevant": [
+      "Atlas",
+      "Galaxy",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "tier": "Top",
+      "state": "IL"
+    },
+    "recommended_action": "Review award for Astellas Pharma. Deadline: N/A - Selection Made (Announced Jan 8, 2024). Coordinate response with Shyam Dattani.",
+    "status": "new"
   }
 ]

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T21:32:20.537988",
-  "total_accounts": 65,
-  "last_batch_scored": 1,
-  "last_batch_no_signals": 4,
+  "generated_at": "2026-03-04T21:46:45.923209",
+  "total_accounts": 67,
+  "last_batch_scored": 2,
+  "last_batch_no_signals": 3,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3733,6 +3733,65 @@
       "signals_count": 4
     },
     {
+      "account_name": "Fresenius Kabi",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is extremely stale (24 months old), making it a poor predictor of near-term activity.",
+        "The initiative indicated by the signal (smart pump deployment) may already be complete, with associated technology decisions long since made."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "The strategic push for EMR integration with their smart pumps requires a robust unified data platform."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 75,
+          "rationale": "Data from smart infusion systems is a key input for advanced care management and patient risk stratification."
+        },
+        {
+          "product": "Pharmacy Network",
+          "fit_score": 70,
+          "rationale": "The Ivenix infusion system is central to specialty pharmacy operations and network optimization."
+        }
+      ],
+      "initiative_theme": "Clinical Device & EMR Data Integration",
+      "top_evidence": [
+        {
+          "signal": "Fresenius Kabi Gains FDA Clearance for Next-Gen Ivenix Smart Infusion System",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-03-12",
+          "relevance": "Indicates a strategic focus on EMR integration and connected device data, although the signal is very old."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Following the major strategic deployment of the Ivenix smart pump, how is Fresenius Kabi leveraging the resulting high-value clinical data to improve outcomes and operational efficiency?",
+        "target_persona": "CMIO, VP Clinical Informatics, Chief Data Officer",
+        "suggested_action": "Data Strategy Assessment",
+        "suggested_asset": "Case Study: Integrating Device Data for Advanced Clinical Analytics",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "IL",
+      "signals_count": 1
+    },
+    {
       "account_name": "The Health Plan",
       "rfp_probability": {
         "90_days": 0.05,
@@ -4551,6 +4610,65 @@
       "sdr": "Ritika Shaw",
       "state": "MS",
       "signals_count": 3
+    },
+    {
+      "account_name": "Stryker",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is over two years old, making it highly likely that key platform decisions for the announced initiative have already been made.",
+        "Stryker is a medical device manufacturer, not a traditional provider or payer, which may affect the direct applicability of core Innovaccer solutions without significant customization."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Galaxy",
+          "fit_score": 95,
+          "rationale": "Directly aligns with their stated strategy of leveraging AI and analytics on data from connected medical devices."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Their goal to create an 'integrated digital health ecosystem' requires a foundational unified data platform."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 75,
+          "rationale": "Could support patient engagement and outcome tracking post-surgery, leveraging data from their connected devices."
+        }
+      ],
+      "initiative_theme": "Medical Device Data & AI Platform Modernization",
+      "top_evidence": [
+        {
+          "signal": "Stryker Appoints New CDIO, Launches Major Data & AI-Driven Digital Transformation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-13",
+          "relevance": "Confirms a top-down strategic mandate for a data and AI platform, though the signal is extremely dated."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Following the appointment of your CDIO to lead a data and AI transformation, how are you activating device data to improve surgical workflows and patient outcomes?",
+        "target_persona": "VP & Chief Digital and Information Officer (CDIO)",
+        "suggested_action": "MedTech Digital Ecosystem Workshop",
+        "suggested_asset": "Whitepaper: Activating Connected Device Data for Next-Generation Patient Care",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Innovaccer admin",
+      "sdr": "",
+      "state": "MI",
+      "signals_count": 1
     }
   ]
 }
