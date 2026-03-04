@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T18:51:14.078456",
+  "generated_at": "2026-03-04T19:02:58.790169",
   "week_of": "2026-W10",
-  "total_actionable": 18,
+  "total_actionable": 19,
   "outreach_list": [
     {
       "rank": 1,
@@ -293,6 +293,24 @@
     },
     {
       "rank": 17,
+      "account_name": "ZOLL Medical Corporation",
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "MA",
+      "rfp_prob_90d": 0.15,
+      "rfp_prob_180d": 0.25,
+      "top_product": "Gravity",
+      "initiative_theme": "Post-Acquisition Data Consolidation & Analytics Modernization",
+      "why_now": "With new CEO Eric Knudsen reassessing strategic priorities in his first year, it's the ideal time to introduce a unified data platform to consolidate assets and power a new analytics vision.",
+      "target_persona": "New CEO / CTO / Chief Data Officer (CDO)",
+      "suggested_action": "Strategic Data Activation Workshop",
+      "suggested_asset": "Whitepaper: The Role of the Unified Data Platform in Driving Corporate Strategy",
+      "priority_tier": "high",
+      "signals_count": 2
+    },
+    {
+      "rank": 18,
       "account_name": "Horizon Blue Cross Blue Shield Of New Jersey",
       "tier": "Top",
       "ae": "Lisa Lehtinen",
@@ -310,7 +328,7 @@
       "signals_count": 2
     },
     {
-      "rank": 18,
+      "rank": 19,
       "account_name": "South Country Health Alliance",
       "tier": "Top",
       "ae": "David Kaskoun",
