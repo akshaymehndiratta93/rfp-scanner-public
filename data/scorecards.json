@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T23:08:50.675176",
-  "total_accounts": 74,
+  "generated_at": "2026-03-04T23:21:21.001316",
+  "total_accounts": 75,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -5166,6 +5166,75 @@
       "sdr": "Ritika Shaw",
       "state": "NY",
       "signals_count": 3
+    },
+    {
+      "account_name": "Blue Shield Of California",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All signals are over 2 years old, indicating a low probability of a new near-term foundational platform RFP.",
+        "The implementation status and satisfaction with the selected vendors (Google Cloud, Salesforce) are unknown.",
+        "Potential for niche, bolt-on RFPs (e.g., for GenAI, SDoH) exists but is not supported by current evidence."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "High potential as a healthcare-specific AI/GenAI layer on top of their Google Cloud foundation."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 80,
+          "rationale": "Conceptually a perfect fit for their data unification goal, but they have already selected Google Cloud."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 75,
+          "rationale": "Offers advanced AI-driven care management that could supplement the capabilities of Salesforce Health Cloud."
+        }
+      ],
+      "initiative_theme": "Enterprise Data Platform Modernization (Post-Procurement)",
+      "top_evidence": [
+        {
+          "signal": "Blue Shield of CA Taps Google Cloud & Salesforce for Massive Data Hub Initiative",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-10-24",
+          "relevance": "Confirms a major data and analytics platform initiative with key competitors already selected."
+        },
+        {
+          "signal": "Blue Shield of California Taps Google Cloud and Salesforce to Deliver Real-time, Personalized Member Experiences",
+          "source": "Procurement Search (award)",
+          "date": "Not Applicable",
+          "relevance": "Details the strategic vendor selection, solidifying that the foundational data platform decision has been made."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Google Cloud",
+          "Salesforce"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Their large-scale data platform initiative is well underway; now is the time to probe for gaps in healthcare-specific AI, analytics, or VBC tooling that their foundational vendors may not address.",
+        "target_persona": "Chief Data & Analytics Officer, VP Enterprise Architecture, VP Healthcare Informatics",
+        "suggested_action": "Healthcare GenAI Maturity Assessment",
+        "suggested_asset": "Case Study: How Innovaccer's Galaxy Complements a Modern Cloud Data Warehouse",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "CA",
+      "signals_count": 2
     }
   ]
 }
