@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T19:14:11.725881",
-  "total_accounts": 46,
-  "last_batch_scored": 1,
-  "last_batch_no_signals": 4,
+  "generated_at": "2026-03-04T19:26:10.140083",
+  "total_accounts": 50,
+  "last_batch_scored": 4,
+  "last_batch_no_signals": 1,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -2820,6 +2820,203 @@
       "signals_count": 3
     },
     {
+      "account_name": "Blue Cross Of Idaho Health Service",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than 9 months old, making it difficult to assess current priorities.",
+        "Recent procurement of competitor point solutions (Vim, Availity) may indicate that near-term needs have been addressed."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "Foundation is needed to unify data for VBC initiatives and integrate point solutions like Vim and Availity."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 85,
+          "rationale": "Directly supports VBC goals by enabling the payer-provider collaboration shown in all signals."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Partnership with Greater Good Health signals a direct need for advanced care management to operationalize VBC."
+        }
+      ],
+      "initiative_theme": "Value-Based Care Enablement and Provider Data Integration",
+      "top_evidence": [
+        {
+          "signal": "BCI partners with Greater Good Health to accelerate Value-Based Care delivery",
+          "source": "Google News Trigger Scan",
+          "date": "2025-06-05",
+          "relevance": "Most recent signal confirming strategic focus on VBC delivery, requiring care management and data platforms."
+        },
+        {
+          "signal": "Blue Cross of Idaho Partners with Vim to Enhance Provider Experience and Power Value-Based Care Performance",
+          "source": "Procurement Search (award)",
+          "date": "2023-12-12",
+          "relevance": "Indicates investment in point-of-care data delivery for VBC, validating need for an underlying data unification layer."
+        },
+        {
+          "signal": "Blue Cross of Idaho Selects Availity for New Provider Engagement Portal",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-08-01",
+          "relevance": "Shows a multi-year digital transformation focused on provider experience, which requires a strong data foundation."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Vim",
+          "Availity"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "BCI's investments in VBC point solutions like Vim and Availity create data silos. A unified data platform is the critical next step to integrate these tools, avoid fragmentation, and scale their value-based care strategy effectively.",
+        "target_persona": "VP of Value-Based Care / Chief Medical Officer / VP of Provider Network Management",
+        "suggested_action": "VBC Maturity Assessment",
+        "suggested_asset": "Case Study: Payer Scales VBC Program with a Unified Data Platform",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "ID",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Hospital For Special Surgery",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is over two years old, making it a very stale indicator of current needs.",
+        "The initiative described was executed with a named partner (RightMove), so the immediate opportunity may have passed.",
+        "Lack of recent information on HSS's current digital strategy or satisfaction with their existing solution."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Cured",
+          "fit_score": 95,
+          "rationale": "Directly aligns with their stated digital front door and patient engagement strategy."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 80,
+          "rationale": "Enables advanced analytics on patient engagement and virtual care effectiveness from their digital platform."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 75,
+          "rationale": "Provides the foundational data platform to unify data from their virtual and in-person care."
+        }
+      ],
+      "initiative_theme": "Digital Patient Engagement & Virtual Care Expansion",
+      "top_evidence": [
+        {
+          "signal": "HSS Launches Digital MSK Platform with Partner RightMove",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-17",
+          "relevance": "Indicates a long-term strategy for a 'digital front door', which may be due for an upgrade or expansion."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "RightMove"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "HSS's initial virtual care platform launched over two years ago. It may be time to assess its performance and explore a next-generation, integrated patient engagement strategy.",
+        "target_persona": "Chief Digital Officer / Chief Patient Experience Officer / CIO",
+        "suggested_action": "Digital Maturity Assessment",
+        "suggested_asset": "Case Study: Building a Next-Gen Digital Front Door",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Anirudh kanwar",
+      "sdr": "Yash raj",
+      "state": "NY",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Highmark Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is over 3 years old, making it difficult to assess current priorities.",
+        "The deep, strategic partnership with Google Cloud may indicate a 'build' strategy, reducing appetite for third-party platforms."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Their 'Living Health' platform requires a unified data foundation, which is Gravity's core value."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "The strategic goal of a proactive, AI-driven experience directly aligns with GenAI analytics."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 90,
+          "rationale": "Their focus on a 'digital front door' and member experience is a core Cured use case."
+        }
+      ],
+      "initiative_theme": "Cloud-native data platform and digital experience transformation",
+      "top_evidence": [
+        {
+          "signal": "Highmark Health Partners with Google Cloud for Massive Digital Transformation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2022-12-08",
+          "relevance": "Indicates a foundational, long-term commitment to data, AI, and cloud infrastructure, aligning with Innovaccer's entire portfolio."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Google Cloud"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "The 'Living Health' platform initiative on Google Cloud is now several years mature. It's an opportune time to explore how specialized healthcare application layers can accelerate ROI on their foundational cloud investment.",
+        "target_persona": "SVP/VP of Digital Transformation, Chief Data Officer (CDO), Chief Information Officer (CIO)",
+        "suggested_action": "Propose a 'GCP Value Acceleration' workshop",
+        "suggested_asset": "Case Study: How [Major Payer] accelerated VBC on their cloud data warehouse with Innovaccer",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "state": "PA",
+      "signals_count": 1
+    },
+    {
       "account_name": "The Health Plan",
       "rfp_probability": {
         "90_days": 0.05,
@@ -3248,6 +3445,73 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "NJ",
       "signals_count": 1
+    },
+    {
+      "account_name": "Blue Cross and Blue Shield of Wyoming",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (over 1 year old), providing no insight into current 2026 priorities.",
+        "A key 2021 signal indicates an incumbent competitor (Kyruus/HealthSparq) is in place for digital member engagement, representing a significant barrier to entry."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-10-01",
+        "latest": "2027-04-01"
+      },
+      "product_fit": [
+        {
+          "product": "Cured",
+          "fit_score": 85,
+          "rationale": "Directly aligns with their documented 2021 initiative for a digital member engagement platform."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 80,
+          "rationale": "A foundational data platform is required for any advanced member engagement or experience initiative."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 75,
+          "rationale": "Supports member-facing transparency tools for finding in-network care, a stated goal of their past project."
+        }
+      ],
+      "initiative_theme": "Legacy Member Engagement Platform Modernization",
+      "top_evidence": [
+        {
+          "signal": "BCBS of Wyoming Selects HealthSparq for Digital Member Engagement Platform",
+          "source": "TrueFoundry Deep Search",
+          "date": "2021-12-14",
+          "relevance": "Identifies a past digital engagement initiative and a key incumbent competitor (Kyruus)."
+        },
+        {
+          "signal": "Operational Shift: BCBS Wyoming Relocates Rock Springs Office",
+          "source": "Google News Trigger Scan",
+          "date": "2024-11-21",
+          "relevance": "Very weak, speculative signal suggesting a focus on operational efficiency that may precede IT review."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Kyruus (HealthSparq)"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Their digital member engagement platform, selected in late 2021, may be approaching a 5-year contract renewal cycle. It's a strategic time to introduce a modern, unified data approach to enhance member experience and ROI.",
+        "target_persona": "VP of Member Experience / Chief Marketing Officer / CIO",
+        "suggested_action": "Competitive Intelligence Briefing",
+        "suggested_asset": "BCBS Plan Case Study: Displacing Point Solutions with a Unified Platform",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "state": "WY",
+      "signals_count": 2
     }
   ]
 }
