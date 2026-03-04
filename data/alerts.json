@@ -1635,5 +1635,33 @@
     },
     "recommended_action": "Review award for Health Care Service Corporation Group. Deadline: TBD. Coordinate response with John Specht.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304213220_0",
+    "created_at": "2026-03-04T21:32:20.575920",
+    "account_name": "AlohaCare",
+    "doc_type": "award",
+    "headline": "AlohaCare Selects ZeOmega\u2019s Jiva Platform for Integrated Care Management",
+    "summary": "AlohaCare announced its selection of ZeOmega's Jiva platform to consolidate and enhance its care management, utilization management, and population health management programs. The platform is intended to integrate disparate data sources to provide a holistic view of its Medicaid and Medicare members, improving care coordination and health outcomes.",
+    "source_url": "https://www.businesswire.com/news/home/20221025005085/en/AlohaCare-Selects-ZeOmega%E2%80%99s-Jiva-Platform-for-Integrated-Care-Management",
+    "deadline": "Not Applicable",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Cured",
+      "Galaxy",
+      "Humbi",
+      "Gravity",
+      "Flow",
+      "Atlas"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "HI"
+    },
+    "recommended_action": "Review award for AlohaCare. Deadline: Not Applicable. Coordinate response with Michael Rime.",
+    "status": "new"
   }
 ]

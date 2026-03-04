@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T21:22:25.095198",
-  "total_accounts": 64,
+  "generated_at": "2026-03-04T21:32:20.537988",
+  "total_accounts": 65,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -4478,6 +4478,79 @@
       "sdr": "Alishah Rehman",
       "state": "FL",
       "signals_count": 1
+    },
+    {
+      "account_name": "Blue Cross & Blue Shield of Mississippi",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (over 2 years old), providing no insight into current priorities.",
+        "A partnership with competitor Vitori Health for VBC navigation was announced in late 2023, indicating an incumbent solution is in place."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Comet",
+          "fit_score": 70,
+          "rationale": "Aligns with their historical VBC strategy, but faces direct competition from incumbent Vitori Health."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 65,
+          "rationale": "Supports the need for better payer-provider data sharing to scale established VBC programs."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 60,
+          "rationale": "A unified data platform is foundational for any advanced VBC or network analytics initiative."
+        }
+      ],
+      "initiative_theme": "Value-Based Care Enablement & Optimization",
+      "top_evidence": [
+        {
+          "signal": "BCBS of Mississippi Partners with Vitori Health for Value-Based Care Navigation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-10-10",
+          "relevance": "Most recent signal, confirms a commitment to VBC but also the selection of a competitor."
+        },
+        {
+          "signal": "Major Provider Network Disruption with UMMC",
+          "source": "Google News Trigger Scan",
+          "date": "2022-04-01",
+          "relevance": "Indicates historical sensitivity to network adequacy and provider relations, a key pain point."
+        },
+        {
+          "signal": "Active Promotion of Value-Based Care via 'Center of Excellence' Programs",
+          "source": "Google News Trigger Scan",
+          "date": "2021-05-18",
+          "relevance": "Establishes a long-term strategic focus on value-based arrangements and quality."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Vitori Health"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Their partnership with Vitori Health is now over two years old; it's an opportune time to explore satisfaction, capability gaps, and plans for their next-generation VBC strategy.",
+        "target_persona": "VP of Value-Based Care / VP of Network Performance",
+        "suggested_action": "VBC Maturity Assessment",
+        "suggested_asset": "Case study: 'BCBS Plan Consolidates VBC Point Solutions on a Unified Platform'",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "state": "MS",
+      "signals_count": 3
     }
   ]
 }
