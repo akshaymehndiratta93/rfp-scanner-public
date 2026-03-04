@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T18:40:54.390958",
-  "total_accounts": 41,
+  "generated_at": "2026-03-04T18:51:14.066687",
+  "total_accounts": 43,
   "last_batch_scored": 2,
   "last_batch_no_signals": 3,
   "scorecards": [
@@ -2560,6 +2560,125 @@
       "ae": "Gina Black",
       "sdr": "Kumar Shanu Goswami",
       "state": "PA",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Alnylam Pharmaceuticals",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "Extreme signal staleness (over 2 years old)",
+        "Lack of recent corroborating evidence for the 'digital-first' initiative"
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "Core data platform to unify diverse datasets (RWE, claims) for patient identification."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Enables advanced analytics and GenAI on unified data to accelerate patient cohorting."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 80,
+          "rationale": "Supports the digital HCP engagement and commercial activation components of their strategy."
+        }
+      ],
+      "initiative_theme": "Data-driven patient finding and commercial activation for rare diseases",
+      "top_evidence": [
+        {
+          "signal": "Alnylam is Building a 'Digital-First' Commercial Model for Rare Diseases",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-11-21",
+          "relevance": "Directly states a strategic shift to use data, analytics, and digital tools for patient identification."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Re-engage on their stated 'digital-first' commercial strategy from late 2023 to understand progress, current challenges, and the next-generation data/AI needs for patient finding.",
+        "target_persona": "SVP of Corporate Strategy / Head of Commercial Analytics / CIO",
+        "suggested_action": "Data & Analytics Maturity Assessment for Patient Finding",
+        "suggested_asset": "Life Sciences Patient Finding Case Study",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "MA",
+      "signals_count": 1
+    },
+    {
+      "account_name": "ALK-Abelllo",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is nearly 2 years old (freshness_weight: 0.05), making current intent highly uncertain.",
+        "Lack of recent triggers or follow-up news on the 'ALKaccelerate' strategy's procurement phase.",
+        "ALK-Abell\u00f3 is a specialty pharma company, whose specific needs for patient/provider engagement may differ from a traditional health system."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Strong alignment with the stated strategic focus on data analytics for commercial execution and R&D."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 80,
+          "rationale": "Directly supports the goal of enhancing patient and healthcare provider engagement through digitalisation."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 75,
+          "rationale": "A foundational data platform is required to enable their broad digitalisation and data analytics strategy."
+        }
+      ],
+      "initiative_theme": "Digital Transformation for Commercial and Patient Engagement Analytics",
+      "top_evidence": [
+        {
+          "signal": "ALK-Abell\u00f3 Reaffirms 'ALKaccelerate' Strategy with Focus on Digitalisation and Data Analytics",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-05-08",
+          "relevance": "Establishes a long-term strategic direction focused on data, analytics, and digital engagement, which are core to Innovaccer's value proposition."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "The 'ALKaccelerate' strategy is a multi-year initiative. It's a good time to probe their progress on the data analytics and digitalisation front and introduce a modern platform to accelerate their goals.",
+        "target_persona": "CIO, Chief Commercial Officer, VP of Commercial Analytics, CDO",
+        "suggested_action": "Propose a consultative 'Digital Strategy Assessment' to understand their progress and technology gaps.",
+        "suggested_asset": "Life Sciences Case Study: 'Driving Commercial Execution with a Unified Data & Analytics Platform'",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "TX",
       "signals_count": 1
     },
     {
