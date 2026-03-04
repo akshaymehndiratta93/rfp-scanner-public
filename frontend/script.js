@@ -40,6 +40,11 @@ function initNavigation() {
 
 // ─── Stats ──────────────────────────────────────────────
 async function loadStats() {
+    if (window.location.protocol === "file:") {
+        console.warn("Direct file access detected. Browser security blocks local fetches.");
+        document.querySelector(".stats-strip").style.opacity = "0.5";
+        return;
+    }
     try {
         const res = await fetch("../data/scorecards.json");
         const data = await res.json();
@@ -69,6 +74,11 @@ async function loadStats() {
 
 // ─── Scorecards ─────────────────────────────────────────
 async function loadScorecards() {
+    if (window.location.protocol === "file:") {
+        renderEmptyState("scorecardsBody", "shield-alert", "Browser Security Block",
+            "Chrome blocks data loading from local files. Please view your <strong>Public Dashboard Link</strong> for the presentation.");
+        return;
+    }
     const search = document.getElementById("scorecardSearch").value.toLowerCase();
     const tier = document.getElementById("tierFilter").value;
     const product = document.getElementById("productFilter").value;
