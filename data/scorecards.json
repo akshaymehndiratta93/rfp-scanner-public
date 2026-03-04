@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T20:45:07.592466",
-  "total_accounts": 59,
+  "generated_at": "2026-03-04T20:54:22.411698",
+  "total_accounts": 60,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -3425,6 +3425,85 @@
       "sdr": "Dhanvir Singh",
       "state": "CA",
       "signals_count": 1
+    },
+    {
+      "account_name": "UCB Pharma",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (9-48 months old), providing no insight into current priorities.",
+        "A key procurement decision for a commercial content platform (Veeva) was made in 2024, indicating a major initiative has already been completed."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-11-30",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "Fundamental need for data unification across manufacturing, commercial, and R&D silos."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 75,
+          "rationale": "Addresses commercial needs for patient/HCP engagement, a logical extension of their content platform modernization."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 70,
+          "rationale": "Addresses the underlying need for faster analytics and insights driven by long-term competitive pressures."
+        }
+      ],
+      "initiative_theme": "Commercial and Operational Data Modernization",
+      "top_evidence": [
+        {
+          "signal": "UCB partners to launch epilepsy program in Southeast Asia",
+          "source": "Google News Trigger Scan",
+          "date": "2025-10-06",
+          "relevance": "Indicates a need for partner data integration and patient program management, though the signal is stale."
+        },
+        {
+          "signal": "UCB investing in new US biologics manufacturing facility",
+          "source": "Google News Trigger Scan",
+          "date": "2025-06-16",
+          "relevance": "Points to a major capital project requiring operational data infrastructure, but the timing is very old."
+        },
+        {
+          "signal": "UCB Selects Veeva as Standard for Commercial Content and Digital Asset Management",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-04-02",
+          "relevance": "Shows focus on standardizing the commercial tech stack, creating a potential integration opportunity."
+        },
+        {
+          "signal": "Competitor AbbVie acquires neurology-focused Syndesi Therapeutics",
+          "source": "Google News Trigger Scan",
+          "date": "2022-03-01",
+          "relevance": "Highlights historical competitive pressures that drive a long-term need for data-driven R&D."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Veeva"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Leading pharma companies are now unifying commercial, manufacturing, and R&D data to accelerate drug-to-market timelines. Building on UCB's commercial content platform, the next competitive frontier is activating this data for enterprise-wide insights.",
+        "target_persona": "Chief Data Officer (CDO) / VP of Commercial Operations",
+        "suggested_action": "Data Modernization Assessment",
+        "suggested_asset": "Pharma Data Unification & Analytics Case Study",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "GA",
+      "signals_count": 4
     },
     {
       "account_name": "The Health Plan",

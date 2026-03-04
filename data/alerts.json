@@ -1553,5 +1553,33 @@
     },
     "recommended_action": "Review award for Amida Care. Deadline: TBD. Coordinate response with John Specht.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304205422_0",
+    "created_at": "2026-03-04T20:54:22.449934",
+    "account_name": "Vaya Health",
+    "doc_type": "RFP",
+    "headline": "Enterprise Data Warehouse and Business Intelligence Platform",
+    "summary": "Vaya Health issued a Request for Proposals (RFP) to solicit proposals from qualified vendors for a comprehensive Enterprise Data Warehouse (EDW) and Business Intelligence (BI) Platform. The desired solution is intended to integrate data from disparate sources (including clinical, claims, and operational data) to support Vaya's analytics, reporting, quality improvement, population health management, and value-based care initiatives.",
+    "source_url": "https://www.vayahealth.com/rfp-vh-2023-01-enterprise-data-warehouse-and-business-intelligence-platform/",
+    "deadline": "2023-05-12T17:00:00Z",
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.98,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "NC"
+    },
+    "recommended_action": "Review RFP for Vaya Health. Deadline: 2023-05-12T17:00:00Z. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
   }
 ]
