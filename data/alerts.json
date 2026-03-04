@@ -1043,5 +1043,31 @@
     },
     "recommended_action": "Review award for Daiichi Sankyo. Deadline: Not Applicable. Coordinate response with Shyam Dattani.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304175811_0",
+    "created_at": "2026-03-04T17:58:11.396019",
+    "account_name": "CSL Behring",
+    "doc_type": "award",
+    "headline": "CSL Behring Adopts Veeva Vault Clinical Suite to Streamline Trial Processes",
+    "summary": "CSL Behring, a global biotherapeutics leader, has adopted the Veeva Vault Clinical Suite, including eTMF, CTMS, and Study Startup applications. The objective was to create a unified, single source of truth for clinical trial data and processes, replacing multiple disparate systems to increase efficiency, visibility, and compliance across their global studies.",
+    "source_url": "https://www.veeva.com/resources/csl-behring-adopts-veeva-vault-clinical-suite-to-streamline-trial-processes/",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Humbi",
+      "Atlas",
+      "Comet",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "tier": "Top",
+      "state": "PA"
+    },
+    "recommended_action": "Review award for CSL Behring. Deadline: N/A. Coordinate response with Gina Black.",
+    "status": "new"
   }
 ]
