@@ -1445,5 +1445,59 @@
     },
     "recommended_action": "Review award for Blue Cross And Blue Shield Of North Carolina. Deadline: N/A. Coordinate response with Lisa Lehtinen.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304203205_0",
+    "created_at": "2026-03-04T20:32:05.351731",
+    "account_name": "Blue Cross & Blue Shield Of Rhode Island",
+    "doc_type": "award",
+    "headline": "Blue Cross & Blue Shield of Rhode Island Selects Coalesce for Data Transformation",
+    "summary": "BCBSRI announced it has selected and implemented the Coalesce data transformation platform to run on the Snowflake Data Cloud. This initiative aims to automate and scale the insurer's data management processes, accelerate the development of data products for analytics, and improve data governance across their enterprise data warehouse.",
+    "source_url": "https://coalesce.io/blog/blue-cross-blue-shield-of-rhode-island-selects-coalesce-for-data-transformation/",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Atlas"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "RI"
+    },
+    "recommended_action": "Review award for Blue Cross & Blue Shield Of Rhode Island. Deadline: TBD. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304203205_1",
+    "created_at": "2026-03-04T20:32:05.351770",
+    "account_name": "Arkansas Blue Cross And Blue Shield",
+    "doc_type": "award",
+    "headline": "Arkansas Blue Cross and Blue Shield Taps HealthVerity for Real-World Data Insights on Critical Illnesses",
+    "summary": "This is an announcement of a vendor selection and partnership. Arkansas Blue Cross and Blue Shield selected HealthVerity to use its IPGE platform for access to de-identified, real-world data (RWD), including claims, pharmacy, lab, and other data. The goal is to generate deeper insights into member populations with critical illnesses to support value-based care initiatives.",
+    "source_url": "https://www.businesswire.com/news/home/20230502005079/en/Arkansas-Blue-Cross-and-Blue-Shield-Taps-HealthVerity-for-Real-World-Data-Insights-on-Critical-Illnesses",
+    "deadline": "N/A",
+    "estimated_value": "Not Stated",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "AR"
+    },
+    "recommended_action": "Review award for Arkansas Blue Cross And Blue Shield. Deadline: N/A. Coordinate response with John Specht.",
+    "status": "new"
   }
 ]
