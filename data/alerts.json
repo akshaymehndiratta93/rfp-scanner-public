@@ -2140,5 +2140,57 @@
     },
     "recommended_action": "Review intent_to_award for Moffitt Cancer Center. Deadline: 2023-11-27T14:00:00Z. Coordinate response with Will Pettinger.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304234603_0",
+    "created_at": "2026-03-04T23:46:03.571801",
+    "account_name": "Visiting Nurse Service Of New York",
+    "doc_type": "award",
+    "headline": "Vendor Selection: VNS Health Selects Unite Us as Social Care Partner to Address Social Determinants of Health",
+    "summary": "VNS Health has announced its selection of Unite Us to provide a technology platform for its new social care network. The platform will be used to screen individuals for social needs (like housing, food, and transportation), send electronic referrals to community-based organizations, and track the outcomes of those referrals to better address social determinants of health (SDoH) for its members and patients.",
+    "source_url": "https://uniteus.com/newsroom/vns-health-selects-unite-us-as-social-care-partner-to-address-social-determinants-of-health/",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Comet",
+      "Cured",
+      "Gravity",
+      "Atlas",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Anirudh kanwar",
+      "sdr": "Yash raj",
+      "tier": "Top",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for Visiting Nurse Service Of New York. Deadline: TBD. Coordinate response with Anirudh kanwar.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304234603_1",
+    "created_at": "2026-03-04T23:46:03.571825",
+    "account_name": "Gastro Health",
+    "doc_type": "award",
+    "headline": "Gastro Health Partners with SonarMD to Improve Care for Crohn's Disease Patients",
+    "summary": "Gastro Health announced a partnership with SonarMD to deploy its care management platform. The platform is designed to improve clinical outcomes for patients with Crohn's disease by using patient-reported data to monitor disease activity, enabling care teams to intervene earlier. This represents a vendor selection for a specialized population health and care management solution.",
+    "source_url": "https://www.prnewswire.com/news-releases/gastro-health-partners-with-sonarmd-to-improve-care-for-crohns-disease-patients-301704289.html",
+    "deadline": "N/A",
+    "estimated_value": "Not Mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Atlas",
+      "Cured"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "tier": "Top",
+      "state": "FL"
+    },
+    "recommended_action": "Review award for Gastro Health. Deadline: N/A. Coordinate response with Will Pettinger.",
+    "status": "new"
   }
 ]
