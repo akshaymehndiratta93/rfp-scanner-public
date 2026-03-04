@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T19:26:10.140083",
-  "total_accounts": 50,
-  "last_batch_scored": 4,
-  "last_batch_no_signals": 1,
+  "generated_at": "2026-03-04T19:37:50.705652",
+  "total_accounts": 51,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3015,6 +3015,79 @@
       "sdr": "Ritika Shaw",
       "state": "PA",
       "signals_count": 1
+    },
+    {
+      "account_name": "Womens Care Florida",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available intelligence is significantly dated (3-7+ years old), providing no insight into current strategic priorities.",
+        "A major EMR/PM/Analytics platform (ModMed) was selected in 2023, and their satisfaction level and current capabilities are unknown."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-10-01",
+        "latest": "2027-09-01"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "Essential for unifying data from their new ModMed platform and any legacy systems from prior acquisitions."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 80,
+          "rationale": "Offers advanced analytics and GenAI capabilities likely beyond what the native ModMed EMR analytics module provides."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 70,
+          "rationale": "Enables proactive care management across their large network, leveraging the data foundation created by ModMed and Gravity."
+        }
+      ],
+      "initiative_theme": "Post-EHR Modernization Analytics and Data Activation",
+      "top_evidence": [
+        {
+          "signal": "Women's Care Selects ModMed for EHR and Practice Management Overhaul",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-05-17",
+          "relevance": "Most recent, albeit dated, signal indicating a major technology overhaul creating downstream data and analytics needs."
+        },
+        {
+          "signal": "Acquisition Signals Urgent Need for Data Integration and Network Management",
+          "source": "Google News Trigger Scan",
+          "date": "2018-12-05",
+          "relevance": "Extremely stale but provides historical context on M&A activity driving data consolidation challenges."
+        },
+        {
+          "signal": "New Lab Medical Director Likely to Review Diagnostics Tech and Data Strategy",
+          "source": "Google News Trigger Scan",
+          "date": "2019-03-13",
+          "relevance": "Very old signal showing a historical focus on data strategy, which may or may not persist with current leadership."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "ModMed"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Following their 2023 standardization on ModMed, Womens Care is likely focused on realizing ROI. It's an opportune time to discuss activating their new data foundation for advanced analytics and population health initiatives that ModMed alone may not support.",
+        "target_persona": "CIO, CMIO, VP of Analytics, VP of Clinical Informatics",
+        "suggested_action": "Data & Analytics Maturity Assessment",
+        "suggested_asset": "Case Study: Maximizing EHR Investments with a Unified Data Platform",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "state": "FL",
+      "signals_count": 3
     },
     {
       "account_name": "The Health Plan",

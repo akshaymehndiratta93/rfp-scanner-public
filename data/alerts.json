@@ -1231,5 +1231,58 @@
     },
     "recommended_action": "Review RFP for Health Plan Of San Mateo. Deadline: January 17, 2024. Coordinate response with Michael Rime.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304193750_0",
+    "created_at": "2026-03-04T19:37:50.731513",
+    "account_name": "GSK",
+    "doc_type": "award",
+    "headline": "GSK and Tempus Announce Multi-Year Collaboration to Improve Clinical Trial Design, Accelerate Enrollment, and Identify Novel Drug Targets",
+    "summary": "GSK has entered a multi-year collaboration with Tempus, a leader in artificial intelligence and precision medicine. GSK will gain access to Tempus' AI-enabled platform and its library of de-identified clinical and molecular patient data. The partnership aims to enhance GSK's R&D success rate by improving clinical trial design, accelerating patient enrollment, and identifying novel drug targets.",
+    "source_url": "https://www.tempus.com/news/gsk-and-tempus-announce-multi-year-collaboration-to-improve-clinical-trial-design-accelerate-enrollment-and-identify-novel-drug-targets/",
+    "deadline": "Not Applicable (Awarded)",
+    "estimated_value": "$70 million upfront payment, with additional milestone payments and options.",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Atlas",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "tier": "Top",
+      "state": "NC"
+    },
+    "recommended_action": "Review award for GSK. Deadline: Not Applicable (Awarded). Coordinate response with Shyam Dattani.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304193750_1",
+    "created_at": "2026-03-04T19:37:50.731528",
+    "account_name": "Geha",
+    "doc_type": "award",
+    "headline": "GEHA Selects Ontrak Health as New Medical Management/Care Management Partner",
+    "summary": "GEHA has selected and awarded a contract to Ontrak Health to implement a new platform for case management, disease management, and utilization management for its medical plan members. The go-live date for the new platform is scheduled for January 1, 2025.",
+    "source_url": "https://www.businesswire.com/news/home/20240116035905/en/GEHA-Selects-Ontrak-Health-as-New-Medical-Management-Care-Management-Partner",
+    "deadline": "N/A (Contract Awarded)",
+    "estimated_value": "$25M - $30M+ (Annualized Revenue)",
+    "products_relevant": [
+      "Comet",
+      "Cured",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "tier": "Top",
+      "state": "MO"
+    },
+    "recommended_action": "Review award for Geha. Deadline: N/A (Contract Awarded). Coordinate response with Hannah Schuyler.",
+    "status": "new"
   }
 ]
