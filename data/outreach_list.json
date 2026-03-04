@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T15:15:09.585961",
+  "generated_at": "2026-03-04T15:26:10.450195",
   "week_of": "2026-W10",
-  "total_actionable": 18,
+  "total_actionable": 20,
   "outreach_list": [
     {
       "rank": 1,
@@ -221,6 +221,24 @@
     },
     {
       "rank": 13,
+      "account_name": "Independence Blue Cross",
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "PA",
+      "rfp_prob_90d": 0.4,
+      "rfp_prob_180d": 0.7,
+      "top_product": "Comet",
+      "initiative_theme": "Dual-Eligible (D-SNP) Population Health Management & Optimization",
+      "why_now": "As your Keystone First VIP Choice D-SNP program matures, you are likely focused on optimizing cost and quality outcomes. Our platform can help unify data and automate care management to improve performance for this complex population.",
+      "target_persona": "VP of Government Programs / Chief Medical Officer / Head of Population Health",
+      "suggested_action": "D-SNP Performance Optimization Workshop",
+      "suggested_asset": "Case Study: Improving Star Ratings and Medical Costs for a Medicare Advantage Population",
+      "priority_tier": "high",
+      "signals_count": 1
+    },
+    {
+      "rank": 14,
       "account_name": "Banner Health",
       "tier": "Strategics",
       "ae": "Baz Patel",
@@ -238,7 +256,7 @@
       "signals_count": 5
     },
     {
-      "rank": 14,
+      "rank": 15,
       "account_name": "Hennepin Health",
       "tier": "Top",
       "ae": "David Kaskoun",
@@ -256,7 +274,7 @@
       "signals_count": 5
     },
     {
-      "rank": 15,
+      "rank": 16,
       "account_name": "Blue Cross and Blue Shield of Kansas",
       "tier": "Top",
       "ae": "Hannah Schuyler",
@@ -274,7 +292,7 @@
       "signals_count": 3
     },
     {
-      "rank": 16,
+      "rank": 17,
       "account_name": "Mayo Clinic",
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -292,7 +310,7 @@
       "signals_count": 1
     },
     {
-      "rank": 17,
+      "rank": 18,
       "account_name": "Horizon Blue Cross Blue Shield Of New Jersey",
       "tier": "Top",
       "ae": "Lisa Lehtinen",
@@ -310,7 +328,7 @@
       "signals_count": 2
     },
     {
-      "rank": 18,
+      "rank": 19,
       "account_name": "South Country Health Alliance",
       "tier": "Top",
       "ae": "David Kaskoun",
@@ -326,6 +344,24 @@
       "suggested_asset": "Whitepaper: 'The Hidden Costs of Point Solutions in Payer Operations'",
       "priority_tier": "high",
       "signals_count": 4
+    },
+    {
+      "rank": 20,
+      "account_name": "Guidewell Mutual Holding Company",
+      "tier": "Top",
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "state": "FL",
+      "rfp_prob_90d": 0.1,
+      "rfp_prob_180d": 0.3,
+      "top_product": "Gravity",
+      "initiative_theme": "Behavioral Health & Primary Care Integration at Scale",
+      "why_now": "As the initial post-merger integration of Lucet matures, the focus will shift to optimizing data assets and scaling analytics. How is Guidewell planning to leverage its unified data to deploy next-generation AI for proactive behavioral health management?",
+      "target_persona": "Chief Data Officer / VP of Enterprise Analytics / Head of Lucet Technology",
+      "suggested_action": "Strategic AI & Data Platform Modernization Workshop",
+      "suggested_asset": "Case Study: How a Large National Payer Unified Data for a New VBC Program",
+      "priority_tier": "high",
+      "signals_count": 1
     }
   ]
 }

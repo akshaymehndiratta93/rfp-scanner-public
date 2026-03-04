@@ -965,5 +965,57 @@
     },
     "recommended_action": "Review award for Neighborhood Health Plan Of Rhode Island. Deadline: N/A. Coordinate response with Alexander J. Keltner.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304152610_0",
+    "created_at": "2026-03-04T15:26:10.468793",
+    "account_name": "Health Plan of San Joaquin",
+    "doc_type": "intent_to_award",
+    "headline": "Notice of Intent to Award a Contract - HPSJ RFP No. 23-01 Data Management & Analytics Platform Solution",
+    "summary": "This is a notice of intent to award the contract for RFP No. 23-01, which sought a comprehensive Data Management and Analytics Platform. The solution was intended to support data ingestion, integration, an enterprise data warehouse/lakehouse, governance, and analytics for functions including population health management and quality improvement. The intended awardee is KPI Sense, Inc.",
+    "source_url": "https://www.hpsj.com/wp-content/uploads/2023/07/RFP-23-01-Notice-of-Intent-to-Award.pdf",
+    "deadline": "N/A (Notice issued July 28, 2023)",
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Cured",
+      "Comet",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "CA"
+    },
+    "recommended_action": "Review intent_to_award for Health Plan of San Joaquin. Deadline: N/A (Notice issued July 28, 2023). Coordinate response with Michael Rime.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304152610_1",
+    "created_at": "2026-03-04T15:26:10.468815",
+    "account_name": "MVP Health Care",
+    "doc_type": "award",
+    "headline": "MVP Health Care Selects ZeOmega's Jiva Platform for Integrated Care Management",
+    "summary": "This is a vendor selection announcement. MVP Health Care has selected and is implementing the Jiva platform from ZeOmega to serve as its new, unified solution for care management and population health management. The platform aims to consolidate various functions like utilization management, case management, and disease management, replacing a legacy system to create a more holistic view of its members.",
+    "source_url": "https://www.zeomega.com/news/mvp-health-care-selects-zeomegas-jiva-platform-for-integrated-care-management/",
+    "deadline": "N/A",
+    "estimated_value": "Not Disclosed",
+    "products_relevant": [
+      "Flow",
+      "Atlas",
+      "Comet",
+      "Cured"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for MVP Health Care. Deadline: N/A. Coordinate response with John Specht.",
+    "status": "new"
   }
 ]

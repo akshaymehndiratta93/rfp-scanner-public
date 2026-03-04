@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T15:15:09.580604",
-  "total_accounts": 21,
-  "last_batch_scored": 0,
-  "last_batch_no_signals": 5,
+  "generated_at": "2026-03-04T15:26:10.439172",
+  "total_accounts": 24,
+  "last_batch_scored": 3,
+  "last_batch_no_signals": 2,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -906,6 +906,69 @@
       "signals_count": 3
     },
     {
+      "account_name": "Independence Blue Cross",
+      "rfp_probability": {
+        "90_days": 0.4,
+        "180_days": 0.7,
+        "365_days": 0.85
+      },
+      "confidence": "medium",
+      "uncertainty_drivers": [
+        "The initial technology partner chosen for the 2023 D-SNP launch is unknown and may be deeply entrenched.",
+        "The signal is over two years old, making the exact timing of a replacement/optimization cycle difficult to predict."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-06-01",
+        "latest": "2027-03-01"
+      },
+      "product_fit": [
+        {
+          "product": "Comet",
+          "fit_score": 95,
+          "rationale": "Directly addresses the need for AI-powered care management for the high-risk, complex D-SNP population."
+        },
+        {
+          "product": "Humbi",
+          "fit_score": 90,
+          "rationale": "Essential for managing the significant Social Determinants of Health (SDoH) needs of a dual-eligible population."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 85,
+          "rationale": "Critical for managing data sharing and collaboration with partner Belong Health and their provider network."
+        }
+      ],
+      "initiative_theme": "Dual-Eligible (D-SNP) Population Health Management & Optimization",
+      "top_evidence": [
+        {
+          "signal": "Independence Blue Cross Partners with Belong Health to Launch New Plan for Dual-Eligible Members",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-12-13",
+          "relevance": "Confirms a strategic focus on the D-SNP population, which requires advanced care management and analytics platforms."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "HealthEdge (GuidingCare)",
+          "ZeOmega (Jiva)",
+          "Salesforce (Health Cloud)"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "As your Keystone First VIP Choice D-SNP program matures, you are likely focused on optimizing cost and quality outcomes. Our platform can help unify data and automate care management to improve performance for this complex population.",
+        "target_persona": "VP of Government Programs / Chief Medical Officer / Head of Population Health",
+        "suggested_action": "D-SNP Performance Optimization Workshop",
+        "suggested_asset": "Case Study: Improving Star Ratings and Medical Costs for a Medicare Advantage Population",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "PA",
+      "signals_count": 1
+    },
+    {
       "account_name": "Banner Health",
       "rfp_probability": {
         "90_days": 0.2,
@@ -1421,6 +1484,153 @@
       "sdr": "Sonali Dabas",
       "state": "MN",
       "signals_count": 4
+    },
+    {
+      "account_name": "Health Plan of San Joaquin",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.4
+      },
+      "confidence": "high",
+      "uncertainty_drivers": [
+        "Unknown status and success of the 2023 KPI Sense data platform implementation.",
+        "Uncertainty if new strategic needs (BH integration, SDoH) can be met by the incumbent platform."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2027-01-15",
+        "latest": "2027-07-31"
+      },
+      "product_fit": [
+        {
+          "product": "Humbi",
+          "fit_score": 90,
+          "rationale": "Recent SDoH signal (Mar 2026) points to a clear, specialized need for community resource referral and tracking."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 85,
+          "rationale": "The new Behavioral Health campus creates an urgent need for payer-provider data sharing and collaboration."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 80,
+          "rationale": "Significant Medi-Cal redetermination churn creates a direct need for a sophisticated member engagement/CRM platform."
+        }
+      ],
+      "initiative_theme": "Targeted Capability Expansion for Care Coordination and Member Engagement",
+      "top_evidence": [
+        {
+          "signal": "Notice of Intent to Award a Contract - HPSJ RFP No. 23-01 Data Management & Analytics Platform Solution",
+          "source": "Procurement Search (intent_to_award)",
+          "date": "2023-07-28",
+          "relevance": "Establishes KPI Sense as the likely incumbent for core data/analytics, dramatically lowering near-term platform RFP odds."
+        },
+        {
+          "signal": "New Regional Behavioral Health Campus Creates Urgent Need for Data Integration",
+          "source": "Google News Trigger Scan",
+          "date": "2025-09-10",
+          "relevance": "Creates a specific, high-value need for payer-provider collaboration and integrated data (Atlas)."
+        },
+        {
+          "signal": "HPSJ Facing Significant Member Churn from Medi-Cal Redetermination",
+          "source": "Google News Trigger Scan",
+          "date": "2024-11-03",
+          "relevance": "Drives a powerful need for member engagement, outreach, and retention capabilities (Cured)."
+        },
+        {
+          "signal": "Growing SDoH Infrastructure in Stockton Presents Partnership Opportunity",
+          "source": "Google News Trigger Scan",
+          "date": "2026-03-02",
+          "relevance": "Most recent signal highlights an emerging, unmet need for an SDoH-specific solution (Humbi)."
+        },
+        {
+          "signal": "Health Plan of San Joaquin Selects FinThrive for Revenue Management",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-09",
+          "relevance": "Indicates a pattern of procuring best-of-breed solutions for specific operational needs."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "KPI Sense, Inc.",
+          "FinThrive"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Recent strategic pressures around Behavioral Health integration and SDoH create specific needs that their new enterprise data platform (KPI Sense) may not be equipped to solve out-of-the-box.",
+        "target_persona": "VP of Population Health / Chief Medical Officer / Director of Community Health",
+        "suggested_action": "Health Equity & Care Coordination Workshop",
+        "suggested_asset": "Case Study: How a Regional Health Plan Integrated SDoH and Behavioral Health to Improve Member Outcomes",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "CA",
+      "signals_count": 5
+    },
+    {
+      "account_name": "Guidewell Mutual Holding Company",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.3,
+        "365_days": 0.6
+      },
+      "confidence": "medium",
+      "uncertainty_drivers": [
+        "The primary signal is over two years old, making the timing of the next procurement cycle uncertain.",
+        "The incumbent technology stack acquired through the Lucet merger (e.g., from Tridiuum) is unknown."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Foundational need to unify data from three merged entities and integrate with primary care provider EHRs."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 90,
+          "rationale": "Directly enables the core mission of integrating behavioral and primary care through payer-provider data collaboration."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Supports the 'tech-enabled' vision by providing advanced AI/analytics to manage a 25M+ member population."
+        }
+      ],
+      "initiative_theme": "Behavioral Health & Primary Care Integration at Scale",
+      "top_evidence": [
+        {
+          "signal": "GuideWell Becomes Majority Owner of Lucet, a New Tech-Enabled Behavioral Health Company",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-09-26",
+          "relevance": "Signals a massive, tech-first strategic initiative to integrate behavioral and physical health, requiring data unification and collaboration tools."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Incumbent/Homegrown Solution (via Tridiuum acquisition)"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "As the initial post-merger integration of Lucet matures, the focus will shift to optimizing data assets and scaling analytics. How is Guidewell planning to leverage its unified data to deploy next-generation AI for proactive behavioral health management?",
+        "target_persona": "Chief Data Officer / VP of Enterprise Analytics / Head of Lucet Technology",
+        "suggested_action": "Strategic AI & Data Platform Modernization Workshop",
+        "suggested_asset": "Case Study: How a Large National Payer Unified Data for a New VBC Program",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "state": "FL",
+      "signals_count": 1
     },
     {
       "account_name": "Intermountain Health",
