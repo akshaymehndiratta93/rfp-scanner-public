@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T23:21:21.001316",
-  "total_accounts": 75,
+  "generated_at": "2026-03-04T23:37:30.413640",
+  "total_accounts": 76,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -4154,6 +4154,66 @@
       "sdr": "Alishah Rehman",
       "state": "FL",
       "signals_count": 4
+    },
+    {
+      "account_name": "Unitedhealthcare",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is extremely old (June 2023), significantly reducing its predictive power for a near-term RFP.",
+        "Any major RFPs directly related to the Amedisys acquisition would have likely been issued in 2023 or 2024.",
+        "Lack of recent corroborating signals for any active data platform or care management initiatives."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Post-M&A data integration is a primary trigger for a unified data platform."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 90,
+          "rationale": "Manages complex patient populations in new at-home care settings, a core part of the Amedisys strategy."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 85,
+          "rationale": "Enables essential data sharing and collaboration between the payer (UHG) and its new provider asset (Amedisys)."
+        }
+      ],
+      "initiative_theme": "Post-Acquisition Home Health Data Unification & Care Management",
+      "top_evidence": [
+        {
+          "signal": "UnitedHealth Group's Optum Acquires Home Health Giant Amedisys for $3.3B, Signaling Major Push into At-Home Care",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-06-26",
+          "relevance": "Massive M&A creates a strong, albeit dated, trigger for data integration (Gravity) and care management (Comet) platforms."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "As UHG's at-home care strategy matures post-Amedisys acquisition, unifying disparate clinical data sources is critical to managing cost and quality at scale. A unified platform can unlock the full value of this strategic asset.",
+        "target_persona": "CDO / VP of Enterprise Data Strategy / VP of Home & Community Care",
+        "suggested_action": "Care-at-Home Model Maturity Workshop",
+        "suggested_asset": "Case Study: Post-M&A Data Unification for a Large Integrated Payer-Provider System",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "state": "MN",
+      "signals_count": 1
     },
     {
       "account_name": "The Health Plan",

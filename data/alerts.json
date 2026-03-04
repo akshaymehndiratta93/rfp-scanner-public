@@ -2033,5 +2033,112 @@
     },
     "recommended_action": "Review award for Blue Cross Blue Shield Of Massachusetts. Deadline: N/A. Coordinate response with Hannah Schuyler.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304233730_0",
+    "created_at": "2026-03-04T23:37:30.441405",
+    "account_name": "Blue Cross Blue Shield Of Michigan",
+    "doc_type": "award",
+    "headline": "Blue Cross Blue Shield of Michigan Leverages Databricks to Build a Modern Data and AI Platform for its 5.2 Million Members",
+    "summary": "This is an announcement of a vendor selection and partnership. Blue Cross Blue Shield of Michigan has selected the Databricks Lakehouse Platform to unify its data and analytics capabilities. The initiative aims to modernize its technology infrastructure, replace a legacy enterprise data warehouse, and leverage AI to enhance member experiences and population health insights. This indicates a major, recent strategic procurement in the data platform and enterprise data warehouse space has been completed.",
+    "source_url": "https://www.databricks.com/customers/blue-cross-blue-shield-michigan",
+    "deadline": null,
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Humbi",
+      "Atlas",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "MI"
+    },
+    "recommended_action": "Review award for Blue Cross Blue Shield Of Michigan. Deadline: TBD. Coordinate response with David Kaskoun.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304233730_1",
+    "created_at": "2026-03-04T23:37:30.441420",
+    "account_name": "Amerihealth Caritas Family Of Companies",
+    "doc_type": "award",
+    "headline": "AmeriHealth Caritas Selects ZeOmega's Jiva to Power Its Next-Generation Collaborative Care Management Platform",
+    "summary": "This is a vendor selection announcement. AmeriHealth Caritas has chosen ZeOmega's Jiva platform to serve as its new, comprehensive care management system. The platform is intended to integrate medical, behavioral, and pharmacy data to create a holistic member view and support whole-person care across its various health plans.",
+    "source_url": "https://www.prnewswire.com/news-releases/amerihealth-caritas-selects-zeomegas-jiva-to-power-its-next-generation-collaborative-care-management-platform-301880946.html",
+    "deadline": "N/A",
+    "estimated_value": "Not Specified",
+    "products_relevant": [
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Flow",
+      "Comet",
+      "Gravity"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "PA"
+    },
+    "recommended_action": "Review award for Amerihealth Caritas Family Of Companies. Deadline: N/A. Coordinate response with Michael Rime.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304233730_2",
+    "created_at": "2026-03-04T23:37:30.441425",
+    "account_name": "Wellmark",
+    "doc_type": "award",
+    "headline": "Wellmark Blue Cross and Blue Shield Selects Quantum Health to Provide Guided Healthcare Navigation and Care Coordination",
+    "summary": "This is a vendor selection announcement. Wellmark has chosen Quantum Health as its exclusive partner for healthcare navigation and care coordination for its members, effective January 1, 2024. The platform will serve as a single point of contact for members, integrating with Wellmark's existing clinical programs and digital tools to simplify the member experience. This signifies a major investment in their care management and member engagement platform strategy.",
+    "source_url": "https://www.prnewswire.com/news-releases/wellmark-blue-cross-and-blue-shield-selects-quantum-health-to-provide-guided-healthcare-navigation-and-care-coordination-301772186.html",
+    "deadline": "N/A",
+    "estimated_value": "Not Stated",
+    "products_relevant": [
+      "Comet",
+      "Galaxy",
+      "Cured",
+      "Gravity",
+      "Flow"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "IA"
+    },
+    "recommended_action": "Review award for Wellmark. Deadline: N/A. Coordinate response with David Kaskoun.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304233730_3",
+    "created_at": "2026-03-04T23:37:30.441429",
+    "account_name": "Moffitt Cancer Center",
+    "doc_type": "intent_to_award",
+    "headline": "ITN-24-05-SRV - Population Health and Care Management Platform",
+    "summary": "This is a notice of intended decision for a sole-source procurement. Moffitt Cancer Center intends to negotiate an agreement with CareAllies, LLC for a Population Health and Care Management Platform. The platform is intended to support value-based care programs, including functions for risk stratification, care coordination, and patient engagement. The deadline listed was for filing a protest to this intended decision.",
+    "source_url": "https://www.floridabids.com/solicitations/itn-24-05-srv-population-health-and-care-management-platform-tampa-fl/",
+    "deadline": "2023-11-27T14:00:00Z",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Comet",
+      "Flow",
+      "Cured"
+    ],
+    "fit_score": 1.0,
+    "routing": {
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "tier": "Top",
+      "state": "FL"
+    },
+    "recommended_action": "Review intent_to_award for Moffitt Cancer Center. Deadline: 2023-11-27T14:00:00Z. Coordinate response with Will Pettinger.",
+    "status": "new"
   }
 ]
