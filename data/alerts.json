@@ -1872,5 +1872,62 @@
     },
     "recommended_action": "Review award for Molina Healthcare. Deadline: N/A. Coordinate response with Alexander J. Keltner.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304224456_0",
+    "created_at": "2026-03-04T22:44:56.193859",
+    "account_name": "Medica",
+    "doc_type": "RFP",
+    "headline": "Comprehensive Care Management Platform",
+    "summary": "Medica sought a comprehensive and integrated care management platform to support its members across various lines of business (Commercial, Medicare, Medicaid). The solution needed to provide functionalities for case management, utilization management, and disease management, leveraging integrated clinical, claims, and member data to provide a holistic view for care managers and support population health initiatives.",
+    "source_url": "https://www.bidnet.com/bneattachments?/559648947.pdf",
+    "deadline": "2022-01-14 (Expired)",
+    "estimated_value": "Not specified in notice",
+    "products_relevant": [
+      "Cured",
+      "Humbi",
+      "Flow",
+      "Gravity",
+      "Atlas"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "MN"
+    },
+    "recommended_action": "Review RFP for Medica. Deadline: 2022-01-14 (Expired). Coordinate response with David Kaskoun.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304224456_1",
+    "created_at": "2026-03-04T22:44:56.193879",
+    "account_name": "Humana",
+    "doc_type": "award",
+    "headline": "Strategic Partnership to Develop Enterprise Data and Analytics Platform on Microsoft Azure",
+    "summary": "Humana announced a seven-year strategic partnership with Microsoft to build its next-generation enterprise data and analytics platform on the Azure cloud. The platform is intended to provide a comprehensive and longitudinal view of its members' health by integrating data from various sources. The goal is to leverage Microsoft's cloud, AI, and data platform capabilities (Azure, Power BI) to enable personalized care management, deliver real-time insights to care teams, and support advanced analytics for population health.",
+    "source_url": "https://news.microsoft.com/2019/07/30/humana-and-microsoft-announce-multiyear-strategic-partnership-to-reimagine-health-for-aging-populations/",
+    "deadline": "N/A",
+    "estimated_value": "Not publicly disclosed. Described as a multi-year, strategic partnership.",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi",
+      "Pharmacy Network"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "KY"
+    },
+    "recommended_action": "Review award for Humana. Deadline: N/A. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
   }
 ]

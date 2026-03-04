@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T22:34:46.750460",
-  "total_accounts": 69,
-  "last_batch_scored": 0,
-  "last_batch_no_signals": 5,
+  "generated_at": "2026-03-04T22:44:56.158294",
+  "total_accounts": 70,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3862,6 +3862,80 @@
       "ae": "Alexander J. Keltner",
       "sdr": "Abhishek Gautam",
       "state": "PA",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Medical Mutual Of Ohio",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (over 21 months old), providing no insight into current priorities or budget cycles.",
+        "The CIO has been in the role for nearly three years; any major technology review prompted by his appointment is likely complete."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "Core to integrating disparate data sources from historical partnerships, member growth, and IT strategy."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Addresses population health analytics and cost management needs driven by member growth and UM initiatives."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Facilitates payer-provider data sharing, a key component of modern utilization management transformation."
+        }
+      ],
+      "initiative_theme": "Operational Efficiency and Data Integration",
+      "top_evidence": [
+        {
+          "signal": "Medical Mutual Promotes David Celeskey to EVP & Chief Information Officer",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-05-24",
+          "relevance": "A CIO appointment is a foundational event that shapes long-term technology strategy and vendor relationships."
+        },
+        {
+          "signal": "Medical Mutual partners with Cohere Health and Rhyme to transform utilization management.",
+          "source": "Google News Trigger Scan",
+          "date": "2024-06-04",
+          "relevance": "Indicates a past strategic focus on overhauling core operational processes with technology partners."
+        },
+        {
+          "signal": "Medical Mutual wins major contract to cover University of Toledo employees.",
+          "source": "Google News Trigger Scan",
+          "date": "2023-01-20",
+          "relevance": "Historically significant member growth creates long-term needs for data integration and population health tools."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Cohere Health",
+          "Rhyme"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "With major initiatives like the UM transformation now established, it's opportune to discuss a data platform strategy to unify point solutions, break down silos, and maximize the ROI on those prior technology investments.",
+        "target_persona": "EVP & Chief Information Officer",
+        "suggested_action": "Platform Strategy Assessment",
+        "suggested_asset": "The Payer's Guide to Unifying a Fragmented Health Tech Ecosystem",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "OH",
       "signals_count": 3
     },
     {
