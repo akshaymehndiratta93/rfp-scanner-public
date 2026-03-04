@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T18:20:41.453267",
+  "generated_at": "2026-03-04T18:30:10.421565",
   "week_of": "2026-W10",
-  "total_actionable": 17,
+  "total_actionable": 18,
   "outreach_list": [
     {
       "rank": 1,
@@ -275,6 +275,24 @@
     },
     {
       "rank": 16,
+      "account_name": "Bausch Health Companies",
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "NJ",
+      "rfp_prob_90d": 0.15,
+      "rfp_prob_180d": 0.25,
+      "top_product": "Gravity",
+      "initiative_theme": "Post-Acquisition Data & Analytics Integration",
+      "why_now": "Following the integration of DURECT, there is a strategic opportunity to leverage the newly unified data to optimize care management and commercialization efforts for the expanded liver disease portfolio.",
+      "target_persona": "CIO, CDO, Head of Post-Merger Integration",
+      "suggested_action": "Propose a Post-Merger Data Strategy Assessment to identify gaps and opportunities in leveraging combined data assets.",
+      "suggested_asset": "Post-M&A Data Integration Playbook for Life Sciences",
+      "priority_tier": "standard",
+      "signals_count": 2
+    },
+    {
+      "rank": 17,
       "account_name": "Horizon Blue Cross Blue Shield Of New Jersey",
       "tier": "Top",
       "ae": "Lisa Lehtinen",
@@ -292,7 +310,7 @@
       "signals_count": 2
     },
     {
-      "rank": 17,
+      "rank": 18,
       "account_name": "South Country Health Alliance",
       "tier": "Top",
       "ae": "David Kaskoun",

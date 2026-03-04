@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T18:20:41.437576",
-  "total_accounts": 38,
-  "last_batch_scored": 0,
-  "last_batch_no_signals": 5,
+  "generated_at": "2026-03-04T18:30:10.408924",
+  "total_accounts": 39,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -1167,6 +1167,71 @@
       "sdr": "Radhika Arora",
       "state": "MN",
       "signals_count": 1
+    },
+    {
+      "account_name": "Bausch Health Companies",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than 6 months old (freshness_weight < 0.1), severely degrading their predictive power for near-term activity.",
+        "The critical need for post-acquisition data integration from the Sep 2025 M&A may have already been addressed or scoped with an incumbent."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-04",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "The DURECT acquisition creates a classic, high-priority need to integrate disparate clinical and operational data systems."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 75,
+          "rationale": "The new liver disease patient population from the acquisition requires risk stratification and targeted care management."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 70,
+          "rationale": "The historic 'envive' telehealth launch indicates a strategic focus on direct-to-consumer engagement and patient acquisition."
+        }
+      ],
+      "initiative_theme": "Post-Acquisition Data & Analytics Integration",
+      "top_evidence": [
+        {
+          "signal": "Bausch Health Acquires DURECT, Expanding into Liver Disease",
+          "source": "Google News Trigger Scan",
+          "date": "2025-09-11",
+          "relevance": "Directly triggers a need for data unification (Gravity) and care management for a new patient cohort (Comet)."
+        },
+        {
+          "signal": "Bausch Health Launches 'envive' Direct-to-Consumer Telehealth Platform",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-07-26",
+          "relevance": "Indicates a long-term strategic interest in digital patient acquisition and engagement, aligning with Cured."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Following the integration of DURECT, there is a strategic opportunity to leverage the newly unified data to optimize care management and commercialization efforts for the expanded liver disease portfolio.",
+        "target_persona": "CIO, CDO, Head of Post-Merger Integration",
+        "suggested_action": "Propose a Post-Merger Data Strategy Assessment to identify gaps and opportunities in leveraging combined data assets.",
+        "suggested_asset": "Post-M&A Data Integration Playbook for Life Sciences",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "NJ",
+      "signals_count": 2
     },
     {
       "account_name": "SSM Health",
