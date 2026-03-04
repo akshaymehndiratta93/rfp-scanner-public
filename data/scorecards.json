@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T21:13:38.541229",
-  "total_accounts": 63,
-  "last_batch_scored": 2,
-  "last_batch_no_signals": 3,
+  "generated_at": "2026-03-04T21:22:25.095198",
+  "total_accounts": 64,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -4416,6 +4416,67 @@
       "ae": "Anirudh kanwar",
       "sdr": "Yash raj",
       "state": "CA",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Unified Womens Healthcare(Unified Physician Management)",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only signal is over 3 years old, making it impossible to know the current status of their AI/analytics initiatives.",
+        "The existing partnership with Delfina may represent a long-term incumbent solution, or it could have failed, creating an opportunity."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-11-30",
+        "latest": "2027-09-01"
+      },
+      "product_fit": [
+        {
+          "product": "Comet",
+          "fit_score": 95,
+          "rationale": "Their stated goal of using AI to manage at-risk pregnancies directly aligns with Comet's core functionality."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "A unified data platform is essential to power any analytics initiative across their network of 2,500+ providers."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Their demonstrated interest in AI suggests an appetite for advanced analytics and GenAI capabilities for deeper insights."
+        }
+      ],
+      "initiative_theme": "AI-driven maternal care and risk stratification",
+      "top_evidence": [
+        {
+          "signal": "Unified Women's Healthcare Partners with Delfina for AI-Powered Maternity Care",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-02-28",
+          "relevance": "Establishes a historical interest in AI/analytics for care management, but the signal is extremely stale (3+ years old)."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Delfina"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "It's been over three years since you partnered with Delfina for AI in maternity care. We're curious to learn how that initiative has evolved and if you are now exploring a broader data strategy to support other value-based women's health programs.",
+        "target_persona": "Chief Medical Officer, Chief Innovation Officer, VP of Clinical Analytics",
+        "suggested_action": "Analytics Maturity Assessment",
+        "suggested_asset": "Case Study: How Large Provider Networks Drive VBC Success with a Unified Data Platform",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "state": "FL",
       "signals_count": 1
     }
   ]
