@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T20:07:24.384253",
-  "total_accounts": 57,
-  "last_batch_scored": 4,
-  "last_batch_no_signals": 1,
+  "generated_at": "2026-03-04T20:20:40.614939",
+  "total_accounts": 58,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3291,6 +3291,79 @@
       "sdr": "Aditya Nandwana",
       "state": "NY",
       "signals_count": 2
+    },
+    {
+      "account_name": "Bluecross Blueshield Of South Carolina",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (over 6 months old), significantly reducing confidence in any near-term activity.",
+        "The strategic partnership with Nayya for member experience, though very old, may indicate they have a solution in place for digital engagement."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-10-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "Essential for integrating disparate data sources following the Novant Health/Doctors Care M&A."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Directly addresses the payer-provider data sharing and collaboration needs created by the network shake-up."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 75,
+          "rationale": "Aligns with their demonstrated interest in AI (Nayya partnership) for analytics and network optimization."
+        }
+      ],
+      "initiative_theme": "Post-M&A Provider Network Data Integration and Optimization",
+      "top_evidence": [
+        {
+          "signal": "Major SC Provider Network Shake-up: Novant Health Acquires and Rebrands Doctors Care",
+          "source": "Google News Trigger Scan",
+          "date": "2025-08-14",
+          "relevance": "The most significant, albeit old, trigger creating an urgent need for data harmonization and network analytics."
+        },
+        {
+          "signal": "Key Provider Novant Health Recognized for High-Value Specialty Care",
+          "source": "Google News Trigger Scan",
+          "date": "2025-08-01",
+          "relevance": "Indicates a strategic need to steer members to high-value providers, requiring robust network analytics."
+        },
+        {
+          "signal": "BCBS of South Carolina Partners with Nayya for AI-Powered Member Benefits Guidance",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-09-12",
+          "relevance": "Shows a historical appetite for digital transformation and AI, but the signal is over two years old."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Nayya"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "The significant and lasting impact of major provider network M&A requires a robust, unified data foundation to manage costs, referrals, and quality. We can help you harness the data from your newly complex network.",
+        "target_persona": "VP of Provider Network Management / Chief Data Officer (CDO)",
+        "suggested_action": "Provider Network Performance Assessment",
+        "suggested_asset": "Case Study: How a Major Payer Unified Data to Optimize a Complex Provider Network",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Lisa Lehtinen",
+      "sdr": "Vignesh P",
+      "state": "SC",
+      "signals_count": 3
     },
     {
       "account_name": "The Health Plan",

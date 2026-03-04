@@ -1363,5 +1363,87 @@
     },
     "recommended_action": "Review award for Pfizer. Deadline: N/A. Coordinate response with Shyam Dattani.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304202040_0",
+    "created_at": "2026-03-04T20:20:40.648103",
+    "account_name": "Bristol Myers Squibb",
+    "doc_type": "award",
+    "headline": "SOPHiA GENETICS and Bristol Myers Squibb Expand Collaboration to Analyze Molecular Profiling Data from Clinical Trial Participants",
+    "summary": "Bristol Myers Squibb has expanded its existing collaboration with SOPHiA GENETICS to leverage its cloud-based DDM\u2122 data analytics platform. The platform will be used to analyze multimodal data, including genomics, from clinical trial participants to generate insights for drug development and patient stratification.",
+    "source_url": "https://news.sophiagenetics.com/news/sophia-genetics-and-bristol-myers-squibb-expand-collaboration-to-analyze-molecular-profiling-data-from-clinical-trial-participants",
+    "deadline": null,
+    "estimated_value": "Not disclosed",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Galaxy"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "tier": "Top",
+      "state": "NJ"
+    },
+    "recommended_action": "Review award for Bristol Myers Squibb. Deadline: TBD. Coordinate response with Shyam Dattani.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304202040_1",
+    "created_at": "2026-03-04T20:20:40.648135",
+    "account_name": "Blue Cross Blue Shield Of Arizona",
+    "doc_type": "award",
+    "headline": "Blue Cross Blue Shield of Arizona and ConsejoSano Partner to Improve Maternal Health Equity for Multicultural Members",
+    "summary": "This is a partnership announcement indicating a recent vendor selection. BCBSAZ has selected ConsejoSano, a multicultural patient engagement solution, to provide culturally and linguistically tailored support to pregnant and postpartum members to address health disparities. This initiative is a core component of a population health management and care management strategy.",
+    "source_url": "https://www.azblue.com/media-center/news/2024/05/09/blue-cross-blue-shield-of-arizona-and-consejosano-partner-to-improve-maternal-health-equity-for-multicultural-members",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Cured",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "AZ"
+    },
+    "recommended_action": "Review award for Blue Cross Blue Shield Of Arizona. Deadline: TBD. Coordinate response with Michael Rime.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304202040_2",
+    "created_at": "2026-03-04T20:20:40.648145",
+    "account_name": "Blue Cross And Blue Shield Of North Carolina",
+    "doc_type": "award",
+    "headline": "Blue Cross and Blue Shield of North Carolina and Google Cloud to Create New Enterprise Data and Analytics Platform",
+    "summary": "BCBSNC announced a multi-year collaboration with Google Cloud to build a new enterprise data and analytics platform. This strategic initiative is designed to enable a more seamless, personalized healthcare experience for members by leveraging cloud technologies for data consolidation, interoperability, and advanced analytics.",
+    "source_url": "https://cloud.google.com/press-releases/2021/0928/blue-cross-nc-and-google-cloud",
+    "deadline": "N/A",
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Cured",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Lisa Lehtinen",
+      "sdr": "Vignesh P",
+      "tier": "Top",
+      "state": "NC"
+    },
+    "recommended_action": "Review award for Blue Cross And Blue Shield Of North Carolina. Deadline: N/A. Coordinate response with Lisa Lehtinen.",
+    "status": "new"
   }
 ]
