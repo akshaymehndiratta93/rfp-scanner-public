@@ -1795,5 +1795,82 @@
     },
     "recommended_action": "Review award for CareOregon. Deadline: N/A. Coordinate response with Hannah Schuyler.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304223446_0",
+    "created_at": "2026-03-04T22:34:46.784229",
+    "account_name": "BlueCross BlueShield of Tennessee",
+    "doc_type": "award",
+    "headline": "BlueCross BlueShield of Tennessee Partners with naviHealth to Manage Post-Acute Care for Commercial Members",
+    "summary": "This is a partnership announcement, indicating BlueCross BlueShield of Tennessee selected naviHealth to implement a new care management solution for post-acute care. The solution leverages technology and data analytics to manage patient care transitions from hospital to other settings, directly aligning with care management and population health management platforms.",
+    "source_url": "https://www.businesswire.com/news/home/20210817005086/en/BlueCross-BlueShield-of-Tennessee-Partners-with-naviHealth-to-Manage-Post-Acute-Care-for-Commercial-Members",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Cured",
+      "Galaxy",
+      "Atlas",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "TN"
+    },
+    "recommended_action": "Review award for BlueCross BlueShield of Tennessee. Deadline: TBD. Coordinate response with John Specht.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304223446_1",
+    "created_at": "2026-03-04T22:34:46.784295",
+    "account_name": "CVS-Aetna",
+    "doc_type": "award",
+    "headline": "CVS Health and Microsoft announce new strategic alliance to reimagine personalized care and accelerate digital transformation",
+    "summary": "CVS Health announced a strategic alliance, selecting Microsoft Azure as its preferred cloud provider to power its digital transformation. The collaboration will focus on creating a data-driven, personalized customer experience using Azure's cognitive and data services. Key aspects include customizing omnichannel pharmacy and health offerings, developing scalable solutions for Aetna's care management, and using advanced analytics and machine learning to improve health outcomes and data insights across the enterprise.",
+    "source_url": "https://news.microsoft.com/2021/12/02/cvs-health-and-microsoft-announce-new-strategic-alliance-to-reimagine-personalized-care-and-accelerate-digital-transformation/",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "tier": "Top",
+      "state": "CT"
+    },
+    "recommended_action": "Review award for CVS-Aetna. Deadline: TBD. Coordinate response with Hannah Schuyler.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304223446_2",
+    "created_at": "2026-03-04T22:34:46.784312",
+    "account_name": "Molina Healthcare",
+    "doc_type": "award",
+    "headline": "Veda Announces Partnership with Molina Healthcare of California to Automate Provider Network Data",
+    "summary": "Molina Healthcare of California has selected and partnered with Veda to use its data platform for automating the processing and verification of provider network data. The goal is to improve data accuracy, reduce administrative burden, and ensure compliance with provider directory requirements.",
+    "source_url": "https://www.prnewswire.com/news-releases/veda-announces-partnership-with-molina-healthcare-of-california-to-automate-provider-network-data-301782672.html",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Flow"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "CA"
+    },
+    "recommended_action": "Review award for Molina Healthcare. Deadline: N/A. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
   }
 ]
