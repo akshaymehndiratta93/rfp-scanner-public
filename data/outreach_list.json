@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T15:26:10.450195",
+  "generated_at": "2026-03-04T15:41:24.498569",
   "week_of": "2026-W10",
-  "total_actionable": 20,
+  "total_actionable": 22,
   "outreach_list": [
     {
       "rank": 1,
@@ -23,6 +23,42 @@
     },
     {
       "rank": 2,
+      "account_name": "LivaNova",
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "PA",
+      "rfp_prob_90d": 0.85,
+      "rfp_prob_180d": 0.9,
+      "top_product": "Gravity",
+      "initiative_theme": "MedTech Data Activation & Analytics Platform",
+      "why_now": "Your recent Orrum partnership and strategic shift to a data-driven MedTech company creates an immediate, critical need for a platform to unify device and clinical data to power your new 'intelligent' offerings.",
+      "target_persona": "CTO, CDO, VP of Data & Analytics, VP of R&D",
+      "suggested_action": "Data Activation Strategy Workshop",
+      "suggested_asset": "MedTech Case Study: Unifying Device & Clinical Data for R&D Acceleration",
+      "priority_tier": "immediate",
+      "signals_count": 3
+    },
+    {
+      "rank": 3,
+      "account_name": "Grifols",
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "CA",
+      "rfp_prob_90d": 0.8,
+      "rfp_prob_180d": 0.9,
+      "top_product": "Gravity",
+      "initiative_theme": "AI-driven R&D and operational modernization",
+      "why_now": "Grifols is executing on major modernization and R&D initiatives under investor pressure, creating an immediate need for a unified data and AI foundation to drive efficiency and accelerate discovery.",
+      "target_persona": "Chief Data Officer / Chief Analytics Officer / CIO / VP of R&D IT",
+      "suggested_action": "Propose a 'Post-Merger Data Synergy & AI Acceleration' strategy workshop.",
+      "suggested_asset": "Life Sciences Case Study: Accelerating Drug Discovery with a Unified Healthcare Data Platform.",
+      "priority_tier": "immediate",
+      "signals_count": 6
+    },
+    {
+      "rank": 4,
       "account_name": "Kroger",
       "tier": "Strategics",
       "ae": "Jay Levine",
@@ -40,7 +76,7 @@
       "signals_count": 15
     },
     {
-      "rank": 3,
+      "rank": 5,
       "account_name": "Mass General Brigham",
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -58,7 +94,7 @@
       "signals_count": 6
     },
     {
-      "rank": 4,
+      "rank": 6,
       "account_name": "Jefferson Health",
       "tier": "Strategics",
       "ae": "Jay Levine",
@@ -76,7 +112,7 @@
       "signals_count": 4
     },
     {
-      "rank": 5,
+      "rank": 7,
       "account_name": "Ascension",
       "tier": "Strategics",
       "ae": "John Hickey",
@@ -94,7 +130,7 @@
       "signals_count": 6
     },
     {
-      "rank": 6,
+      "rank": 8,
       "account_name": "University Of Pittsburgh Medical Center",
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -112,7 +148,7 @@
       "signals_count": 5
     },
     {
-      "rank": 7,
+      "rank": 9,
       "account_name": "healthfirst",
       "tier": "Top",
       "ae": "John Specht",
@@ -130,7 +166,7 @@
       "signals_count": 5
     },
     {
-      "rank": 8,
+      "rank": 10,
       "account_name": "Mercy (MO)",
       "tier": "Strategics",
       "ae": "Ryan Grace",
@@ -148,7 +184,7 @@
       "signals_count": 1
     },
     {
-      "rank": 9,
+      "rank": 11,
       "account_name": "Pediatrix Medical Group",
       "tier": "Top",
       "ae": "Will Pettinger",
@@ -166,7 +202,7 @@
       "signals_count": 2
     },
     {
-      "rank": 10,
+      "rank": 12,
       "account_name": "SSM Health",
       "tier": "Strategics",
       "ae": "John Hickey",
@@ -184,7 +220,7 @@
       "signals_count": 1
     },
     {
-      "rank": 11,
+      "rank": 13,
       "account_name": "Northwestern Medicine",
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -202,7 +238,7 @@
       "signals_count": 1
     },
     {
-      "rank": 12,
+      "rank": 14,
       "account_name": "Indiana University Health",
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -220,7 +256,7 @@
       "signals_count": 3
     },
     {
-      "rank": 13,
+      "rank": 15,
       "account_name": "Independence Blue Cross",
       "tier": "Top",
       "ae": "Alexander J. Keltner",
@@ -238,7 +274,7 @@
       "signals_count": 1
     },
     {
-      "rank": 14,
+      "rank": 16,
       "account_name": "Banner Health",
       "tier": "Strategics",
       "ae": "Baz Patel",
@@ -256,7 +292,7 @@
       "signals_count": 5
     },
     {
-      "rank": 15,
+      "rank": 17,
       "account_name": "Hennepin Health",
       "tier": "Top",
       "ae": "David Kaskoun",
@@ -274,7 +310,7 @@
       "signals_count": 5
     },
     {
-      "rank": 16,
+      "rank": 18,
       "account_name": "Blue Cross and Blue Shield of Kansas",
       "tier": "Top",
       "ae": "Hannah Schuyler",
@@ -292,7 +328,7 @@
       "signals_count": 3
     },
     {
-      "rank": 17,
+      "rank": 19,
       "account_name": "Mayo Clinic",
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -310,7 +346,7 @@
       "signals_count": 1
     },
     {
-      "rank": 18,
+      "rank": 20,
       "account_name": "Horizon Blue Cross Blue Shield Of New Jersey",
       "tier": "Top",
       "ae": "Lisa Lehtinen",
@@ -328,7 +364,7 @@
       "signals_count": 2
     },
     {
-      "rank": 19,
+      "rank": 21,
       "account_name": "South Country Health Alliance",
       "tier": "Top",
       "ae": "David Kaskoun",
@@ -346,7 +382,7 @@
       "signals_count": 4
     },
     {
-      "rank": 20,
+      "rank": 22,
       "account_name": "Guidewell Mutual Holding Company",
       "tier": "Top",
       "ae": "John Specht",

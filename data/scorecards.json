@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T15:26:10.439172",
-  "total_accounts": 24,
-  "last_batch_scored": 3,
-  "last_batch_no_signals": 2,
+  "generated_at": "2026-03-04T15:41:24.488706",
+  "total_accounts": 26,
+  "last_batch_scored": 2,
+  "last_batch_no_signals": 3,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -82,6 +82,166 @@
       "sdr": "Riddhimaan Bhattacharyya",
       "state": "PA",
       "signals_count": 4
+    },
+    {
+      "account_name": "LivaNova",
+      "rfp_probability": {
+        "90_days": 0.85,
+        "180_days": 0.9,
+        "365_days": 0.95
+      },
+      "confidence": "high",
+      "uncertainty_drivers": [
+        "The exact technical scope of the Orrum partnership is unknown; they could be a potential competitor or simply a data source.",
+        "Potential for an internal 'build vs. buy' debate, given LivaNova's engineering capabilities.",
+        "Timing of budget release for a foundational data platform is not yet confirmed."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-03-15",
+        "latest": "2026-06-30"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 100,
+          "rationale": "Directly addresses the stated need to ingest, unify, and analyze device and clinical data for their new strategy."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Enables the generation of 'intelligent insights' from the unified data, which is the core goal of the Orrum partnership."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 70,
+          "rationale": "Provides a framework for sharing the newly generated data and insights with LivaNova's provider customers."
+        }
+      ],
+      "initiative_theme": "MedTech Data Activation & Analytics Platform",
+      "top_evidence": [
+        {
+          "signal": "LivaNova partners with Orrum to integrate intelligent data into its cardiac care technology",
+          "source": "Google News Trigger Scan",
+          "date": "2026-02-20",
+          "relevance": "The primary trigger event, explicitly stating the need for a data ingestion and unification platform."
+        },
+        {
+          "signal": "LivaNova announces long-range strategic roadmap focused on growth and innovation at Investor Day",
+          "source": "Google News Trigger Scan",
+          "date": "2025-11-12",
+          "relevance": "Confirms C-level sponsorship and strategic alignment for a major data-centric transformation initiative."
+        },
+        {
+          "signal": "LivaNova Appoints New CEO to Drive Strategic Growth",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-04-01",
+          "relevance": "Identifies the key executive leader driving the new data-driven strategy, creating a potential entry point."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Orrum"
+        ],
+        "confidence": "low",
+        "note": "Orrum is identified as a partner, but their platform capabilities could overlap, posing a potential competitive risk."
+      },
+      "outreach": {
+        "why_now": "Your recent Orrum partnership and strategic shift to a data-driven MedTech company creates an immediate, critical need for a platform to unify device and clinical data to power your new 'intelligent' offerings.",
+        "target_persona": "CTO, CDO, VP of Data & Analytics, VP of R&D",
+        "suggested_action": "Data Activation Strategy Workshop",
+        "suggested_asset": "MedTech Case Study: Unifying Device & Clinical Data for R&D Acceleration",
+        "priority_tier": "immediate"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "PA",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Grifols",
+      "rfp_probability": {
+        "90_days": 0.8,
+        "180_days": 0.9,
+        "365_days": 0.85
+      },
+      "confidence": "high",
+      "uncertainty_drivers": [
+        "The nature of the strategic partnership with Google Cloud is unclear; they could be a competitor for data platform and AI/ML services.",
+        "The outcome of the M&A discussions with Brookfield will significantly impact the urgency and scope of data integration needs."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-03-15",
+        "latest": "2026-09-30"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Required to unify data for lab modernization, post-M&A integration, and R&D partnerships."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Directly supports the AI-driven digital transformation, biomarker research, and clinical development goals."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 65,
+          "rationale": "Addresses investor pressure for transparency and enables data sharing with research partners."
+        }
+      ],
+      "initiative_theme": "AI-driven R&D and operational modernization",
+      "top_evidence": [
+        {
+          "signal": "Grifols launching lab modernization initiative with partner Inpeco",
+          "source": "Google News Trigger Scan",
+          "date": "2025-03-20",
+          "relevance": "Directly signals a major infrastructure investment requiring a unified data platform (Gravity)."
+        },
+        {
+          "signal": "Grifols reportedly restarts M&A discussions with Brookfield",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-02",
+          "relevance": "A potential M&A event creates an urgent trigger for a post-merger data consolidation platform."
+        },
+        {
+          "signal": "Grifols Partners with Google Cloud for AI-Powered Digital Transformation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-10-25",
+          "relevance": "Establishes the company's core strategic commitment to AI and cloud, validating the need for Galaxy."
+        },
+        {
+          "signal": "Grifols partners with IBL to develop advanced biomarker panels",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-09",
+          "relevance": "Indicates a specific, data-intensive research collaboration needing a unified analytics foundation."
+        },
+        {
+          "signal": "Activist investor pressures Grifols for significant board reform",
+          "source": "Google News Trigger Scan",
+          "date": "2024-12-10",
+          "relevance": "Creates internal pressure for efficiency and transparency, justifying investment in new platforms."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Google Cloud"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Grifols is executing on major modernization and R&D initiatives under investor pressure, creating an immediate need for a unified data and AI foundation to drive efficiency and accelerate discovery.",
+        "target_persona": "Chief Data Officer / Chief Analytics Officer / CIO / VP of R&D IT",
+        "suggested_action": "Propose a 'Post-Merger Data Synergy & AI Acceleration' strategy workshop.",
+        "suggested_asset": "Life Sciences Case Study: Accelerating Drug Discovery with a Unified Healthcare Data Platform.",
+        "priority_tier": "immediate"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "CA",
+      "signals_count": 6
     },
     {
       "account_name": "Kroger",
