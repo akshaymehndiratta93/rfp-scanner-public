@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T19:37:50.705652",
-  "total_accounts": 51,
-  "last_batch_scored": 1,
-  "last_batch_no_signals": 4,
+  "generated_at": "2026-03-04T19:48:41.529047",
+  "total_accounts": 53,
+  "last_batch_scored": 2,
+  "last_batch_no_signals": 3,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3087,6 +3087,142 @@
       "ae": "Will Pettinger",
       "sdr": "Alishah Rehman",
       "state": "FL",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Roche",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is nearly two years old, making its predictive value for a near-term RFP extremely low.",
+        "No recent information on Roche's current enterprise data strategy, technology roadmap, or active initiatives.",
+        "The acquisition is in the diagnostics space, which may have a siloed data/IT infrastructure separate from broader enterprise platforms."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2027-01-01",
+        "latest": "2027-12-31"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "Large-scale M&A activity implies a strategic need for post-merger data integration and unification."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 80,
+          "rationale": "As a leader in R&D, Roche has a significant need for advanced AI/GenAI analytics for drug discovery and diagnostics."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 60,
+          "rationale": "Relevant for value-based contracts on high-cost drugs, but less core than enterprise data unification."
+        }
+      ],
+      "initiative_theme": "Enterprise Data & Analytics Modernization for R&D and Diagnostics",
+      "top_evidence": [
+        {
+          "signal": "Roche Acquires LumiraDx's Point-of-Care Diagnostics Technology Platform",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-04-02",
+          "relevance": "Indicates a pattern of growth via acquisition, which creates downstream needs for data integration (Gravity)."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Palantir",
+          "Databricks",
+          "IQVIA"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "With Roche's ongoing strategy of expanding its diagnostics portfolio through acquisitions like LumiraDx, harmonizing complex data assets is crucial for accelerating R&D and maximizing market impact. A unified data and AI strategy can unlock the full value of these integrated technologies.",
+        "target_persona": "Chief Digital Officer, Chief Data Officer, Head of R&D IT",
+        "suggested_action": "Data Harmonization Strategy Assessment",
+        "suggested_asset": "Life Sciences Unified Data Platform ROI",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "state": "NJ",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Radius Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All triggering signals (PE acquisition, new CEO, commercial model shift) are more than 1.5 years old.",
+        "The window of opportunity for a technology review immediately following these events may have passed.",
+        "No recent information to confirm if the data integration and analytics needs are still unaddressed."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "PE ownership and out-licensing deals create an urgent need for a unified data platform."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "New PE owners require advanced, efficient analytics for strategic decisions and value creation."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Supports complex data sharing and performance tracking with out-licensing partners."
+        }
+      ],
+      "initiative_theme": "Post-Acquisition Data & Analytics Modernization for PE Value Realization",
+      "top_evidence": [
+        {
+          "signal": "Radius Health Taken Private by Gurnet Point & Patient Square Capital, Appoints New CEO",
+          "source": "TrueFoundry Deep Search",
+          "date": "2022-08-22",
+          "relevance": "The combination of PE acquisition and new leadership is a powerful catalyst for a full tech stack review."
+        },
+        {
+          "signal": "Radius Health shifts commercial model through multiple out-licensing deals",
+          "source": "Google News Trigger Scan",
+          "date": "2023-09-19",
+          "relevance": "Creates a specific, complex need to ingest and standardize performance data from multiple external partners."
+        },
+        {
+          "signal": "Radius Health taken private by PE firms Gurnet Point and Patient Square Capital",
+          "source": "Google News Trigger Scan",
+          "date": "2022-06-23",
+          "relevance": "PE ownership fundamentally shifts focus to operational efficiency and data-driven portfolio management."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Post-acquisition, the pressure to demonstrate value to Gurnet Point and Patient Square is immense. A unified data strategy is crucial for tracking out-licensed assets and optimizing operations for the new leadership.",
+        "target_persona": "CEO, CFO, VP Commercial Operations, Head of IT/Data",
+        "suggested_action": "Post-Acquisition Value Realization Assessment",
+        "suggested_asset": "Case Study: How a PE-backed Life Sciences Firm Drove Efficiency with a Unified Data Platform",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "MA",
       "signals_count": 3
     },
     {

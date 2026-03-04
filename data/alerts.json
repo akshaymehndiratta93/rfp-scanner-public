@@ -1284,5 +1284,31 @@
     },
     "recommended_action": "Review award for Geha. Deadline: N/A (Contract Awarded). Coordinate response with Hannah Schuyler.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304194841_0",
+    "created_at": "2026-03-04T19:48:41.560060",
+    "account_name": "Community Health Plan Of Washington",
+    "doc_type": "award",
+    "headline": "Community Health Plan of Washington Selects Cedar Gate for Enterprise-Wide Value-Based Care Performance Management",
+    "summary": "CHPW announced it has selected Cedar Gate's unified provider-payer platform to advance its value-based care strategy. The platform will provide advanced analytics for population health, care management, and tools for managing bundled payments and other alternative payment models.",
+    "source_url": "https://cedargate.com/news/community-health-plan-of-washington-selects-cedar-gate-for-enterprise-wide-value-based-care-performance-management/",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Gravity",
+      "Atlas",
+      "Galaxy",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "WA"
+    },
+    "recommended_action": "Review award for Community Health Plan Of Washington. Deadline: TBD. Coordinate response with Michael Rime.",
+    "status": "new"
   }
 ]
