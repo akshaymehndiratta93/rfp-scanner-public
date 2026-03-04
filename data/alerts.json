@@ -2192,5 +2192,59 @@
     },
     "recommended_action": "Review award for Gastro Health. Deadline: N/A. Coordinate response with Will Pettinger.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304235356_0",
+    "created_at": "2026-03-04T23:53:56.287320",
+    "account_name": "Community Health Network of Connecticut",
+    "doc_type": "intent_to_award",
+    "headline": "Intensive Care Management (ICM) and Care Management (CM) Services",
+    "summary": "This is an 'Intent to Award' notice for a major state contract for care management services, a core function currently performed by Community Health Network of Connecticut (CHNCT) as the state's Administrative Services Organization (ASO) for the HUSKY Health program. The state is moving away from a single ASO model and awarding contracts to multiple new vendors (Beacon Health Options, Carelon, Magellan Health). This signifies a massive re-procurement of care management and population health platforms and services that directly impacts CHNCT's incumbent role.",
+    "source_url": "https://portal.ct.gov/DAS/CTSource/BidBoard/21DSS21014-Intent-to-Award",
+    "deadline": "2022-02-11T16:00:00Z",
+    "estimated_value": "Not specified in notice",
+    "products_relevant": [
+      "Comet",
+      "Atlas",
+      "Gravity",
+      "Flow",
+      "Cured"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "CT"
+    },
+    "recommended_action": "Review intent_to_award for Community Health Network of Connecticut. Deadline: 2022-02-11T16:00:00Z. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304235356_1",
+    "created_at": "2026-03-04T23:53:56.287377",
+    "account_name": "Clever Care Health Plan",
+    "doc_type": "award",
+    "headline": "Clever Care Health Plan Selects Informatica and Cognizant to Build Cloud Data Management Platform",
+    "summary": "Clever Care Health Plan has selected Informatica's Intelligent Data Management Cloud (IDMC) and Cognizant's consulting and implementation services to build a new cloud-based data and analytics platform. The platform is intended to provide a comprehensive, 360-degree view of members to improve the delivery of personalized and culturally sensitive care.",
+    "source_url": "https://www.informatica.com/about-us/news/news-releases/2023/01/20230110-clever-care-health-plan-selects-informatica-and-cognizant.html",
+    "deadline": null,
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Cured",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "CA"
+    },
+    "recommended_action": "Review award for Clever Care Health Plan. Deadline: TBD. Coordinate response with Michael Rime.",
+    "status": "new"
   }
 ]
