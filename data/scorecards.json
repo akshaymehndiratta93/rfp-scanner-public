@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T21:04:17.379974",
-  "total_accounts": 61,
-  "last_batch_scored": 1,
-  "last_batch_no_signals": 4,
+  "generated_at": "2026-03-04T21:13:38.541229",
+  "total_accounts": 63,
+  "last_batch_scored": 2,
+  "last_batch_no_signals": 3,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -1297,6 +1297,85 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "MA",
       "signals_count": 2
+    },
+    {
+      "account_name": "Florida Cancer Specialists And Research Institute",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All detected signals are extremely stale (freshness_weight < 0.1), significantly reducing their predictive power for a near-term RFP.",
+        "No recent signals (last 12+ months) to indicate an active buying cycle or immediate strategic shift."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-11-01",
+        "latest": "2027-05-31"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "Underpins strategic goals like precision medicine and competitive response by unifying disparate data sources (genomic, clinical)."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Directly addresses the need to improve outcomes and efficiency in response to competitive market pressure."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 80,
+          "rationale": "Enhances patient engagement and retention, a critical need when a major competitor is expanding in their core market."
+        }
+      ],
+      "initiative_theme": "Competitive response through data-driven oncology care",
+      "top_evidence": [
+        {
+          "signal": "Upcoming Leadership Transitions at FCS in 2026",
+          "source": "Google News Trigger Scan",
+          "date": "2026-03-04",
+          "relevance": "A new leadership team will likely re-evaluate the tech stack, creating a significant, though future, opportunity."
+        },
+        {
+          "signal": "Orlando Health Aggressively Expanding in FCS's Tampa Bay Market",
+          "source": "Google News Trigger Scan",
+          "date": "2025-06-16",
+          "relevance": "Creates market pressure that necessitates investment in efficiency, patient retention, and care coordination platforms."
+        },
+        {
+          "signal": "Florida Cancer Specialists Selects Nulogic for In-Office Dispensing Technology",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-12-05",
+          "relevance": "Indicates a focus on optimizing pharmacy operations and patient access, aligning with our specialty pharmacy and patient engagement offerings."
+        },
+        {
+          "signal": "FCS Expanding Genetic Testing and Precision Medicine Capabilities",
+          "source": "Google News Trigger Scan",
+          "date": "2021-10-07",
+          "relevance": "A long-term strategic initiative that fundamentally requires a powerful, unified data platform like Gravity to succeed."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Nulogic"
+        ],
+        "confidence": "low"
+      },
+      "outreach": {
+        "why_now": "With upcoming leadership transitions and increasing competitive pressure from Orlando Health, now is the time to introduce a new strategic vision for a unified data platform that can drive efficiency and advance their precision medicine goals.",
+        "target_persona": "Incoming CEO / CIO, Chief Strategy Officer (CSO), Chief Medical Officer (CMO)",
+        "suggested_action": "Strategic Vision Workshop",
+        "suggested_asset": "The Data-Driven Oncology Practice Whitepaper",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "state": "FL",
+      "signals_count": 4
     },
     {
       "account_name": "SSM Health",
@@ -3575,6 +3654,83 @@
       "sdr": "Alishah Rehman",
       "state": "CO",
       "signals_count": 3
+    },
+    {
+      "account_name": "Innovative Renal Care",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than 6 months old, making it difficult to assess current priorities.",
+        "The acquisition by Fresenius (Feb 2024) means technology strategy is likely dictated by the parent company, for which there are no recent signals."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Essential for integrating new dialysis device data and consolidating systems post-acquisition by Fresenius."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 85,
+          "rationale": "Needed to manage referrals and coordinate care for the strategic expansion into home dialysis programs."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Required to analyze and prove the value/ROI of new dialysis technology and home care models."
+        }
+      ],
+      "initiative_theme": "Post-Acquisition Technology Consolidation and Care Model Modernization",
+      "top_evidence": [
+        {
+          "signal": "Fresenius Medical Care Acquires Innovative Renal Care",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-01",
+          "relevance": "The acquisition is the most significant event, driving a long-term need for IT system and data consolidation."
+        },
+        {
+          "signal": "IRC Adopts New Quanta Dialysis Tech in Multi-Year Strategic Deal",
+          "source": "Google News Trigger Scan",
+          "date": "2025-09-03",
+          "relevance": "Indicates a major technology shift requiring integration of new device data and outcomes tracking."
+        },
+        {
+          "signal": "IRC Partners with Vantive to Expand Home Dialysis with Technology",
+          "source": "Google News Trigger Scan",
+          "date": "2025-07-16",
+          "relevance": "Creates a clear need for platforms to manage remote patients, coordinate care, and engage caregivers."
+        },
+        {
+          "signal": "IRC Secures 3-Year Supply Chain Deal, Stabilizing Operations for Growth",
+          "source": "Google News Trigger Scan",
+          "date": "2025-07-08",
+          "relevance": "Operational stability allows leadership to focus on strategic technology investments for growth."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "The technology and care model shifts initiated last year are likely creating data integration and care coordination challenges now; we can help unify these systems to prove the value of those investments.",
+        "target_persona": "VP IT Integration / Chief Data Officer (at Fresenius or IRC)",
+        "suggested_action": "Strategic Assessment",
+        "suggested_asset": "Post-Merger Health System Data Unification Case Study",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Anirudh kanwar",
+      "sdr": "Yash raj",
+      "state": "TN",
+      "signals_count": 4
     },
     {
       "account_name": "The Health Plan",

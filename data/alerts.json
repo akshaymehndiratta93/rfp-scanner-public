@@ -1581,5 +1581,31 @@
     },
     "recommended_action": "Review RFP for Vaya Health. Deadline: 2023-05-12T17:00:00Z. Coordinate response with Alexander J. Keltner.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304211338_0",
+    "created_at": "2026-03-04T21:13:38.574242",
+    "account_name": "Roswell Park Comprehensive Cancer Center",
+    "doc_type": "award",
+    "headline": "Award Notice: RFP 24-06 Enterprise Data and Analytics Platform",
+    "summary": "This is an award notice for a contract with Clearsense, LLC, dated March 15, 2024. The original RFP solicited proposals for a modern, scalable, and secure Enterprise Data and Analytics Platform to support data-driven decision-making, clinical research, and operational efficiency across the cancer center.",
+    "source_url": "https://www.nyscr.ny.gov/contracts/2157077",
+    "deadline": "2023-09-22",
+    "estimated_value": "6145000",
+    "products_relevant": [
+      "Atlas",
+      "Galaxy",
+      "Comet",
+      "Flow"
+    ],
+    "fit_score": 1.0,
+    "routing": {
+      "ae": "Anirudh kanwar",
+      "sdr": "Yash raj",
+      "tier": "Top",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for Roswell Park Comprehensive Cancer Center. Deadline: 2023-09-22. Coordinate response with Anirudh kanwar.",
+    "status": "new"
   }
 ]
