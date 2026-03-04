@@ -1929,5 +1929,33 @@
     },
     "recommended_action": "Review award for Humana. Deadline: N/A. Coordinate response with Alexander J. Keltner.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304225556_0",
+    "created_at": "2026-03-04T22:55:56.049980",
+    "account_name": "Premera Blue Cross",
+    "doc_type": "award",
+    "headline": "Premera Blue Cross Taps Abacus Insights to Help Power Its Data-Driven Strategy",
+    "summary": "This is a vendor selection announcement. Premera Blue Cross has selected and is using Abacus Insights' data management platform to ingest, enrich, and manage its data from various sources and formats. The goal is to unify and liberate data, making it more accessible and useful for members and provider partners, which supports analytics, care management, and population health initiatives.",
+    "source_url": "https://www.businesswire.com/news/home/20211020005118/en/Premera-Blue-Cross-Taps-Abacus-Insights-to-Help-Power-Its-Data-Driven-Strategy",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Galaxy",
+      "Cured"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "WA"
+    },
+    "recommended_action": "Review award for Premera Blue Cross. Deadline: N/A. Coordinate response with Michael Rime.",
+    "status": "new"
   }
 ]

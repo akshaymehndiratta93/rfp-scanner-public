@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T22:44:56.158294",
-  "total_accounts": 70,
-  "last_batch_scored": 1,
-  "last_batch_no_signals": 4,
+  "generated_at": "2026-03-04T22:55:56.016623",
+  "total_accounts": 73,
+  "last_batch_scored": 3,
+  "last_batch_no_signals": 2,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3939,6 +3939,144 @@
       "signals_count": 3
     },
     {
+      "account_name": "Cigna Corporation",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The sole trigger event (Medicare divestiture) is over two years old, making it highly likely that any resulting RFPs have already been completed.",
+        "There is no recent intelligence on Cigna's current technology projects, pain points, or vendor relationships."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-10-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Strategic focus on Evernorth and Commercial requires a robust, unified data platform post-divestiture."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Announced reinvestment in data analytics aligns directly with leveraging GenAI for insights at scale."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Intensified focus on the commercial insurance segment necessitates advanced care management to control costs."
+        }
+      ],
+      "initiative_theme": "Evernorth & Commercial Core Business Technology Modernization",
+      "top_evidence": [
+        {
+          "signal": "Cigna Divests Medicare Business to HCSC for $3.7B to Sharpen Focus on Evernorth and Commercial",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-31",
+          "relevance": "Fundamental strategic shift creating a long-term trigger for technology reinvestment in core business areas."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Following Cigna's strategic divestiture to focus on Evernorth, we're seeking to understand how the technology roadmap has evolved and where a modern data and analytics platform can accelerate your long-term goals.",
+        "target_persona": "CIO, Chief Data Officer (CDO), SVP of Enterprise Strategy, President of Evernorth",
+        "suggested_action": "Strategic discovery workshop on post-divestiture data architecture evolution.",
+        "suggested_asset": "The Payer's Guide to a Unified Data & Analytics Strategy Whitepaper",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "CT",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Brooks Rehabilitation Hospital",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than one year old, making it difficult to assess the current status of their strategic initiatives.",
+        "Vendor decisions for the Oracle Cerner EHR migration and new facility expansions may have already included data platform and analytics solutions."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Essential for integrating data from the new Oracle Cerner EHR and unifying operations across Florida and Arizona facilities."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Needed to provide system-wide analytics and AI-driven insights for the newly expanded, more complex organization."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 80,
+          "rationale": "Critical for managing patient referrals and coordinating care across a growing multi-state network to prevent leakage."
+        }
+      ],
+      "initiative_theme": "Post-Expansion Data Integration & Analytics Modernization",
+      "top_evidence": [
+        {
+          "signal": "Brooks Rehabilitation Expanding into Arizona with New Hospital Construction",
+          "source": "Google News Trigger Scan",
+          "date": "2025-02-27",
+          "relevance": "Major M&A/expansion activity creates an urgent need for a unified data platform and system-wide analytics."
+        },
+        {
+          "signal": "$68M Strategic Expansion to Enhance Patient Care in Northeast Florida",
+          "source": "Google News Trigger Scan",
+          "date": "2025-12-17",
+          "relevance": "Significant capital investment in growth necessitates robust analytics to measure ROI and manage increased patient volume."
+        },
+        {
+          "signal": "Brooks Rehabilitation Selects Oracle Cerner for System-Wide EHR Overhaul",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-01-11",
+          "relevance": "A foundational EHR migration is a primary trigger for adopting a data activation platform like Gravity."
+        },
+        {
+          "signal": "Named a Top US Rehab Center, Creating Pressure to Maintain Excellence with Data",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-08",
+          "relevance": "Executive pressure to maintain rankings requires data-driven proof points for quality and outcomes, fitting our analytics suite."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Oracle (Cerner)"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "As Brooks' multi-state expansion matures and the Oracle Cerner EHR stabilizes, the focus will shift to unifying data across geographies to power system-wide analytics and prove the ROI of these investments.",
+        "target_persona": "CIO / CDO / VP of Analytics",
+        "suggested_action": "Data Strategy Assessment",
+        "suggested_asset": "Case Study: Unifying Multi-State Health System Data Post-EHR Migration",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "state": "FL",
+      "signals_count": 4
+    },
+    {
       "account_name": "The Health Plan",
       "rfp_probability": {
         "90_days": 0.05,
@@ -4876,6 +5014,79 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "PA",
       "signals_count": 1
+    },
+    {
+      "account_name": "Oscar Insurance Corporation",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available intelligence is extremely outdated (signals are 2-6+ years old), making predictions unreliable.",
+        "The most relevant signal indicates Oscar is a technology vendor with its own '+Oscar' platform, making them a direct competitor and an unlikely buyer."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2027-01-01",
+        "latest": "2027-06-30"
+      },
+      "product_fit": [
+        {
+          "product": "Comet",
+          "fit_score": 25,
+          "rationale": "Despite having a proprietary platform, there may be gaps in specific VBC or care management capabilities."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 20,
+          "rationale": "Could potentially augment their stack for payer-provider data sharing, a common challenge."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 10,
+          "rationale": "Extremely low fit, as they are heavily invested in and actively selling their own foundational data platform."
+        }
+      ],
+      "initiative_theme": "Proprietary Platform Monetization",
+      "top_evidence": [
+        {
+          "signal": "Oscar Health Signs Health First as New Client for its +Oscar Technology Platform",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-21",
+          "relevance": "Establishes Oscar as a technology vendor and direct competitor, drastically lowering purchase intent."
+        },
+        {
+          "signal": "Oscar Fined for Mental Health Parity Violations, Indicating Compliance Gaps",
+          "source": "Google News Trigger Scan",
+          "date": "2021-12-14",
+          "relevance": "Indicates a historical need for improved compliance analytics, but the signal is over 4 years old."
+        },
+        {
+          "signal": "Oscar Expands into Competitive Ohio Market, Driving Need for Population Health Tools",
+          "source": "Google News Trigger Scan",
+          "date": "2019-09-04",
+          "relevance": "Demonstrates a past trigger for pop-health tools, but is too outdated to be actionable today."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "+Oscar (In-house)"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "The 'why now' is extremely weak for a sales motion. Focus should be on competitive intelligence or exploring a potential technology partnership, not a direct sale.",
+        "target_persona": "SVP, Platform Strategy or Chief Strategy Officer",
+        "suggested_action": "Competitive Intelligence Gathering",
+        "suggested_asset": "Innovaccer Partnership Program Overview",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "state": "NY",
+      "signals_count": 3
     }
   ]
 }
