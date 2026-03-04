@@ -1,0 +1,862 @@
+[
+  {
+    "alert_id": "alert_20260304121708_0",
+    "created_at": "2026-03-04T12:17:08.967002",
+    "account_name": "BJC HealthCare",
+    "doc_type": "award",
+    "headline": "BJC HealthCare Selects Innovaccer to Accelerate its Value-Based Care and Population Health Management Strategy",
+    "summary": "BJC HealthCare has announced its selection of the Innovaccer data platform to unify patient data from disparate sources, including its new Epic electronic health record (EHR) and external claims data. The goal is to create a unified patient record to support population health management, enhance value-based care initiatives, improve care coordination, and drive digital transformation. This platform will provide analytics and workflows for BJC's accountable care organization (ACO) and other value-based care programs.",
+    "source_url": "https://www.prnewswire.com/news-releases/bjc-healthcare-selects-innovaccer-to-accelerate-its-value-based-care-and-population-health-management-strategy-301912971.html",
+    "deadline": null,
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Ryan Grace",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "MO"
+    },
+    "recommended_action": "Review award for BJC HealthCare. Deadline: TBD. Coordinate response with Ryan Grace.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304121708_1",
+    "created_at": "2026-03-04T12:17:08.967025",
+    "account_name": "University Of California Health",
+    "doc_type": "intent_to_award",
+    "headline": "Population Health and Care Management Platform",
+    "summary": "This was a solicitation (RFP #UCDHS-Sourcing-23-1004) for a comprehensive Population Health and Care Management Platform. The solution required capabilities for data aggregation from various clinical and claims sources, analytics, patient risk stratification, care coordination workflows, and patient engagement tools to support UC Davis Health's value-based care strategy. A notice of intent to award the contract to Innovaccer, Inc. was subsequently posted.",
+    "source_url": "https://supplychain.ucdavis.edu/procurement-contracting/bids-rfps",
+    "deadline": "N/A (Awarded)",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review intent_to_award for University Of California Health. Deadline: N/A (Awarded). Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304122815_0",
+    "created_at": "2026-03-04T12:28:15.965452",
+    "account_name": "BJC HealthCare",
+    "doc_type": "award",
+    "headline": "BJC HealthCare, Saint Luke\u2019s Health System Expand Partnership with Unite Us to Address Social Determinants of Health",
+    "summary": "This is a vendor selection announcement detailing BJC HealthCare's expansion of its partnership with Unite Us and its acquired NowPow platform. The initiative aims to build a coordinated care network to address social determinants of health by connecting clinical settings with social service organizations, which is a core function of modern care management and population health platforms.",
+    "source_url": "https://uniteus.com/blog/press/bjc-healthcare-saint-lukes-health-system-expand-partnership-with-unite-us/",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Flow",
+      "Atlas",
+      "Cured"
+    ],
+    "fit_score": 0.85,
+    "routing": {
+      "ae": "Ryan Grace",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "MO"
+    },
+    "recommended_action": "Review award for BJC HealthCare. Deadline: N/A. Coordinate response with Ryan Grace.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304123556_0",
+    "created_at": "2026-03-04T12:35:56.230664",
+    "account_name": "University Of California Health",
+    "doc_type": "RFI",
+    "headline": "UCSF Enterprise Data & Analytics Platform RFI",
+    "summary": "UCSF issued a Request for Information (RFI) to gather information from vendors regarding an Enterprise Data & Analytics Platform. The goal is to understand the market for unified, scalable, and secure platforms for data ingestion, storage, processing, governance, and analytics that can support the entire UCSF enterprise, including its clinical, research, and educational missions.",
+    "source_url": "https://www.bidnet.com/bneattachments?/505569945.pdf",
+    "deadline": "2024-03-11T17:00:00PST",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Atlas",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review RFI for University Of California Health. Deadline: 2024-03-11T17:00:00PST. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304123839_0",
+    "created_at": "2026-03-04T12:38:39.966338",
+    "account_name": "BJC HealthCare",
+    "doc_type": "RFP",
+    "headline": "BJC IT Staff Augmentation Services RFP",
+    "summary": "BJC HealthCare has issued a Request for Proposal (RFP) to solicit proposals from qualified firms to provide IT Staff Augmentation Services. This involves supplying temporary, skilled IT professionals on an as-needed basis to support various technology projects and departments within the BJC system. While not a platform purchase, this indicates active project work which could involve enterprise data, clinical applications, and population health initiatives.",
+    "source_url": "https://www.find-rfp.com/rfps/4V5n5B0W4p1X/BJC-IT-Staff-Augmentation-Services-RFP",
+    "deadline": "2024-05-24T17:00:00Z",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.65,
+    "routing": {
+      "ae": "Ryan Grace",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "MO"
+    },
+    "recommended_action": "Review RFP for BJC HealthCare. Deadline: 2024-05-24T17:00:00Z. Coordinate response with Ryan Grace.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304123839_1",
+    "created_at": "2026-03-04T12:38:39.966350",
+    "account_name": "Walgreens",
+    "doc_type": "award",
+    "headline": "Walgreens and In-Step Announce First-of-its-Kind Patient Data Platform to Speed Drug Development",
+    "summary": "Walgreens and health tech company In-Step are launching a large-scale, real-world patient data platform. The platform will leverage Walgreens' extensive de-identified patient data to help life sciences companies accelerate clinical trials and drug development. This initiative focuses on creating a robust clinical data repository and integration platform to improve trial design, recruitment, and evidence generation.",
+    "source_url": "https://www.businesswire.com/news/home/20230302005230/en/Walgreens-and-In-Step-Announce-First-of-its-Kind-Patient-Data-Platform-to-Speed-Drug-Development",
+    "deadline": null,
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Atlas",
+      "Flow",
+      "Galaxy",
+      "Pharmacy Network"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Jay Levine",
+      "sdr": "Riddhimaan Bhattacharyya",
+      "tier": "Strategics",
+      "state": "IL"
+    },
+    "recommended_action": "Review award for Walgreens. Deadline: TBD. Coordinate response with Jay Levine.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304123839_2",
+    "created_at": "2026-03-04T12:38:39.966357",
+    "account_name": "University Of California Health",
+    "doc_type": "RFI",
+    "headline": "UC PPO Care and Condition Management Program",
+    "summary": "Request for Information (RFI) to solicit information from vendors about their care and condition management programs and related services for potential future support of the UC Preferred Provider Organization (PPO) health plans.",
+    "source_url": "https://www.bidnet.com/bneattachments?/605981947.pdf",
+    "deadline": "2023-02-27",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Cured",
+      "Atlas",
+      "Flow",
+      "Gravity",
+      "Comet"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review RFI for University Of California Health. Deadline: 2023-02-27. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304124707_0",
+    "created_at": "2026-03-04T12:47:07.357372",
+    "account_name": "University Of California Health",
+    "doc_type": "RFI",
+    "headline": "UCDH RFI - Population Health Management Platform",
+    "summary": "The University of California, Davis Health issued a Request for Information (RFI) to gather information from qualified firms for a comprehensive Population Health Management (PHM) platform. The platform is intended to support value-based care initiatives and should include functionalities like data aggregation from various sources (including Epic EHR), financial and clinical analytics, risk stratification, care management workflows, and patient engagement tools.",
+    "source_url": "https://www.calusource.net/public-sourcing-events/#!event-id/001306",
+    "deadline": "2024-05-10T17:00:00PST",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review RFI for University Of California Health. Deadline: 2024-05-10T17:00:00PST. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304124707_1",
+    "created_at": "2026-03-04T12:47:07.357408",
+    "account_name": "Universal Health Services",
+    "doc_type": "award",
+    "headline": "Universal Health Services Selects Holon Solutions to Deliver Critical Patient Insights at the Point of Care",
+    "summary": "This is a vendor selection announcement. UHS has chosen Holon Solutions' CollaborNet\u00ae platform to deliver critical patient insights from various sources directly into the clinician's workflow within their Cerner EHR. The goal is to provide a comprehensive view of a patient's health, close care gaps, and enable better care management decisions at the point of care.",
+    "source_url": "https://www.businesswire.com/news/home/20220908005111/en/Universal-Health-Services-Selects-Holon-Solutions-to-Deliver-Critical-Patient-Insights-at-the-Point-of-Care",
+    "deadline": "Not Applicable",
+    "estimated_value": "Not Stated",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Jay Levine",
+      "sdr": "Riddhimaan Bhattacharyya",
+      "tier": "Strategics",
+      "state": "PA"
+    },
+    "recommended_action": "Review award for Universal Health Services. Deadline: Not Applicable. Coordinate response with Jay Levine.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304125924_0",
+    "created_at": "2026-03-04T12:59:24.085936",
+    "account_name": "Mount Sinai Health System",
+    "doc_type": "award",
+    "headline": "Single Source - Explorys Platform - C111226",
+    "summary": "This is a single source procurement notice for the Explorys Platform, which provides Mount Sinai with access to a large, de-identified electronic health record database. The data is used for longitudinal and standardized analysis to support population health and research initiatives.",
+    "source_url": "https://www.nyscr.ny.gov/ads/233075-single-source-explorys-platform-c111226",
+    "deadline": "2024-05-15",
+    "estimated_value": "$100,000 - $250,000",
+    "products_relevant": [
+      "Gravity",
+      "Atlas",
+      "Cured"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Joseph Thompson",
+      "sdr": "Radhika Arora",
+      "tier": "Strategics",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for Mount Sinai Health System. Deadline: 2024-05-15. Coordinate response with Joseph Thompson.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304131220_0",
+    "created_at": "2026-03-04T13:12:20.794625",
+    "account_name": "Kaiser Permanente",
+    "doc_type": "award",
+    "headline": "Kaiser Permanente Selects Microsoft Cloud and AI for Digital Health Platform Modernization",
+    "summary": "Kaiser Permanente announced a major cloud transformation initiative, partnering with Accenture and Microsoft. The goal is to migrate its digital health platform and data infrastructure to Microsoft Azure. This strategic move is intended to enhance data integration, leverage advanced analytics and AI, improve patient care access, and streamline operations. While this is a vendor selection announcement and not an active RFP, it signifies a massive overhaul of their enterprise data platform, clinical data repository, and population health capabilities, suggesting potential future opportunities for ancillary services and integrated solutions.",
+    "source_url": "https://news.microsoft.com/2020/08/27/kaiser-permanente-chooses-microsoft-cloud-and-ai-to-improve-health-care-access-and-quality-for-its-12-4-million-members/",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review award for Kaiser Permanente. Deadline: N/A. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304131220_1",
+    "created_at": "2026-03-04T13:12:20.794640",
+    "account_name": "Jefferson Health",
+    "doc_type": "award",
+    "headline": "Jefferson Health Selects Concert Health to Expand Access to Behavioral Health Services through Primary Care",
+    "summary": "This is a vendor selection announcement. Jefferson Health has chosen Concert Health to implement a Collaborative Care Model, integrating behavioral health services directly within its primary care settings. Concert Health will provide care managers and psychiatric consultants to help primary care physicians treat patients with anxiety and depression, effectively acting as a specialized care management and population health solution for behavioral health.",
+    "source_url": "https://www.businesswire.com/news/home/20231205166258/en/Jefferson-Health-Selects-Concert-Health-to-Expand-Access-to-Behavioral-Health-Services-through-Primary-Care",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.75,
+    "routing": {
+      "ae": "Jay Levine",
+      "sdr": "Riddhimaan Bhattacharyya",
+      "tier": "Strategics",
+      "state": "PA"
+    },
+    "recommended_action": "Review award for Jefferson Health. Deadline: TBD. Coordinate response with Jay Levine.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304133432_0",
+    "created_at": "2026-03-04T13:34:32.089591",
+    "account_name": "Commonspirit Health",
+    "doc_type": "award",
+    "headline": "CommonSpirit Health Selects Palantir to Build the Health System's First Enterprise Data and Analytics Platform",
+    "summary": "This is a vendor selection and partnership announcement, not an active RFP. CommonSpirit Health has selected Palantir Technologies Inc. to build its first enterprise-wide data and analytics platform. The multi-year partnership aims to integrate siloed clinical, operational, and financial data into a unified platform (Palantir Foundry). The goal is to improve patient care, operational efficiency, and build a foundation for advanced analytics and population health initiatives.",
+    "source_url": "https://www.palantir.com/newsroom/press-releases/commonspirit-health-selects-palantir-2023-05-09/",
+    "deadline": null,
+    "estimated_value": "Not disclosed in the announcement.",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 1.0,
+    "routing": {
+      "ae": "Jay Levine",
+      "sdr": "Riddhimaan Bhattacharyya",
+      "tier": "Strategics",
+      "state": "IL"
+    },
+    "recommended_action": "Review award for Commonspirit Health. Deadline: TBD. Coordinate response with Jay Levine.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304133432_1",
+    "created_at": "2026-03-04T13:34:32.089599",
+    "account_name": "Baylor Scott & White Health",
+    "doc_type": "award",
+    "headline": "Baylor Scott & White Health and Contigo Health to Launch New Health Plan for North Texas Employers",
+    "summary": "This is a partnership and vendor selection announcement. Baylor Scott & White Health has partnered with Contigo Health to create and launch a new health plan called 'Connected Care.' The initiative requires significant technology infrastructure to support a coordinated, high-touch member experience, directly implying the selection of platforms for care management, data integration, and population health management to support the new plan's operations.",
+    "source_url": "https://news.bswhealth.com/en-US/releases/baylor-scott--white-health-and-contigo-health-to-launch-new-health-plan-for-north-texas-employers",
+    "deadline": "N/A",
+    "estimated_value": "Not Mentioned",
+    "products_relevant": [
+      "Flow",
+      "Atlas",
+      "Comet",
+      "Gravity",
+      "Cured",
+      "Pharmacy Network"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "John Hickey",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "TX"
+    },
+    "recommended_action": "Review award for Baylor Scott & White Health. Deadline: N/A. Coordinate response with John Hickey.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304133432_2",
+    "created_at": "2026-03-04T13:34:32.089603",
+    "account_name": "Banner Health",
+    "doc_type": "RFI",
+    "headline": "Care Management Platform RFI",
+    "summary": "Banner Health issued a Request for Information (RFI) to identify and evaluate potential vendors for a comprehensive Care Management Platform. The objective was to find a solution to support value-based care initiatives, including care coordination, utilization management, and patient engagement. Key requirements included seamless integration with their Cerner EHR, robust data analytics, and capabilities for population health management.",
+    "source_url": "https://www.bidnetdirect.com/arizona/bannerhealth",
+    "deadline": "Closed Q3 2023",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Cured",
+      "Galaxy",
+      "Atlas",
+      "Gravity",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "AZ"
+    },
+    "recommended_action": "Review RFI for Banner Health. Deadline: Closed Q3 2023. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304134505_0",
+    "created_at": "2026-03-04T13:45:05.814087",
+    "account_name": "AdventHealth",
+    "doc_type": "award",
+    "headline": "AdventHealth Extends Oracle Health EHR and Adds Cloud ERP to Unify Operations",
+    "summary": "AdventHealth announced a major extension of its collaboration with Oracle Health, unifying its system by adding Oracle Health's EHR to 17 more of its hospitals. This move consolidates the health system onto a single, integrated platform for both clinical and financial data, impacting their core clinical data repository, data integration strategy, and enterprise resource planning.",
+    "source_url": "https://www.oracle.com/news/announcement/adventhealth-extends-oracle-health-ehr-and-adds-cloud-erp-2023-10-10/",
+    "deadline": "N/A",
+    "estimated_value": "Not publicly disclosed",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "John Hickey",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "FL"
+    },
+    "recommended_action": "Review award for AdventHealth. Deadline: N/A. Coordinate response with John Hickey.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304135707_0",
+    "created_at": "2026-03-04T13:57:07.873159",
+    "account_name": "Newyork-Presbyterian Healthcare System",
+    "doc_type": "award",
+    "headline": "NewYork-Presbyterian Selects Volpara Health for Enterprise Breast Density Assessment Software",
+    "summary": "NewYork-Presbyterian announced its selection and implementation of Volpara Health's AI-powered breast density assessment software across its enterprise. The technology is intended to standardize density assessments, improve breast cancer risk evaluation, and streamline patient and provider reporting.",
+    "source_url": "https://www.volparahealth.com/press/newyork-presbyterian-selects-volpara-health-for-enterprise-breast-density-assessment-software/",
+    "deadline": "N/A",
+    "estimated_value": "Not Disclosed",
+    "products_relevant": [
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi",
+      "Gravity"
+    ],
+    "fit_score": 0.65,
+    "routing": {
+      "ae": "Jay Levine",
+      "sdr": "Riddhimaan Bhattacharyya",
+      "tier": "Strategics",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for Newyork-Presbyterian Healthcare System. Deadline: N/A. Coordinate response with Jay Levine.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304135707_1",
+    "created_at": "2026-03-04T13:57:07.873381",
+    "account_name": "UNC Health",
+    "doc_type": "RFI",
+    "headline": "Enterprise Master Patient Index (EMPI) Solution",
+    "summary": "UNC Health issued a Request for Information (RFI) to gather information from vendors on available Enterprise Master Patient Index (EMPI) solutions. The goal is to support an enterprise-wide, single, and best patient record to improve patient safety, care quality, and operational efficiency by linking patient data across disparate systems. This is a foundational step for larger data platform and analytics initiatives.",
+    "source_url": "https://www.ips.state.nc.us/IPS/AGENCY/PDF/15579800.pdf",
+    "deadline": "2024-02-23",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Galaxy"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "John Hickey",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "NC"
+    },
+    "recommended_action": "Review RFI for UNC Health. Deadline: 2024-02-23. Coordinate response with John Hickey.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304135707_2",
+    "created_at": "2026-03-04T13:57:07.873390",
+    "account_name": "Presbyterian Healthcare Services",
+    "doc_type": "RFP",
+    "headline": "Data Integration Platform",
+    "summary": "Presbyterian Healthcare Services (PHS) issued a Request for Proposal for a comprehensive Data Integration Platform. The objective was to enhance and streamline data ingestion from disparate sources, including EHRs, claims data, and third-party systems, to support their enterprise data warehouse (EDW) and advanced analytics initiatives. Key requirements included real-time data streaming capabilities, robust data quality and governance features, and a scalable architecture to replace or augment existing ETL processes.",
+    "source_url": "https://www.bidnetdirect.com/new-mexico/presbyterianhealthcareservices",
+    "deadline": "2022-10-28",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Atlas"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "NM"
+    },
+    "recommended_action": "Review RFP for Presbyterian Healthcare Services. Deadline: 2022-10-28. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304141014_0",
+    "created_at": "2026-03-04T14:10:14.006221",
+    "account_name": "Sutter Health",
+    "doc_type": "award",
+    "headline": "Sutter Health to Deploy Abridge's Generative AI for Clinical Documentation System-Wide",
+    "summary": "This is a vendor selection and implementation announcement. Sutter Health has selected and will deploy Abridge's generative AI platform across its entire health system. The technology, which will be integrated into Sutter's Epic electronic health record (EHR), is designed to reduce administrative burden on clinicians by automatically drafting clinical notes from conversations with patients. This initiative falls under healthcare IT and involves clinical data processing and integration.",
+    "source_url": "https://www.prnewswire.com/news-releases/sutter-health-to-deploy-abridges-generative-ai-for-clinical-documentation-system-wide-302087528.html",
+    "deadline": null,
+    "estimated_value": "Not disclosed",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Comet",
+      "Humbi"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review award for Sutter Health. Deadline: TBD. Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304141014_1",
+    "created_at": "2026-03-04T14:10:14.006232",
+    "account_name": "Bon Secours Mercy Health",
+    "doc_type": "award",
+    "headline": "Bon Secours Mercy Health Selects the Innovaccer Health Cloud to Advance Its Population Health and Value-Based Care Strategy",
+    "summary": "This is a vendor selection and partnership announcement, not an active solicitation. Bon Secours Mercy Health (BSMH) chose Innovaccer's Health Cloud platform to unify patient data from multiple EHRs and other IT systems into a single, unified patient record. The platform will be used to generate insights and automate workflows for their population health management and value-based care programs, covering over 1 million patients.",
+    "source_url": "https://www.prnewswire.com/news-releases/bon-secours-mercy-health-selects-the-innovaccer-health-cloud-to-advance-its-population-health-and-value-based-care-strategy-301444061.html",
+    "deadline": "Not Applicable",
+    "estimated_value": "Not Disclosed",
+    "products_relevant": [
+      "Atlas",
+      "Galaxy",
+      "Cured",
+      "Gravity",
+      "Comet"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Joseph Thompson",
+      "sdr": "Radhika Arora",
+      "tier": "Strategics",
+      "state": "OH"
+    },
+    "recommended_action": "Review award for Bon Secours Mercy Health. Deadline: Not Applicable. Coordinate response with Joseph Thompson.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304141014_2",
+    "created_at": "2026-03-04T14:10:14.006236",
+    "account_name": "Memorial Hermann Health System",
+    "doc_type": "award",
+    "headline": "Memorial Hermann Extends Relationship with Oracle Health for Electronic Health Record (EHR) System",
+    "summary": "Memorial Hermann Health System announced a 10-year extension of its agreement with Oracle Health for its electronic health record (EHR) system. This represents a significant contract renewal for a core clinical data platform. The initiative focuses on enhancing clinical efficiency, improving the patient and provider experience, and leveraging cloud capabilities to support integrated data and analytics for care management and population health.",
+    "source_url": "https://www.oracle.com/news/announcement/memorial-hermann-extends-relationship-with-oracle-health-2023-07-26/",
+    "deadline": null,
+    "estimated_value": "Not disclosed",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Humbi",
+      "Pharmacy Network"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Hickey",
+      "sdr": "Ravina Singh",
+      "tier": "Strategics",
+      "state": "TX"
+    },
+    "recommended_action": "Review award for Memorial Hermann Health System. Deadline: TBD. Coordinate response with John Hickey.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304141014_3",
+    "created_at": "2026-03-04T14:10:14.006240",
+    "account_name": "Corewell Health",
+    "doc_type": "award",
+    "headline": "Selection of Epic Payer Platform for Payer-Provider Collaboration",
+    "summary": "Corewell Health has selected Epic's Payer Platform to create a more integrated data system between its provider operations and its health plan, Priority Health. The initiative aims to streamline prior authorizations, improve care coordination, and support population health management by sharing data more efficiently between the payer and provider.",
+    "source_url": "https://www.beckershospitalreview.com/ehrs/corewell-health-selects-epic-payer-platform.html",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Flow",
+      "Atlas",
+      "Galaxy",
+      "Cured",
+      "Gravity"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Joseph Thompson",
+      "sdr": "Radhika Arora",
+      "tier": "Strategics",
+      "state": "MI"
+    },
+    "recommended_action": "Review award for Corewell Health. Deadline: N/A. Coordinate response with Joseph Thompson.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304142117_0",
+    "created_at": "2026-03-04T14:21:17.106955",
+    "account_name": "Louisiana Primary Care Association",
+    "doc_type": "RFP",
+    "headline": "Request for Proposals (RFP): LPCA Care Management and Population Health Management Platform",
+    "summary": "LPCA is seeking proposals from qualified vendors to provide a comprehensive Care Management (CM) and Population Health Management (PHM) platform. This platform will serve LPCA\u2019s member Federally Qualified Health Centers (FQHCs) to enhance patient care coordination, manage chronic diseases, improve health outcomes, and support value-based care initiatives. The desired solution should integrate with various Electronic Health Record (EHR) systems, provide robust data analytics and reporting capabilities, and offer tools for care planning, patient engagement, and risk stratification.",
+    "source_url": "https://www.lpca.net/files/LPCA%20CM%20and%20PHM%20Platform%20RFP_FINAL.pdf",
+    "deadline": "April 12, 2024",
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Cured",
+      "Galaxy",
+      "Humbi",
+      "Gravity",
+      "Flow",
+      "Atlas"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Hickey",
+      "sdr": "Utkarsh Sriram",
+      "tier": "Strategics",
+      "state": "LA"
+    },
+    "recommended_action": "Review RFP for Louisiana Primary Care Association. Deadline: April 12, 2024. Coordinate response with John Hickey.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304142117_1",
+    "created_at": "2026-03-04T14:21:17.106963",
+    "account_name": "Health Care LA IPA",
+    "doc_type": "intent_to_award",
+    "headline": "Notice of Intent to Award - Care Management Platform (RFP HCLA 22-01)",
+    "summary": "This is a notice of intent to award a contract to ZeOmega, Inc. for the provision of a Care Management Platform. The procurement originated from RFP HCLA 22-01, which sought a comprehensive platform to support HCLA's care management programs for its members.",
+    "source_url": "https://hcla.org/wp-content/uploads/2022/11/Notice-of-Intent-to-Award-Care-Management-Platform-Final-11-21-2022-rev.pdf",
+    "deadline": "N/A (Awarded)",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Comet",
+      "Atlas",
+      "Gravity",
+      "Flow"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Baz Patel",
+      "sdr": "Runit Abraham",
+      "tier": "Strategics",
+      "state": "CA"
+    },
+    "recommended_action": "Review intent_to_award for Health Care LA IPA. Deadline: N/A (Awarded). Coordinate response with Baz Patel.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304143059_0",
+    "created_at": "2026-03-04T14:30:59.008234",
+    "account_name": "Horizon Blue Cross Blue Shield Of New Jersey",
+    "doc_type": "award",
+    "headline": "Horizon Blue Cross Blue Shield of New Jersey Selects Abacus Insights to Power New Data Platform",
+    "summary": "Horizon BCBSNJ announced its selection of Abacus Insights to build and manage a new, unified enterprise data platform. The platform is designed to ingest and consolidate data from multiple sources\u2014including claims, clinical, and administrative systems\u2014to create a single source of truth. This initiative aims to enhance analytics capabilities, improve member health outcomes, and support population health and care management programs.",
+    "source_url": "https://www.businesswire.com/news/home/20220622005086/en/Horizon-Blue-Cross-Blue-Shield-of-New-Jersey-Selects-Abacus-Insights-to-Power-New-Data-Platform",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Galaxy",
+      "Atlas"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Lisa Lehtinen",
+      "sdr": "Vignesh P",
+      "tier": "Top",
+      "state": "NJ"
+    },
+    "recommended_action": "Review award for Horizon Blue Cross Blue Shield Of New Jersey. Deadline: N/A. Coordinate response with Lisa Lehtinen.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304143059_1",
+    "created_at": "2026-03-04T14:30:59.008250",
+    "account_name": "VillageCareMAX",
+    "doc_type": "RFP",
+    "headline": "Request for Proposal (RFP) For D-SNP Care Management Platform",
+    "summary": "VillageCareMAX is seeking proposals from qualified vendors for a comprehensive Care Management Platform to support its Dual Eligible Special Needs Plan (D-SNP) line of business. The platform must include functionalities for care planning, assessments, service authorizations, care coordination, and robust data integration capabilities with existing systems.",
+    "source_url": "https://www.villagecare.org/wp-content/uploads/2023/10/VillageCareMAX-D-SNP-Care-Management-RFP_Final.pdf",
+    "deadline": "2023-12-08",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Cured",
+      "Atlas",
+      "Flow",
+      "Comet"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "NY"
+    },
+    "recommended_action": "Review RFP for VillageCareMAX. Deadline: 2023-12-08. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304144153_0",
+    "created_at": "2026-03-04T14:41:53.619717",
+    "account_name": "The Health Plan",
+    "doc_type": "award",
+    "headline": "The Health Plan Partners With ZeOmega to Improve Member Health Outcomes",
+    "summary": "The Health Plan (THP) announced it has selected and implemented the Jiva platform from ZeOmega to serve as its new care management platform. The platform is intended to streamline care management, utilization management, and population health management to improve member health outcomes. While this is an award notice from late 2021, it provides key intelligence on the incumbent vendor and platform, suggesting a potential contract renewal or rebid opportunity in the coming years.",
+    "source_url": "https://www.businesswire.com/news/home/20211116005295/en/The-Health-Plan-Partners-With-ZeOmega-to-Improve-Member-Health-Outcomes",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Flow",
+      "Atlas",
+      "Gravity",
+      "Comet",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "WV"
+    },
+    "recommended_action": "Review award for The Health Plan. Deadline: TBD. Coordinate response with John Specht.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304144153_1",
+    "created_at": "2026-03-04T14:41:53.619734",
+    "account_name": "Mutual of Omaha Insurance Company",
+    "doc_type": "award",
+    "headline": "Award Notice: Digital Transformation and Mainframe Modernization Services",
+    "summary": "Mutual of Omaha has selected NTT DATA for a multi-year engagement to accelerate its digital transformation. The project involves modernizing the company's mainframe application portfolio and transitioning to a modern, cloud-based platform on AWS to improve speed-to-market and enable new digital capabilities.",
+    "source_url": "https://us.nttdata.com/en/news/press-release/2023/march/ntt-data-selected-by-mutual-of-omaha",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Flow",
+      "Galaxy",
+      "Atlas",
+      "Comet"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "tier": "Top",
+      "state": "NE"
+    },
+    "recommended_action": "Review award for Mutual of Omaha Insurance Company. Deadline: N/A. Coordinate response with Hannah Schuyler.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304144153_2",
+    "created_at": "2026-03-04T14:41:53.619740",
+    "account_name": "Hennepin Health",
+    "doc_type": "award",
+    "headline": "Contract with ZeOmega, Inc. for a Care Management Platform",
+    "summary": "This is an award notice from the Hennepin County Board of Commissioners to approve a contract with ZeOmega, Inc. to provide a Software as a Service (SaaS) Care Management Platform for Hennepin Health. The solution is intended to support key functional areas including Utilization Management, Case Management, and Disease Management. The original RFP (H6321-HH) was issued in April 2023.",
+    "source_url": "https://hennepin.legistar.com/LegislationDetail.aspx?ID=6365859&GUID=7EC48737-CD23-44AE-9F93-018512C72382",
+    "deadline": null,
+    "estimated_value": "$8,200,000",
+    "products_relevant": [
+      "Comet",
+      "Atlas"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "MN"
+    },
+    "recommended_action": "Review award for Hennepin Health. Deadline: TBD. Coordinate response with David Kaskoun.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304145113_0",
+    "created_at": "2026-03-04T14:51:13.755573",
+    "account_name": "Group Health Cooperative of South Central Wisconsin",
+    "doc_type": "RFP",
+    "headline": "Request for Proposal for Enterprise Data Warehouse and Population Health Management Platform",
+    "summary": "A 2017 request for proposals seeking a vendor to provide and implement an integrated Enterprise Data Warehouse (EDW) and Population Health Management (PHM) platform. The goal was to replace their existing data warehouse and add capabilities for advanced analytics, risk stratification, care management, and quality reporting to support value-based care initiatives. The subsequent contract was awarded to Epic Systems for its Cogito and Healthy Planet modules.",
+    "source_url": "https://www.ghcscw.com/SiteCollectionDocuments/AboutUs/EDW-PHM-RFP.pdf",
+    "deadline": "April 28, 2017",
+    "estimated_value": "Not specified in document",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "WI"
+    },
+    "recommended_action": "Review RFP for Group Health Cooperative of South Central Wisconsin. Deadline: April 28, 2017. Coordinate response with David Kaskoun.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304145113_1",
+    "created_at": "2026-03-04T14:51:13.755589",
+    "account_name": "Emblemhealth",
+    "doc_type": "award",
+    "headline": "EmblemHealth and Cityblock Expand Partnership To Bring Integrated Care To Medicaid Members",
+    "summary": "EmblemHealth announced an expanded partnership with Cityblock Health to provide comprehensive, integrated, community-based care for its Medicaid members. This collaboration focuses on a value-based care model, addressing both clinical needs and social drivers of health, which is directly related to care management and population health management platforms and services.",
+    "source_url": "https://www.emblemhealth.com/about/press/emblemhealth-and-cityblock-expand-partnership",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Cured",
+      "Galaxy",
+      "Atlas",
+      "Gravity",
+      "Comet",
+      "Flow"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for Emblemhealth. Deadline: N/A. Coordinate response with John Specht.",
+    "status": "new"
+  }
+]

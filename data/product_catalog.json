@@ -1,0 +1,227 @@
+{
+  "products": [
+    {
+      "id": "gravity",
+      "name": "Gravity",
+      "description": "Unified data platform for healthcare — ingests, unifies, and activates clinical + claims + operational data at scale.",
+      "icp": {
+        "segments": ["provider", "payer", "digital_health"],
+        "min_size": {"beds": 200, "lives": 50000},
+        "maturity": "Organizations with fragmented data across multiple EHRs, claims systems, or operational silos seeking a single data fabric."
+      },
+      "buying_triggers": [
+        "EHR migration or consolidation (Epic/Cerner)",
+        "Post-M&A data integration mandate",
+        "EDW sunset or modernization initiative",
+        "VBC contract expansion requiring unified analytics",
+        "TEFCA / interoperability compliance deadlines",
+        "Data lake / data warehouse consolidation"
+      ],
+      "rfp_keywords": [
+        "enterprise data warehouse", "data integration platform", "clinical data repository",
+        "healthcare data fabric", "unified data platform", "interoperability", "FHIR",
+        "data lake modernization", "EDW replacement", "population health data",
+        "healthcare analytics platform", "claims and clinical integration",
+        "data unification", "master patient index", "EMPI"
+      ],
+      "competitors": ["Health Catalyst", "Arcadia", "Snowflake Health", "Databricks Healthcare", "Medidata", "Clarify Health"],
+      "deal_size_band": "$500K – $5M ARR",
+      "typical_sales_cycle": "6–12 months"
+    },
+    {
+      "id": "comet",
+      "name": "Comet",
+      "description": "AI-powered care management platform — identifies at-risk patients, manages care plans, and tracks outcomes.",
+      "icp": {
+        "segments": ["provider", "payer"],
+        "min_size": {"beds": 150, "lives": 30000},
+        "maturity": "Organizations in value-based contracts needing to identify and manage high-risk populations."
+      },
+      "buying_triggers": [
+        "New value-based care contract (ACO, MSSP, Direct Contracting)",
+        "CMS quality program requirements (Stars, HEDIS)",
+        "Rising cost of care / PMPM pressure",
+        "Legacy care management tool sunset",
+        "Population health strategy launch",
+        "Readmission reduction initiative"
+      ],
+      "rfp_keywords": [
+        "care management platform", "population health management", "value-based care",
+        "risk stratification", "care coordination", "patient engagement",
+        "chronic disease management", "high-risk patient identification",
+        "care plan management", "transitional care", "readmission prevention",
+        "HEDIS measures", "quality improvement", "gaps in care"
+      ],
+      "competitors": ["Lightbeam Health", "Enli (now Netsmart)", "Cerner HealtheIntent", "Optum Care Management", "HealthEC"],
+      "deal_size_band": "$300K – $2M ARR",
+      "typical_sales_cycle": "4–9 months"
+    },
+    {
+      "id": "flow",
+      "name": "Flow",
+      "description": "Referral management and network optimization — streamlines patient referrals, tracks leakage, and optimizes network performance.",
+      "icp": {
+        "segments": ["provider"],
+        "min_size": {"beds": 100, "lives": 20000},
+        "maturity": "Health systems experiencing network leakage or needing to optimize referral patterns within owned/affiliated networks."
+      },
+      "buying_triggers": [
+        "Network leakage exceeding threshold",
+        "Post-acquisition network integration",
+        "Physician alignment / retention initiatives",
+        "Ambulatory expansion strategy",
+        "Payer contract requiring in-network referral rates",
+        "Patient access / scheduling modernization"
+      ],
+      "rfp_keywords": [
+        "referral management", "network leakage", "patient leakage",
+        "referral optimization", "provider network management", "patient access",
+        "scheduling optimization", "physician alignment", "network integrity",
+        "referral tracking", "closed-loop referrals", "network performance"
+      ],
+      "competitors": ["Kyruus", "Luma Health", "Blockit", "ReferralMD", "Firely"],
+      "deal_size_band": "$200K – $1.5M ARR",
+      "typical_sales_cycle": "3–6 months"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "description": "Payer-provider collaboration platform — facilitates data sharing, quality reporting, and contract performance across payer-provider boundaries.",
+      "icp": {
+        "segments": ["payer", "provider"],
+        "min_size": {"lives": 50000},
+        "maturity": "Payers or providers in value-based arrangements needing transparent data exchange and performance tracking."
+      },
+      "buying_triggers": [
+        "New payer-provider VBC arrangement",
+        "CMS ACO REACH / MSSP participation",
+        "Quality measure reporting requirements",
+        "Contract reconciliation disputes",
+        "Multi-payer alignment strategy",
+        "Delegated credentialing"
+      ],
+      "rfp_keywords": [
+        "payer-provider collaboration", "value-based contract management",
+        "quality reporting platform", "contract performance", "shared savings",
+        "risk adjustment", "HEDIS reporting", "Stars improvement",
+        "payer data exchange", "attribution management", "VBC analytics"
+      ],
+      "competitors": ["Apixio", "Vatica Health", "Reveleer", "Inovalon", "Advantmed"],
+      "deal_size_band": "$400K – $3M ARR",
+      "typical_sales_cycle": "6–12 months"
+    },
+    {
+      "id": "cured",
+      "name": "Cured",
+      "description": "Healthcare CRM and digital marketing platform — drives patient acquisition, engagement, and retention through intelligent campaigns.",
+      "icp": {
+        "segments": ["provider"],
+        "min_size": {"beds": 100},
+        "maturity": "Health systems investing in consumer/patient experience and digital front door strategies."
+      },
+      "buying_triggers": [
+        "Consumer/patient experience transformation",
+        "Digital front door initiative",
+        "Marketing ROI accountability mandate",
+        "Patient acquisition growth targets",
+        "Chief Consumer Officer / Chief Experience Officer hire",
+        "Legacy CRM replacement (Salesforce Health Cloud alternative)"
+      ],
+      "rfp_keywords": [
+        "healthcare CRM", "patient acquisition", "digital marketing healthcare",
+        "patient engagement platform", "digital front door", "consumer experience",
+        "healthcare marketing automation", "patient retention", "journey orchestration",
+        "personalized patient communications", "campaign management healthcare"
+      ],
+      "competitors": ["Salesforce Health Cloud", "Stericycle (PatientPoint)", "Relatient", "Well Health", "Loyal"],
+      "deal_size_band": "$200K – $1.5M ARR",
+      "typical_sales_cycle": "3–6 months"
+    },
+    {
+      "id": "galaxy",
+      "name": "Galaxy",
+      "description": "Healthcare-specific GenAI and analytics suite — enables natural language querying, automated reporting, and AI-powered insights across clinical and operational data.",
+      "icp": {
+        "segments": ["provider", "payer", "digital_health"],
+        "min_size": {"beds": 200, "lives": 50000},
+        "maturity": "Organizations with established data infrastructure looking to layer AI/ML for advanced analytics and decision support."
+      },
+      "buying_triggers": [
+        "AI strategy announcement or committee formation",
+        "CDO / Chief Analytics Officer hire",
+        "Manual reporting burden / analyst bottleneck",
+        "Board mandate for AI adoption",
+        "Competitive pressure from AI-forward peers",
+        "CMS / regulatory push for predictive analytics"
+      ],
+      "rfp_keywords": [
+        "healthcare AI", "generative AI healthcare", "clinical decision support",
+        "predictive analytics", "natural language query", "automated reporting",
+        "AI-powered insights", "healthcare machine learning", "clinical AI",
+        "operational analytics", "AI governance healthcare", "responsible AI"
+      ],
+      "competitors": ["Google Health AI", "Microsoft Nuance DAX", "Epic Cognitive Computing", "Aidoc", "Viz.ai"],
+      "deal_size_band": "$300K – $2M ARR",
+      "typical_sales_cycle": "4–9 months"
+    },
+    {
+      "id": "humbi",
+      "name": "Humbi",
+      "description": "Social determinants of health (SDoH) platform — screens, identifies, and connects patients with community resources to address non-clinical needs.",
+      "icp": {
+        "segments": ["provider", "payer"],
+        "min_size": {"beds": 50, "lives": 20000},
+        "maturity": "Organizations with health equity mandates, Medicaid populations, or community health investment requirements."
+      },
+      "buying_triggers": [
+        "Health equity program launch",
+        "Medicaid redetermination / enrollment shifts",
+        "Community benefit reporting requirements (IRS 990)",
+        "CMS health equity quality measures",
+        "NCQA health equity accreditation",
+        "State-level SDoH screening mandates"
+      ],
+      "rfp_keywords": [
+        "social determinants of health", "SDoH screening", "community resource referral",
+        "health equity platform", "social needs assessment", "community health",
+        "NCQA health equity", "Z-codes documentation", "community benefit",
+        "Medicaid population health", "food insecurity", "housing instability"
+      ],
+      "competitors": ["Unite Us", "Aunt Bertha (findhelp)", "NowPow (Unite Us)", "Pieces Tech", "Socially Determined"],
+      "deal_size_band": "$100K – $800K ARR",
+      "typical_sales_cycle": "3–6 months"
+    },
+    {
+      "id": "pharmacy_network",
+      "name": "Pharmacy Network",
+      "description": "Specialty pharmacy operations platform — optimizes pharmacy workflows, network management, and clinical-financial integration for health system pharmacies.",
+      "icp": {
+        "segments": ["provider", "pharmacy_network"],
+        "min_size": {"beds": 200},
+        "maturity": "Health systems operating specialty pharmacies or building pharmacy networks, often post-340B optimization."
+      },
+      "buying_triggers": [
+        "Specialty pharmacy launch or expansion",
+        "340B program optimization",
+        "Pharmacy network acquisition / integration",
+        "PBM contract renegotiation",
+        "Pharmacy revenue cycle transformation",
+        "Limited distribution drug program launch"
+      ],
+      "rfp_keywords": [
+        "specialty pharmacy platform", "pharmacy network management", "340B optimization",
+        "pharmacy operations", "clinical pharmacy services", "pharmacy benefit",
+        "medication management", "pharmacy workflow", "PBM analytics",
+        "pharmacy revenue cycle", "specialty drug management"
+      ],
+      "competitors": ["Omnicell", "ScriptPro", "QS/1", "PharMerica", "RxBenefits"],
+      "deal_size_band": "$200K – $2M ARR",
+      "typical_sales_cycle": "4–8 months"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-03-04",
+    "total_products": 8
+  }
+}
