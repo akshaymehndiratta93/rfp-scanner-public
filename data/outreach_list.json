@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T22:55:56.036177",
+  "generated_at": "2026-03-04T23:08:50.695023",
   "week_of": "2026-W10",
-  "total_actionable": 20,
+  "total_actionable": 21,
   "outreach_list": [
     {
       "rank": 1,
@@ -329,6 +329,24 @@
     },
     {
       "rank": 19,
+      "account_name": "Cambia Health Solutions",
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "OR",
+      "rfp_prob_90d": 0.15,
+      "rfp_prob_180d": 0.25,
+      "top_product": "Gravity",
+      "initiative_theme": "Post-Affiliation Technology & Data Consolidation",
+      "why_now": "The strategic affiliation with Arkansas BCBS creates a critical inflection point. Integrating two massive health plans will stress their homegrown 'Journi' platform, necessitating an enterprise-grade data unification solution.",
+      "target_persona": "CIO (Laurent Rotival), VP Data & Analytics, VP Enterprise Architecture",
+      "suggested_action": "Post-Merger Data Strategy & Integration Assessment",
+      "suggested_asset": "Case Study: Large Health Plan M&A Data Integration",
+      "priority_tier": "high",
+      "signals_count": 4
+    },
+    {
+      "rank": 20,
       "account_name": "Horizon Blue Cross Blue Shield Of New Jersey",
       "tier": "Top",
       "ae": "Lisa Lehtinen",
@@ -346,7 +364,7 @@
       "signals_count": 2
     },
     {
-      "rank": 20,
+      "rank": 21,
       "account_name": "South Country Health Alliance",
       "tier": "Top",
       "ae": "David Kaskoun",

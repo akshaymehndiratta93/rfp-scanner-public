@@ -1957,5 +1957,29 @@
     },
     "recommended_action": "Review award for Premera Blue Cross. Deadline: N/A. Coordinate response with Michael Rime.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304230850_0",
+    "created_at": "2026-03-04T23:08:50.723158",
+    "account_name": "Caresource",
+    "doc_type": "award",
+    "headline": "CareSource Selects HealthEdge\u2019s GuidingCare\u00ae Care Management Platform",
+    "summary": "This is a vendor selection and implementation announcement. Caresource selected and deployed the GuidingCare platform from HealthEdge to serve as its enterprise-wide care management system. The platform is intended to streamline utilization management, care management, and population health activities for approximately 2 million members across multiple states, replacing a legacy system.",
+    "source_url": "https://www.healthedge.com/resource/caresource-selects-healthedges-guidingcare-care-management-platform/",
+    "deadline": null,
+    "estimated_value": "Not Stated",
+    "products_relevant": [
+      "Galaxy",
+      "Cured"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "OH"
+    },
+    "recommended_action": "Review award for Caresource. Deadline: TBD. Coordinate response with David Kaskoun.",
+    "status": "new"
   }
 ]

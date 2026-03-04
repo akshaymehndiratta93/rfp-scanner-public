@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T22:55:56.016623",
-  "total_accounts": 73,
-  "last_batch_scored": 3,
-  "last_batch_no_signals": 2,
+  "generated_at": "2026-03-04T23:08:50.675176",
+  "total_accounts": 74,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -1375,6 +1375,85 @@
       "ae": "Will Pettinger",
       "sdr": "Alishah Rehman",
       "state": "FL",
+      "signals_count": 4
+    },
+    {
+      "account_name": "Cambia Health Solutions",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.4
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are stale (over 4 months old), making near-term intent difficult to verify.",
+        "The existence of their homegrown 'Journi' platform introduces a 'build vs. buy' risk."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 100,
+          "rationale": "Massive M&A activity creates an urgent, foundational need for a unified data platform."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 90,
+          "rationale": "Affiliation between two large health plans requires a robust payer-provider collaboration and data sharing solution."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Managing care for a newly combined, larger member population necessitates an AI-powered care management platform."
+        }
+      ],
+      "initiative_theme": "Post-Affiliation Technology & Data Consolidation",
+      "top_evidence": [
+        {
+          "signal": "Cambia Health Solutions to Form Strategic Affiliation with Arkansas Blue Cross and Blue Shield",
+          "source": "Google News Trigger Scan",
+          "date": "2025-11-06",
+          "relevance": "This M&A is the single largest catalyst, forcing a complete data and technology stack re-evaluation."
+        },
+        {
+          "signal": "Cambia Appoints Laurent Rotival as New Chief Information Officer",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-27",
+          "relevance": "A new CIO will lead the technology integration strategy and is the key decision-maker for this initiative."
+        },
+        {
+          "signal": "Launch of 'Journi' Platform Shows Strategic Focus on Data-Driven, Personalized Care",
+          "source": "Google News Trigger Scan",
+          "date": "2020-08-13",
+          "relevance": "Confirms their strategic belief in data, but their homegrown platform is unlikely to scale for the M&A."
+        },
+        {
+          "signal": "New Leadership Appointments Signal Potential for Tech Stack Re-evaluation",
+          "source": "Google News Trigger Scan",
+          "date": "2023-06-27",
+          "relevance": "Older signal indicating a history of leadership changes that prime the organization for strategic shifts."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Homegrown ('Journi' platform)"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "The strategic affiliation with Arkansas BCBS creates a critical inflection point. Integrating two massive health plans will stress their homegrown 'Journi' platform, necessitating an enterprise-grade data unification solution.",
+        "target_persona": "CIO (Laurent Rotival), VP Data & Analytics, VP Enterprise Architecture",
+        "suggested_action": "Post-Merger Data Strategy & Integration Assessment",
+        "suggested_asset": "Case Study: Large Health Plan M&A Data Integration",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "OR",
       "signals_count": 4
     },
     {
