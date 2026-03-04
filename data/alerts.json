@@ -885,5 +885,85 @@
     },
     "recommended_action": "Review RFP for South Country Health Alliance. Deadline: 2023-08-11T16:00:00Z. Coordinate response with David Kaskoun.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304151509_0",
+    "created_at": "2026-03-04T15:15:09.618112",
+    "account_name": "Physicians Health Plan Of Northern Indiana",
+    "doc_type": "award",
+    "headline": "Physicians Health Plan of Northern Indiana (PHPNI) Selects ZeOmega\u2019s Jiva Platform for Integrated Care Management",
+    "summary": "This is a vendor selection and contract award announcement from October 2021. PHPNI selected ZeOmega's Jiva platform to serve as its new care management solution. The platform is intended to help PHPNI streamline and automate core processes, including population health management, utilization management, appeals and grievances, and care transitions. While this RFP process is complete, the contract's age may indicate a future rebid or renewal opportunity.",
+    "source_url": "https://www.zeomega.com/news/physicians-health-plan-of-northern-indiana-phpni-selects-zeomegas-jiva-platform-for-integrated-care-management/",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Atlas",
+      "Galaxy",
+      "Comet"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "IN"
+    },
+    "recommended_action": "Review award for Physicians Health Plan Of Northern Indiana. Deadline: N/A. Coordinate response with David Kaskoun.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304151509_1",
+    "created_at": "2026-03-04T15:15:09.618140",
+    "account_name": "Novartis",
+    "doc_type": "award",
+    "headline": "Novartis Adopts Medidata Rave Omics to Accelerate Groundbreaking Research and Development of Next Generation Therapeutics",
+    "summary": "This is a vendor selection announcement. Novartis has selected and is standardizing on Medidata's Rave Omics platform for the ingestion, aggregation, and analysis of high-throughput omics data alongside traditional clinical trial patient data. The platform serves as a centralized clinical data repository to support drug discovery and development.",
+    "source_url": "https://www.medidata.com/en/about-us/news-and-press/novartis-adopts-medidata-rave-omics-to-accelerate-groundbreaking-research-and-development-of-next-generation-therapeutics/",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "tier": "Top",
+      "state": "NJ"
+    },
+    "recommended_action": "Review award for Novartis. Deadline: N/A. Coordinate response with Shyam Dattani.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304151509_2",
+    "created_at": "2026-03-04T15:15:09.618149",
+    "account_name": "Neighborhood Health Plan Of Rhode Island",
+    "doc_type": "award",
+    "headline": "Neighborhood Health Plan of Rhode Island Selects Bamboo Health for Real-Time Care Coordination",
+    "summary": "This is a vendor selection announcement. Neighborhood Health Plan of Rhode Island (NHPRI) has implemented Bamboo Health's Pings solution, a real-time care coordination platform. The solution provides Admission, Discharge, and Transfer (ADT) data notifications to NHPRI's care managers to enable timely patient support, improve care transitions, and reduce hospital readmissions. This initiative falls under care management and population health management.",
+    "source_url": "https://www.businesswire.com/news/home/20230718491565/en/Neighborhood-Health-Plan-of-Rhode-Island-Selects-Bamboo-Health-for-Real-Time-Care-Coordination",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Cured",
+      "Galaxy"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "tier": "Top",
+      "state": "RI"
+    },
+    "recommended_action": "Review award for Neighborhood Health Plan Of Rhode Island. Deadline: N/A. Coordinate response with Alexander J. Keltner.",
+    "status": "new"
   }
 ]
