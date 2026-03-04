@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T14:51:13.733812",
-  "total_accounts": 20,
+  "generated_at": "2026-03-04T15:04:08.771707",
+  "total_accounts": 21,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -1341,6 +1341,86 @@
       "sdr": "Vignesh P",
       "state": "NJ",
       "signals_count": 2
+    },
+    {
+      "account_name": "South Country Health Alliance",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.25,
+        "365_days": 0.6
+      },
+      "confidence": "high",
+      "uncertainty_drivers": [
+        "Contract length and satisfaction with recently implemented ZeOmega (Care Management) and Itiliti Health (Prior Auth) platforms.",
+        "Capital budget constraints following multiple recent technology investments."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-07-31"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Essential to unify data from new point solutions (ZeOmega, Itiliti) driven by Medicaid contract requirements."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 90,
+          "rationale": "Directly supports payer-provider collaboration and quality reporting mandated by the new state Medicaid contract."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 80,
+          "rationale": "Addresses the inevitable analytics bottleneck created by new data sources and complex reporting needs."
+        }
+      ],
+      "initiative_theme": "Medicaid Contract Optimization through Data Unification",
+      "top_evidence": [
+        {
+          "signal": "SCHA Invests in Prior Auth Tech, Signals Broader Digital Transformation Initiative",
+          "source": "Google News Trigger Scan",
+          "date": "2026-02-27",
+          "relevance": "Most recent signal (Feb 2026) confirms active investment and a point-solution strategy, creating a data platform need."
+        },
+        {
+          "signal": "Itiliti Health Wins Prior Authorization Deal at South Country Health Alliance",
+          "source": "Google News Trigger Scan",
+          "date": "2026-02-27",
+          "relevance": "Names a new niche competitor and validates the emerging data fragmentation challenge."
+        },
+        {
+          "signal": "South Country Health Alliance Secures Major State Medicaid Contract for 2025",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-29",
+          "relevance": "The core business driver for all recent and future technology needs, creating urgency around data and reporting."
+        },
+        {
+          "signal": "Request for Proposal (RFP) for Care Management Platform",
+          "source": "Procurement Search (RFP)",
+          "date": "2023-08-11",
+          "relevance": "Critical historical context; shows they recently selected ZeOmega, making a Comet RFP highly unlikely."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "ZeOmega",
+          "Itiliti Health"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "They just added another point solution (Itiliti) to their new stack (ZeOmega). It's the perfect time to address the strategic risk of data silos before it hampers their Medicaid contract performance.",
+        "target_persona": "CIO / Chief Data Officer / VP of Health Plan Operations",
+        "suggested_action": "Data Strategy & Modernization Workshop",
+        "suggested_asset": "Whitepaper: 'The Hidden Costs of Point Solutions in Payer Operations'",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "state": "MN",
+      "signals_count": 4
     },
     {
       "account_name": "Intermountain Health",

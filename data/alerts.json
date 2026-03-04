@@ -858,5 +858,32 @@
     },
     "recommended_action": "Review award for Emblemhealth. Deadline: N/A. Coordinate response with John Specht.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304150408_0",
+    "created_at": "2026-03-04T15:04:08.937433",
+    "account_name": "South Country Health Alliance",
+    "doc_type": "RFP",
+    "headline": "Request for Proposal (RFP) for Care Management Platform",
+    "summary": "South Country Health Alliance (SCHA) issued an RFP seeking a comprehensive Care Management Platform to support its care coordination and case management activities. Key requirements included member stratification, assessments, care plan development, task management, reporting, and robust integration capabilities with existing systems. A subsequent award to vendor ZeOmega was approved during the SCHA Board of Directors meeting on December 20, 2023.",
+    "source_url": "https://mnscha.org/wp-content/uploads/2023/07/SCHA-Care-Management-Platform-RFP-07.12.2023-Final.pdf",
+    "deadline": "2023-08-11T16:00:00Z",
+    "estimated_value": "Not mentioned in document",
+    "products_relevant": [
+      "Comet",
+      "Flow",
+      "Atlas",
+      "Gravity",
+      "Galaxy"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "tier": "Top",
+      "state": "MN"
+    },
+    "recommended_action": "Review RFP for South Country Health Alliance. Deadline: 2023-08-11T16:00:00Z. Coordinate response with David Kaskoun.",
+    "status": "new"
   }
 ]

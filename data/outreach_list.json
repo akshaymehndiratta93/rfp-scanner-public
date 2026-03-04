@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-04T14:51:13.740997",
+  "generated_at": "2026-03-04T15:04:08.782747",
   "week_of": "2026-W10",
-  "total_actionable": 17,
+  "total_actionable": 18,
   "outreach_list": [
     {
       "rank": 1,
@@ -308,6 +308,24 @@
       "suggested_asset": "Case Study: How [Peer Payer] Reduced Vendor Sprawl and Improved Member Outcomes",
       "priority_tier": "high",
       "signals_count": 2
+    },
+    {
+      "rank": 18,
+      "account_name": "South Country Health Alliance",
+      "tier": "Top",
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "state": "MN",
+      "rfp_prob_90d": 0.1,
+      "rfp_prob_180d": 0.25,
+      "top_product": "Gravity",
+      "initiative_theme": "Medicaid Contract Optimization through Data Unification",
+      "why_now": "They just added another point solution (Itiliti) to their new stack (ZeOmega). It's the perfect time to address the strategic risk of data silos before it hampers their Medicaid contract performance.",
+      "target_persona": "CIO / Chief Data Officer / VP of Health Plan Operations",
+      "suggested_action": "Data Strategy & Modernization Workshop",
+      "suggested_asset": "Whitepaper: 'The Hidden Costs of Point Solutions in Payer Operations'",
+      "priority_tier": "high",
+      "signals_count": 4
     }
   ]
 }
