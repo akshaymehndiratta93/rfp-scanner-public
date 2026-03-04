@@ -1688,5 +1688,32 @@
     },
     "recommended_action": "Review award for Astellas Pharma. Deadline: N/A - Selection Made (Announced Jan 8, 2024). Coordinate response with Shyam Dattani.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304220002_0",
+    "created_at": "2026-03-04T22:00:02.390913",
+    "account_name": "Cardinal Health",
+    "doc_type": "award",
+    "headline": "Cardinal Health Selects Palantir to Build Next-Generation Data Ecosystem",
+    "summary": "Cardinal Health has announced a partnership with Palantir Technologies Inc. to build a next-generation data ecosystem for its pharmaceutical and medical supply chains. The initiative will leverage Palantir's Foundry Platform to create an integrated data and operations platform, aiming to improve product availability, support providers, and connect with other partners. This represents a significant investment in a new enterprise data platform and integration strategy.",
+    "source_url": "https://www.palantir.com/newsroom/press-releases/cardinal-health-selects-palantir-to-build-next-generation-data-ecosystem/",
+    "deadline": "N/A",
+    "estimated_value": "Not disclosed",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Galaxy",
+      "Pharmacy Network"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Anirudh kanwar",
+      "sdr": "Yash raj",
+      "tier": "Top",
+      "state": "OH"
+    },
+    "recommended_action": "Review award for Cardinal Health. Deadline: N/A. Coordinate response with Anirudh kanwar.",
+    "status": "new"
   }
 ]
