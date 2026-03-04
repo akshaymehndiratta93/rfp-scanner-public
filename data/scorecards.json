@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T15:54:30.658119",
-  "total_accounts": 26,
-  "last_batch_scored": 0,
-  "last_batch_no_signals": 5,
+  "generated_at": "2026-03-04T16:45:58.431073",
+  "total_accounts": 36,
+  "last_batch_scored": 17,
+  "last_batch_no_signals": 73,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -157,91 +157,6 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "PA",
       "signals_count": 3
-    },
-    {
-      "account_name": "Grifols",
-      "rfp_probability": {
-        "90_days": 0.8,
-        "180_days": 0.9,
-        "365_days": 0.85
-      },
-      "confidence": "high",
-      "uncertainty_drivers": [
-        "The nature of the strategic partnership with Google Cloud is unclear; they could be a competitor for data platform and AI/ML services.",
-        "The outcome of the M&A discussions with Brookfield will significantly impact the urgency and scope of data integration needs."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-03-15",
-        "latest": "2026-09-30"
-      },
-      "product_fit": [
-        {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "Required to unify data for lab modernization, post-M&A integration, and R&D partnerships."
-        },
-        {
-          "product": "Galaxy",
-          "fit_score": 90,
-          "rationale": "Directly supports the AI-driven digital transformation, biomarker research, and clinical development goals."
-        },
-        {
-          "product": "Atlas",
-          "fit_score": 65,
-          "rationale": "Addresses investor pressure for transparency and enables data sharing with research partners."
-        }
-      ],
-      "initiative_theme": "AI-driven R&D and operational modernization",
-      "top_evidence": [
-        {
-          "signal": "Grifols launching lab modernization initiative with partner Inpeco",
-          "source": "Google News Trigger Scan",
-          "date": "2025-03-20",
-          "relevance": "Directly signals a major infrastructure investment requiring a unified data platform (Gravity)."
-        },
-        {
-          "signal": "Grifols reportedly restarts M&A discussions with Brookfield",
-          "source": "Google News Trigger Scan",
-          "date": "2025-04-02",
-          "relevance": "A potential M&A event creates an urgent trigger for a post-merger data consolidation platform."
-        },
-        {
-          "signal": "Grifols Partners with Google Cloud for AI-Powered Digital Transformation",
-          "source": "TrueFoundry Deep Search",
-          "date": "2023-10-25",
-          "relevance": "Establishes the company's core strategic commitment to AI and cloud, validating the need for Galaxy."
-        },
-        {
-          "signal": "Grifols partners with IBL to develop advanced biomarker panels",
-          "source": "Google News Trigger Scan",
-          "date": "2025-04-09",
-          "relevance": "Indicates a specific, data-intensive research collaboration needing a unified analytics foundation."
-        },
-        {
-          "signal": "Activist investor pressures Grifols for significant board reform",
-          "source": "Google News Trigger Scan",
-          "date": "2024-12-10",
-          "relevance": "Creates internal pressure for efficiency and transparency, justifying investment in new platforms."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [
-          "Google Cloud"
-        ],
-        "confidence": "high"
-      },
-      "outreach": {
-        "why_now": "Grifols is executing on major modernization and R&D initiatives under investor pressure, creating an immediate need for a unified data and AI foundation to drive efficiency and accelerate discovery.",
-        "target_persona": "Chief Data Officer / Chief Analytics Officer / CIO / VP of R&D IT",
-        "suggested_action": "Propose a 'Post-Merger Data Synergy & AI Acceleration' strategy workshop.",
-        "suggested_asset": "Life Sciences Case Study: Accelerating Drug Discovery with a Unified Healthcare Data Platform.",
-        "priority_tier": "immediate"
-      },
-      "tier": "Top",
-      "ae": "Gina Black",
-      "sdr": "Kumar Shanu Goswami",
-      "state": "CA",
-      "signals_count": 6
     },
     {
       "account_name": "Kroger",
@@ -750,385 +665,6 @@
       "signals_count": 5
     },
     {
-      "account_name": "Mercy (MO)",
-      "rfp_probability": {
-        "90_days": 0.6,
-        "180_days": 0.8,
-        "365_days": 0.7
-      },
-      "confidence": "high",
-      "uncertainty_drivers": [
-        "Signal is nearly 24 months old; initial transformation projects may already be underway or completed.",
-        "No recent signals to confirm the CTO's current priorities or progress against the 2024 mandate.",
-        "Potential for incumbent vendor entrenchment during the initial strategy and planning phase."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-03-15",
-        "latest": "2026-09-30"
-      },
-      "product_fit": [
-        {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "A foundational data platform is essential for any system-wide digital transformation initiative."
-        },
-        {
-          "product": "Cured",
-          "fit_score": 90,
-          "rationale": "Directly addresses the CTO's mandate to 'reimagine and redesign the patient experience'."
-        },
-        {
-          "product": "Galaxy",
-          "fit_score": 85,
-          "rationale": "Aligns with the focus on 'new technologies' and 'tech-led innovation' to drive transformation."
-        }
-      ],
-      "initiative_theme": "System-wide Digital and Patient Experience Transformation",
-      "top_evidence": [
-        {
-          "signal": "Mercy Appoints First-Ever Chief Transformation Officer to Drive Tech-Led Innovation",
-          "source": "TrueFoundry Deep Search",
-          "date": "2024-04-01",
-          "relevance": "Establishes a new, C-level funded mandate for technology procurement and enterprise-wide transformation."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [],
-        "confidence": "none"
-      },
-      "outreach": {
-        "why_now": "The CTO has had ~24 months to set a strategy and secure budgets. Major platform RFPs to execute this multi-year vision are likely imminent or in-flight now.",
-        "target_persona": "Chief Transformation Officer, CIO, Chief Digital Officer",
-        "suggested_action": "Transformation Partnership Workshop",
-        "suggested_asset": "Innovaccer's 'Health System Transformation Blueprint' Whitepaper",
-        "priority_tier": "immediate"
-      },
-      "tier": "Strategics",
-      "ae": "Ryan Grace",
-      "sdr": "Ravina Singh",
-      "state": "MO",
-      "signals_count": 1
-    },
-    {
-      "account_name": "Pediatrix Medical Group",
-      "rfp_probability": {
-        "90_days": 0.6,
-        "180_days": 0.85,
-        "365_days": 0.95
-      },
-      "confidence": "high",
-      "uncertainty_drivers": [
-        "Signal data is over 12-24 months old, which could mean a solution is already in flight.",
-        "The CIO has been in the role for two years; the initial strategy and vendor selection may have already occurred."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-06-01",
-        "latest": "2026-12-31"
-      },
-      "product_fit": [
-        {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "CIO's digital transformation mandate and the need to integrate disparate network data are core triggers."
-        },
-        {
-          "product": "Galaxy",
-          "fit_score": 90,
-          "rationale": "Aligns with a new CIO's goal to modernize analytics and demonstrate value from new data infrastructure."
-        },
-        {
-          "product": "Flow",
-          "fit_score": 85,
-          "rationale": "Directly addresses the network integration challenge of managing referrals and coordinating care."
-        }
-      ],
-      "initiative_theme": "Digital Transformation and Post-Partnership Network Integration",
-      "top_evidence": [
-        {
-          "signal": "Pediatrix Appoints First-Ever Chief Information Officer to Lead Digital Transformation",
-          "source": "TrueFoundry Deep Search",
-          "date": "2024-02-20",
-          "relevance": "A new, first-ever CIO is the strongest indicator of upcoming strategic IT investment and vendor reviews."
-        },
-        {
-          "signal": "Pediatrix partners with Miller Children's & Women's Hospital to launch a new neonatal network.",
-          "source": "Google News Trigger Scan",
-          "date": "2023-11-16",
-          "relevance": "Creates a specific, high-priority business need for data integration, care coordination, and network analytics."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [],
-        "confidence": "none"
-      },
-      "outreach": {
-        "why_now": "The CIO is now two years into their tenure, moving from planning to execution for their digital transformation strategy. The data challenges from the Miller Children's partnership provide a tangible, urgent use case to address.",
-        "target_persona": "Mark St-Hilaire, MD, MS (CIO)",
-        "suggested_action": "Propose an 'AI-Driven Network Performance' executive workshop.",
-        "suggested_asset": "Case Study: How [Similar Multi-Entity Group] Unified Data to Optimize Network Performance",
-        "priority_tier": "immediate"
-      },
-      "tier": "Top",
-      "ae": "Will Pettinger",
-      "sdr": "Alishah Rehman",
-      "state": "FL",
-      "signals_count": 2
-    },
-    {
-      "account_name": "SSM Health",
-      "rfp_probability": {
-        "90_days": 0.5,
-        "180_days": 0.8,
-        "365_days": 0.9
-      },
-      "confidence": "high",
-      "uncertainty_drivers": [
-        "The M&A signal is from 24 months ago; key platform decisions may have already been made.",
-        "Lack of visibility into their current IT integration roadmap and incumbent vendors."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-04-01",
-        "latest": "2026-10-31"
-      },
-      "product_fit": [
-        {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "Directly addresses the core post-M&A need for a unified data and analytics platform."
-        },
-        {
-          "product": "Flow",
-          "fit_score": 85,
-          "rationale": "Solves the immediate challenge of integrating and optimizing referral networks post-acquisition."
-        },
-        {
-          "product": "Galaxy",
-          "fit_score": 80,
-          "rationale": "Addresses the need for advanced analytics and self-service BI after data centralization."
-        }
-      ],
-      "initiative_theme": "Post-M&A IT and Data Platform Consolidation",
-      "top_evidence": [
-        {
-          "signal": "SSM Health Takes Full Ownership of Agnesian HealthCare, Driving IT Integration Needs",
-          "source": "TrueFoundry Deep Search",
-          "date": "2024-02-01",
-          "relevance": "This M&A event is the primary driver for a large-scale IT consolidation and data integration initiative."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [],
-        "confidence": "none"
-      },
-      "outreach": {
-        "why_now": "Two years post-Agnesian acquisition, SSM is likely deep in complex IT integration projects and facing challenges with data silos. Now is the time to address the long-term data platform strategy.",
-        "target_persona": "CIO, Chief Data Officer (CDO), VP of IT Integration, VP of Analytics",
-        "suggested_action": "Post-Merger Data Integration Strategy Workshop",
-        "suggested_asset": "Case Study: 'How [Similar Health System] Unified Data After a Major Acquisition'",
-        "priority_tier": "immediate"
-      },
-      "tier": "Strategics",
-      "ae": "John Hickey",
-      "sdr": "Ravina Singh",
-      "state": "MO",
-      "signals_count": 1
-    },
-    {
-      "account_name": "Northwestern Medicine",
-      "rfp_probability": {
-        "90_days": 0.4,
-        "180_days": 0.65,
-        "365_days": 0.85
-      },
-      "confidence": "medium",
-      "uncertainty_drivers": [
-        "The primary signal is over 2 years old; initial technology decisions may have already been made.",
-        "Lack of visibility into the CDO's current priorities and existing vendor stack."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-06-01",
-        "latest": "2027-03-04"
-      },
-      "product_fit": [
-        {
-          "product": "Galaxy",
-          "fit_score": 95,
-          "rationale": "A CDO hired in 2024 has an explicit or implicit mandate to develop and scale an enterprise AI strategy."
-        },
-        {
-          "product": "Cured",
-          "fit_score": 90,
-          "rationale": "The CDO role is directly responsible for patient experience and digital front door initiatives."
-        },
-        {
-          "product": "Gravity",
-          "fit_score": 85,
-          "rationale": "A unified data platform is the foundational requirement for any successful digital, AI, or CRM strategy."
-        }
-      ],
-      "initiative_theme": "Enterprise Digital & AI Transformation",
-      "top_evidence": [
-        {
-          "signal": "Northwestern Medicine Appoints First-Ever Chief Digital Officer",
-          "source": "TrueFoundry Deep Search",
-          "date": "2024-01-29",
-          "relevance": "Establishes a long-term strategic commitment to digital transformation, patient experience, and innovation."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [],
-        "confidence": "none"
-      },
-      "outreach": {
-        "why_now": "With CDO Andrew Stroup over two years into his role, foundational strategies are likely set. The focus is now shifting to scaling AI/GenAI capabilities and modernizing the data infrastructure to power the next wave of digital innovation.",
-        "target_persona": "SVP & Chief Digital Officer (Andrew J. Stroup)",
-        "suggested_action": "Executive POV on 'Scaling AI for Enhanced Patient and Clinician Experiences'",
-        "suggested_asset": "Case Study: How a large AMCs leverage a unified data platform to accelerate AI development.",
-        "priority_tier": "high"
-      },
-      "tier": "Strategics",
-      "ae": "Joseph Thompson",
-      "sdr": "Radhika Arora",
-      "state": "IL",
-      "signals_count": 1
-    },
-    {
-      "account_name": "Indiana University Health",
-      "rfp_probability": {
-        "90_days": 0.4,
-        "180_days": 0.75,
-        "365_days": 0.9
-      },
-      "confidence": "high",
-      "uncertainty_drivers": [
-        "Strength and influence of incumbent EHR vendor (Oracle Health) for data platform initiatives.",
-        "The primary strategic signals are 1-2 years old, indicating IU Health may be far along in their planning or have made key technology decisions."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-06-01",
-        "latest": "2026-12-31"
-      },
-      "product_fit": [
-        {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "Directly addresses the stated need for a foundational, interoperable data platform for the new tech incubator."
-        },
-        {
-          "product": "Galaxy",
-          "fit_score": 90,
-          "rationale": "Aligns perfectly with the new AI-focused leadership and strategic shift towards advanced analytics and research."
-        },
-        {
-          "product": "Atlas",
-          "fit_score": 75,
-          "rationale": "Supports the innovation ecosystem strategy by enabling data collaboration with partners like Regenstrief Institute."
-        }
-      ],
-      "initiative_theme": "AI-Driven Innovation & Research Platform Modernization",
-      "top_evidence": [
-        {
-          "signal": "IU Health Launches Tech Incubator, Driving Need for a Foundational Innovation Platform",
-          "source": "Google News Trigger Scan",
-          "date": "2025-04-24",
-          "relevance": "Top-down strategic initiative explicitly requires a unified data platform, a core Innovaccer value proposition."
-        },
-        {
-          "signal": "New AI & Informatics Chair at Key Affiliate Signals Shift Towards Advanced Analytics",
-          "source": "Google News Trigger Scan",
-          "date": "2024-10-24",
-          "relevance": "Key leadership change with an AI/data background is a strong indicator of a pending technology stack review and investment."
-        },
-        {
-          "signal": "IU Health Partners with Dexcom for EHR Integration of Glucose Monitoring Data",
-          "source": "TrueFoundry Deep Search",
-          "date": "2024-01-24",
-          "relevance": "Confirms their focus on data integration while also identifying Oracle Health as a key incumbent and competitor."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [
-          "Oracle Health"
-        ],
-        "confidence": "high"
-      },
-      "outreach": {
-        "why_now": "The anniversary of the tech incubator launch is a perfect hook to engage on progress, while the new AI chair has had time to establish his strategy and is likely seeking partners for execution.",
-        "target_persona": "Chief Innovation Officer, Chief Digital/Data Officer, Dr. Jiang Bian (Regenstrief Institute)",
-        "suggested_action": "Generative AI in Healthcare Workshop",
-        "suggested_asset": "Case Study: How AMCs Accelerate Research & Innovation with a Unified Data Platform",
-        "priority_tier": "immediate"
-      },
-      "tier": "Strategics",
-      "ae": "Joseph Thompson",
-      "sdr": "Radhika Arora",
-      "state": "IN",
-      "signals_count": 3
-    },
-    {
-      "account_name": "Independence Blue Cross",
-      "rfp_probability": {
-        "90_days": 0.4,
-        "180_days": 0.7,
-        "365_days": 0.85
-      },
-      "confidence": "medium",
-      "uncertainty_drivers": [
-        "The initial technology partner chosen for the 2023 D-SNP launch is unknown and may be deeply entrenched.",
-        "The signal is over two years old, making the exact timing of a replacement/optimization cycle difficult to predict."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-06-01",
-        "latest": "2027-03-01"
-      },
-      "product_fit": [
-        {
-          "product": "Comet",
-          "fit_score": 95,
-          "rationale": "Directly addresses the need for AI-powered care management for the high-risk, complex D-SNP population."
-        },
-        {
-          "product": "Humbi",
-          "fit_score": 90,
-          "rationale": "Essential for managing the significant Social Determinants of Health (SDoH) needs of a dual-eligible population."
-        },
-        {
-          "product": "Atlas",
-          "fit_score": 85,
-          "rationale": "Critical for managing data sharing and collaboration with partner Belong Health and their provider network."
-        }
-      ],
-      "initiative_theme": "Dual-Eligible (D-SNP) Population Health Management & Optimization",
-      "top_evidence": [
-        {
-          "signal": "Independence Blue Cross Partners with Belong Health to Launch New Plan for Dual-Eligible Members",
-          "source": "TrueFoundry Deep Search",
-          "date": "2023-12-13",
-          "relevance": "Confirms a strategic focus on the D-SNP population, which requires advanced care management and analytics platforms."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [
-          "HealthEdge (GuidingCare)",
-          "ZeOmega (Jiva)",
-          "Salesforce (Health Cloud)"
-        ],
-        "confidence": "medium"
-      },
-      "outreach": {
-        "why_now": "As your Keystone First VIP Choice D-SNP program matures, you are likely focused on optimizing cost and quality outcomes. Our platform can help unify data and automate care management to improve performance for this complex population.",
-        "target_persona": "VP of Government Programs / Chief Medical Officer / Head of Population Health",
-        "suggested_action": "D-SNP Performance Optimization Workshop",
-        "suggested_asset": "Case Study: Improving Star Ratings and Medical Costs for a Medicare Advantage Population",
-        "priority_tier": "high"
-      },
-      "tier": "Top",
-      "ae": "Alexander J. Keltner",
-      "sdr": "Abhishek Gautam",
-      "state": "PA",
-      "signals_count": 1
-    },
-    {
       "account_name": "Banner Health",
       "rfp_probability": {
         "90_days": 0.2,
@@ -1214,92 +750,6 @@
       "signals_count": 5
     },
     {
-      "account_name": "Hennepin Health",
-      "rfp_probability": {
-        "90_days": 0.2,
-        "180_days": 0.6,
-        "365_days": 0.85
-      },
-      "confidence": "high",
-      "uncertainty_drivers": [
-        "Severe budget pressure could accelerate a cost-saving RFP or freeze all net-new spending.",
-        "The new CEO's specific technology roadmap and priorities are not yet public.",
-        "Impact of the recent ZeOmega implementation on their broader data strategy is unknown."
-      ],
-      "predicted_rfp_window": {
-        "earliest": "2026-08-01",
-        "latest": "2027-03-04"
-      },
-      "product_fit": [
-        {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "Unifies data to address budget pressure, new CEO strategy, and health equity initiatives."
-        },
-        {
-          "product": "Humbi",
-          "fit_score": 90,
-          "rationale": "Directly supports the stated strategic focus on health equity and whole-person care (SDoH)."
-        },
-        {
-          "product": "Atlas",
-          "fit_score": 80,
-          "rationale": "Enables payer-provider collaboration crucial for improving VBC performance under financial duress."
-        }
-      ],
-      "initiative_theme": "Data-driven financial turnaround and health equity",
-      "top_evidence": [
-        {
-          "signal": "Hennepin Healthcare Faces Significant Budgetary Pressure",
-          "source": "Google News Trigger Scan",
-          "date": "2026-02-09",
-          "relevance": "Most recent signal; creates immediate urgency for solutions with strong ROI."
-        },
-        {
-          "signal": "New CEO Appointed, Signaling Potential Strategy and Tech Review",
-          "source": "Google News Trigger Scan",
-          "date": "2024-06-08",
-          "relevance": "Fundamental catalyst for large-scale strategic and technology transformation."
-        },
-        {
-          "signal": "Contract with ZeOmega, Inc. for a Care Management Platform",
-          "source": "Procurement Search (award)",
-          "date": null,
-          "relevance": "Critical competitive intelligence; disqualifies the Comet product but creates data integration needs."
-        },
-        {
-          "signal": "Focus on Health Equity and Whole-Person Care Creates Data Needs",
-          "source": "Google News Trigger Scan",
-          "date": "2024-07-17",
-          "relevance": "Highlights a core strategic initiative that requires SDoH data integration (Humbi, Gravity)."
-        },
-        {
-          "signal": "Hennepin Health Issues RFP for New Member Website and Mobile App",
-          "source": "TrueFoundry Deep Search",
-          "date": "2023-11-20",
-          "relevance": "Indicates a closed opportunity for Cured, focusing efforts on other platform needs."
-        }
-      ],
-      "competitive_landscape": {
-        "competitors_detected": [
-          "ZeOmega"
-        ],
-        "confidence": "high"
-      },
-      "outreach": {
-        "why_now": "Recent, severe budget pressure combined with a new CEO's agenda creates an immediate need for a foundational data platform that can drive efficiency and support health equity mandates.",
-        "target_persona": "CFO, CEO, Chief Strategy Officer, CIO",
-        "suggested_action": "Strategic ROI Assessment",
-        "suggested_asset": "Forrester TEI Report on Innovaccer's Platform ROI",
-        "priority_tier": "immediate"
-      },
-      "tier": "Top",
-      "ae": "David Kaskoun",
-      "sdr": "Sonali Dabas",
-      "state": "MN",
-      "signals_count": 5
-    },
-    {
       "account_name": "Blue Cross and Blue Shield of Kansas",
       "rfp_probability": {
         "90_days": 0.2,
@@ -1375,13 +825,296 @@
       "signals_count": 3
     },
     {
+      "account_name": "Grifols",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The nature of the strategic partnership with Google Cloud is unclear; they could be a competitor for data platform and AI/ML services.",
+        "The outcome of the M&A discussions with Brookfield will significantly impact the urgency and scope of data integration needs."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-03-15",
+        "latest": "2026-09-30"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Required to unify data for lab modernization, post-M&A integration, and R&D partnerships."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Directly supports the AI-driven digital transformation, biomarker research, and clinical development goals."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 65,
+          "rationale": "Addresses investor pressure for transparency and enables data sharing with research partners."
+        }
+      ],
+      "initiative_theme": "AI-driven R&D and operational modernization",
+      "top_evidence": [
+        {
+          "signal": "Grifols launching lab modernization initiative with partner Inpeco",
+          "source": "Google News Trigger Scan",
+          "date": "2025-03-20",
+          "relevance": "Directly signals a major infrastructure investment requiring a unified data platform (Gravity)."
+        },
+        {
+          "signal": "Grifols reportedly restarts M&A discussions with Brookfield",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-02",
+          "relevance": "A potential M&A event creates an urgent trigger for a post-merger data consolidation platform."
+        },
+        {
+          "signal": "Grifols Partners with Google Cloud for AI-Powered Digital Transformation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-10-25",
+          "relevance": "Establishes the company's core strategic commitment to AI and cloud, validating the need for Galaxy."
+        },
+        {
+          "signal": "Grifols partners with IBL to develop advanced biomarker panels",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-09",
+          "relevance": "Indicates a specific, data-intensive research collaboration needing a unified analytics foundation."
+        },
+        {
+          "signal": "Activist investor pressures Grifols for significant board reform",
+          "source": "Google News Trigger Scan",
+          "date": "2024-12-10",
+          "relevance": "Creates internal pressure for efficiency and transparency, justifying investment in new platforms."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Google Cloud"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Chief Data Officer / Chief Analytics Officer / CIO / VP of R&D IT",
+        "suggested_action": "Propose a 'Post-Merger Data Synergy & AI Acceleration' strategy workshop.",
+        "suggested_asset": "Life Sciences Case Study: Accelerating Drug Discovery with a Unified Healthcare Data Platform.",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "CA",
+      "signals_count": 6
+    },
+    {
+      "account_name": "Mercy (MO)",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "Signal is nearly 24 months old; initial transformation projects may already be underway or completed.",
+        "No recent signals to confirm the CTO's current priorities or progress against the 2024 mandate.",
+        "Potential for incumbent vendor entrenchment during the initial strategy and planning phase."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-03-15",
+        "latest": "2026-09-30"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "A foundational data platform is essential for any system-wide digital transformation initiative."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 90,
+          "rationale": "Directly addresses the CTO's mandate to 'reimagine and redesign the patient experience'."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Aligns with the focus on 'new technologies' and 'tech-led innovation' to drive transformation."
+        }
+      ],
+      "initiative_theme": "System-wide Digital and Patient Experience Transformation",
+      "top_evidence": [
+        {
+          "signal": "Mercy Appoints First-Ever Chief Transformation Officer to Drive Tech-Led Innovation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-04-01",
+          "relevance": "Establishes a new, C-level funded mandate for technology procurement and enterprise-wide transformation."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Chief Transformation Officer, CIO, Chief Digital Officer",
+        "suggested_action": "Transformation Partnership Workshop",
+        "suggested_asset": "Innovaccer's 'Health System Transformation Blueprint' Whitepaper",
+        "priority_tier": "standard"
+      },
+      "tier": "Strategics",
+      "ae": "Ryan Grace",
+      "sdr": "Ravina Singh",
+      "state": "MO",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Pediatrix Medical Group",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "Signal data is over 12-24 months old, which could mean a solution is already in flight.",
+        "The CIO has been in the role for two years; the initial strategy and vendor selection may have already occurred."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-06-01",
+        "latest": "2026-12-31"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "CIO's digital transformation mandate and the need to integrate disparate network data are core triggers."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Aligns with a new CIO's goal to modernize analytics and demonstrate value from new data infrastructure."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 85,
+          "rationale": "Directly addresses the network integration challenge of managing referrals and coordinating care."
+        }
+      ],
+      "initiative_theme": "Digital Transformation and Post-Partnership Network Integration",
+      "top_evidence": [
+        {
+          "signal": "Pediatrix Appoints First-Ever Chief Information Officer to Lead Digital Transformation",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-20",
+          "relevance": "A new, first-ever CIO is the strongest indicator of upcoming strategic IT investment and vendor reviews."
+        },
+        {
+          "signal": "Pediatrix partners with Miller Children's & Women's Hospital to launch a new neonatal network.",
+          "source": "Google News Trigger Scan",
+          "date": "2023-11-16",
+          "relevance": "Creates a specific, high-priority business need for data integration, care coordination, and network analytics."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Mark St-Hilaire, MD, MS (CIO)",
+        "suggested_action": "Propose an 'AI-Driven Network Performance' executive workshop.",
+        "suggested_asset": "Case Study: How [Similar Multi-Entity Group] Unified Data to Optimize Network Performance",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "state": "FL",
+      "signals_count": 2
+    },
+    {
+      "account_name": "Indiana University Health",
+      "rfp_probability": {
+        "90_days": 0.15,
+        "180_days": 0.25,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (11-25 months old), making it difficult to assess the current status of these past initiatives.",
+        "Recent investments in their incumbent EHR (Oracle Health) for data integration may reduce appetite for a separate data platform."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-08-31",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Tech incubator and AI leadership signals create a strong need for a foundational data platform."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "The appointment of a new AI & Informatics Chair is a direct trigger for advanced analytics and GenAI capabilities."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Focus on integrating external data (Dexcom) and partnerships (Regenstrief) suggests a need for better data sharing."
+        }
+      ],
+      "initiative_theme": "AI and Digital Innovation Ecosystem Enablement",
+      "top_evidence": [
+        {
+          "signal": "IU Health Launches Tech Incubator, Driving Need for a Foundational Innovation Platform",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-24",
+          "relevance": "Directly indicates a strategic need for a unified data layer to support new digital ventures."
+        },
+        {
+          "signal": "New AI & Informatics Chair at Key Affiliate Signals Shift Towards Advanced Analytics",
+          "source": "Google News Trigger Scan",
+          "date": "2024-10-24",
+          "relevance": "New AI-focused leadership often drives re-evaluation of the underlying data and analytics infrastructure."
+        },
+        {
+          "signal": "IU Health Partners with Dexcom for EHR Integration of Glucose Monitoring Data",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-24",
+          "relevance": "Shows a focus on integrating disparate data sources, but also a commitment to their Oracle EHR."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Oracle Health"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CDO / Chief Innovation Officer / VP of IT & Strategy",
+        "suggested_action": "Innovation Ecosystem Strategy Session",
+        "suggested_asset": "The Unified Data Platform as an Innovation Engine Whitepaper",
+        "priority_tier": "standard"
+      },
+      "tier": "Strategics",
+      "ae": "Joseph Thompson",
+      "sdr": "Radhika Arora",
+      "state": "IN",
+      "signals_count": 3
+    },
+    {
       "account_name": "Mayo Clinic",
       "rfp_probability": {
         "90_days": 0.15,
-        "180_days": 0.4,
-        "365_days": 0.7
+        "180_days": 0.25,
+        "365_days": 0.35
       },
-      "confidence": "medium",
+      "confidence": "low",
       "uncertainty_drivers": [
         "The primary signal is from late 2023; their AI strategy and technology stack have likely evolved since.",
         "The depth and success of their existing partnership with Cerebras Systems is unknown; they may be fully committed to a 'build' vs. 'buy' strategy."
@@ -1423,11 +1156,11 @@
         "confidence": "high"
       },
       "outreach": {
-        "why_now": "With over two years since announcing their foundational model, Mayo is likely facing challenges in scaling applications, ensuring governance, and proving ROI across the enterprise \u2013 areas where our platform excels.",
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
         "target_persona": "CDO / President, Mayo Clinic Platform / CIO",
         "suggested_action": "Executive AI Strategy Roundtable",
         "suggested_asset": "Case Study: Augmenting a 'Build' AI Strategy with Innovaccer's Application Layer",
-        "priority_tier": "high"
+        "priority_tier": "standard"
       },
       "tier": "Strategics",
       "ae": "Joseph Thompson",
@@ -1436,13 +1169,280 @@
       "signals_count": 1
     },
     {
+      "account_name": "SSM Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is over 2 years old, making it a very weak predictor of near-term activity.",
+        "IT integration initiatives related to the Feb 2024 acquisition are likely complete or have an incumbent vendor."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Directly addresses the core need for post-M&A data consolidation and IT system integration."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 80,
+          "rationale": "Addresses the need to integrate and optimize the combined provider network to reduce leakage."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 75,
+          "rationale": "Enables a centralized analytics strategy on the unified data from the merged entities."
+        }
+      ],
+      "initiative_theme": "Post-Merger Data & Analytics Platform Consolidation",
+      "top_evidence": [
+        {
+          "signal": "SSM Health Takes Full Ownership of Agnesian HealthCare, Driving IT Integration Needs",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-01",
+          "relevance": "The M&A event is a classic trigger for data platform consolidation, a core use case for Gravity."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CIO, Chief Data Officer (CDO), VP IT Integration",
+        "suggested_action": "Post-Merger Data Strategy Assessment",
+        "suggested_asset": "Case Study: How a large IDN unified data from 20+ EHRs post-acquisition",
+        "priority_tier": "standard"
+      },
+      "tier": "Strategics",
+      "ae": "John Hickey",
+      "sdr": "Ravina Singh",
+      "state": "MO",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Northwestern Medicine",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is over two years old, making it difficult to assess current priorities.",
+        "The impact of the 2024 CDO hire on the current procurement cycle is unknown; initial projects may already be complete."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Cured",
+          "fit_score": 90,
+          "rationale": "Directly supports the CDO's mandate to enhance patient experience and digital health strategy."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Aligns with the CDO's innovation charter to leverage new technology for analytics and insights."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 80,
+          "rationale": "Provides the foundational unified data layer required for any enterprise digital transformation."
+        }
+      ],
+      "initiative_theme": "Enterprise Digital Transformation & Patient Experience Modernization",
+      "top_evidence": [
+        {
+          "signal": "Northwestern Medicine Appoints First-Ever Chief Digital Officer",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-29",
+          "relevance": "Indicates a long-term strategic focus on digital transformation, despite the signal's age."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Epic Systems"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Andrew J. Stroup, SVP & Chief Digital Officer",
+        "suggested_action": "GenAI in Healthcare Workshop",
+        "suggested_asset": "Innovaccer's 'State of AI in Healthcare 2026' Report",
+        "priority_tier": "standard"
+      },
+      "tier": "Strategics",
+      "ae": "Joseph Thompson",
+      "sdr": "Radhika Arora",
+      "state": "IL",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Independence Blue Cross",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is over 2 years old, making it highly stale.",
+        "The D-SNP initiative mentioned has already launched; their incumbent technology solution and satisfaction level are unknown."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-09-01"
+      },
+      "product_fit": [
+        {
+          "product": "Comet",
+          "fit_score": 90,
+          "rationale": "Directly addresses the need for robust care management for a complex, dual-eligible population."
+        },
+        {
+          "product": "Humbi",
+          "fit_score": 85,
+          "rationale": "SDoH is a critical component for effectively managing the needs of dual-eligible (Medicare/Medicaid) members."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Supports the essential payer-provider collaboration required to operate a successful D-SNP plan."
+        }
+      ],
+      "initiative_theme": "Complex Population Health Management for Dual-Eligibles",
+      "top_evidence": [
+        {
+          "signal": "Independence Blue Cross Partners with Belong Health to Launch New Plan for Dual-Eligible Members",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-12-13",
+          "relevance": "Indicates a strategic focus on managing complex, government-sponsored populations, a core use case for Innovaccer."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Belong Health"
+        ],
+        "confidence": "medium"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "VP Government Programs / Chief Medical Officer (CMO) / VP Population Health",
+        "suggested_action": "D-SNP Performance & Optimization Assessment",
+        "suggested_asset": "Case Study: Improving STAR Ratings and Care Outcomes for a D-SNP Population",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "PA",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Hennepin Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are stale (over 1 year old), making near-term intent difficult to verify.",
+        "A recent contract award to ZeOmega for care management likely blocks opportunities for Innovaccer's Comet product for 3-5 years.",
+        "The outcome of a late 2023 member website RFP is unknown but likely fulfilled, reducing the immediate need for the Cured platform."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-10-01",
+        "latest": "2027-03-31"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "Budget pressure and new point solutions (ZeOmega) require a unified data platform for ROI and efficiency."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 75,
+          "rationale": "The focus on care management and financial sustainability necessitates strong payer-provider collaboration capabilities."
+        },
+        {
+          "product": "Humbi",
+          "fit_score": 70,
+          "rationale": "Historical strategic focus on health equity and whole-person care points to a need for robust SDoH data integration."
+        }
+      ],
+      "initiative_theme": "Data Foundation Modernization for Financial Sustainability",
+      "top_evidence": [
+        {
+          "signal": "Contract with ZeOmega, Inc. for a Care Management Platform",
+          "source": "Procurement Search (award)",
+          "date": "2024-09-24",
+          "relevance": "Directly blocks the Comet solution and indicates a major technology decision has already been made in this area."
+        },
+        {
+          "signal": "Hennepin Healthcare Faces Significant Budgetary Pressure",
+          "source": "Google News Trigger Scan",
+          "date": "2026-02-09",
+          "relevance": "Creates urgency for solutions with strong ROI, focusing on cost reduction and operational efficiency."
+        },
+        {
+          "signal": "Hennepin Health Issues RFP for New Member Website and Mobile App",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-11-20",
+          "relevance": "Indicates a focus on member experience, but the opportunity for Cured is likely past."
+        },
+        {
+          "signal": "New CEO Appointed, Signaling Potential Strategy and Tech Review",
+          "source": "Google News Trigger Scan",
+          "date": "2024-06-08",
+          "relevance": "A stale but important contextual signal; the new leadership's strategy is now likely established."
+        },
+        {
+          "signal": "Focus on Health Equity and Whole-Person Care Creates Data Needs",
+          "source": "Google News Trigger Scan",
+          "date": "2024-07-17",
+          "relevance": "Highlights a long-term strategic priority that requires foundational data capabilities (Gravity, Humbi)."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "ZeOmega, Inc."
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Amid significant budgetary pressures and the recent implementation of a new care management platform, establishing a unified data foundation is critical to maximizing ROI and connecting disparate systems to drive enterprise-wide efficiency.",
+        "target_persona": "CIO / Chief Data Officer (CDO) / VP of Analytics",
+        "suggested_action": "Data Strategy & ROI Assessment",
+        "suggested_asset": "Case Study: How a Unified Data Platform Drives ROI from Existing Tech Investments",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "state": "MN",
+      "signals_count": 5
+    },
+    {
       "account_name": "Teche Health",
       "rfp_probability": {
         "90_days": 0.1,
         "180_days": 0.2,
-        "365_days": 0.4
+        "365_days": 0.35
       },
-      "confidence": "medium",
+      "confidence": "low",
       "uncertainty_drivers": [
         "Signal is over 24 months old; key technology decisions related to the Evolent partnership have likely already been made and implemented.",
         "Evolent Health is the incumbent technology and services partner for the MA business, creating a significant competitive barrier for that line of business.",
@@ -1485,7 +1485,7 @@
         "confidence": "high"
       },
       "outreach": {
-        "why_now": "Now that the Evolent operational transition is mature, how is Teche ensuring seamless data sharing and clinical collaboration between your provider teams and your MA plan partner to maximize VBC performance?",
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
         "target_persona": "Chief Strategy Officer / VP of Payer Relations / CIO",
         "suggested_action": "Payer-Provider Collaboration Maturity Assessment",
         "suggested_asset": "Case Study: How Health Systems Drive VBC Success Through Payer Collaboration",
@@ -1502,9 +1502,9 @@
       "rfp_probability": {
         "90_days": 0.1,
         "180_days": 0.25,
-        "365_days": 0.6
+        "365_days": 0.35
       },
-      "confidence": "high",
+      "confidence": "low",
       "uncertainty_drivers": [
         "Exact contract length and renewal date for the incumbent data platform (Abacus Insights) is unknown.",
         "Scope and duration of the Evernorth analytics partnership is not specified."
@@ -1553,11 +1553,11 @@
         "confidence": "high"
       },
       "outreach": {
-        "why_now": "Your data platform contract with Abacus Insights is likely approaching a renewal decision point. It's an ideal time to evaluate if a truly unified platform can consolidate your analytics vendors and accelerate your population health goals.",
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
         "target_persona": "CDO / Chief Analytics Officer, VP of Population Health, CIO",
         "suggested_action": "Competitive Bake-off Assessment",
         "suggested_asset": "Case Study: How [Peer Payer] Reduced Vendor Sprawl and Improved Member Outcomes",
-        "priority_tier": "high"
+        "priority_tier": "standard"
       },
       "tier": "Top",
       "ae": "Lisa Lehtinen",
@@ -1735,13 +1735,13 @@
       "account_name": "Guidewell Mutual Holding Company",
       "rfp_probability": {
         "90_days": 0.1,
-        "180_days": 0.3,
-        "365_days": 0.6
+        "180_days": 0.2,
+        "365_days": 0.3
       },
-      "confidence": "medium",
+      "confidence": "low",
       "uncertainty_drivers": [
-        "The primary signal is over two years old, making the timing of the next procurement cycle uncertain.",
-        "The incumbent technology stack acquired through the Lucet merger (e.g., from Tridiuum) is unknown."
+        "The only available signal is extremely stale (from Sept 2023), making it difficult to predict near-term activity.",
+        "The technology stack and integration progress of the acquired entity (Lucet) are unknown; key decisions may have already been made."
       ],
       "predicted_rfp_window": {
         "earliest": "2026-09-01",
@@ -1749,42 +1749,40 @@
       },
       "product_fit": [
         {
-          "product": "Gravity",
-          "fit_score": 95,
-          "rationale": "Foundational need to unify data from three merged entities and integrate with primary care provider EHRs."
-        },
-        {
           "product": "Atlas",
-          "fit_score": 90,
-          "rationale": "Directly enables the core mission of integrating behavioral and primary care through payer-provider data collaboration."
+          "fit_score": 95,
+          "rationale": "Directly supports the core initiative of integrating a behavioral health entity with primary care providers."
         },
         {
-          "product": "Galaxy",
-          "fit_score": 85,
-          "rationale": "Supports the 'tech-enabled' vision by providing advanced AI/analytics to manage a 25M+ member population."
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "A foundational need to unify data from the payer, primary care, and the new behavioral health entity (Lucet)."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 90,
+          "rationale": "Enables the identification and management of at-risk members, central to the behavioral health integration goal."
         }
       ],
-      "initiative_theme": "Behavioral Health & Primary Care Integration at Scale",
+      "initiative_theme": "Tech-Enabled Payer-Provider Behavioral Health Collaboration",
       "top_evidence": [
         {
           "signal": "GuideWell Becomes Majority Owner of Lucet, a New Tech-Enabled Behavioral Health Company",
           "source": "TrueFoundry Deep Search",
           "date": "2023-09-26",
-          "relevance": "Signals a massive, tech-first strategic initiative to integrate behavioral and physical health, requiring data unification and collaboration tools."
+          "relevance": "Establishes a long-term strategic priority in technology-led behavioral health integration, even if the signal is old."
         }
       ],
       "competitive_landscape": {
-        "competitors_detected": [
-          "Incumbent/Homegrown Solution (via Tridiuum acquisition)"
-        ],
-        "confidence": "medium"
+        "competitors_detected": [],
+        "confidence": "none"
       },
       "outreach": {
-        "why_now": "As the initial post-merger integration of Lucet matures, the focus will shift to optimizing data assets and scaling analytics. How is Guidewell planning to leverage its unified data to deploy next-generation AI for proactive behavioral health management?",
-        "target_persona": "Chief Data Officer / VP of Enterprise Analytics / Head of Lucet Technology",
-        "suggested_action": "Strategic AI & Data Platform Modernization Workshop",
-        "suggested_asset": "Case Study: How a Large National Payer Unified Data for a New VBC Program",
-        "priority_tier": "high"
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Chief Medical Officer (CMO), Chief Digital Officer (CDO), VP of Enterprise Data & Analytics",
+        "suggested_action": "Behavioral Health Integration Maturity Assessment",
+        "suggested_asset": "Payer-Provider Collaboration for Whole-Person Care Case Study",
+        "priority_tier": "standard"
       },
       "tier": "Top",
       "ae": "John Specht",
@@ -1795,44 +1793,43 @@
     {
       "account_name": "Intermountain Health",
       "rfp_probability": {
-        "90_days": 0.05,
-        "180_days": 0.1,
-        "365_days": 0.35
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
       },
-      "confidence": "high",
+      "confidence": "low",
       "uncertainty_drivers": [
-        "The primary signal is from Feb 2024; the Notable Health implementation is likely mature, reducing short-term replacement risk.",
-        "The exact scope and contract duration of the Notable Health partnership are unknown.",
-        "Lack of recent signals on performance or satisfaction with the existing AI automation initiative."
+        "The only available signal is over two years old, providing no insight into current priorities or budgets.",
+        "A major AI automation partnership with Notable was announced in 2024, suggesting they may be locked into a competing solution for the near future."
       ],
       "predicted_rfp_window": {
-        "earliest": "2027-01-15",
-        "latest": "2027-09-30"
+        "earliest": "2026-12-01",
+        "latest": "2027-09-01"
       },
       "product_fit": [
         {
-          "product": "Gravity",
-          "fit_score": 85,
-          "rationale": "Enterprise AI/automation requires a unified data foundation to scale effectively."
-        },
-        {
           "product": "Galaxy",
-          "fit_score": 80,
-          "rationale": "Complements their workflow AI investment with a platform for GenAI-powered analytics and insights."
+          "fit_score": 85,
+          "rationale": "System-wide AI initiative indicates a strong strategic alignment with advanced analytics."
         },
         {
           "product": "Cured",
-          "fit_score": 70,
-          "rationale": "Aligns with their stated goal of improving patient experience beyond initial intake/scheduling."
+          "fit_score": 80,
+          "rationale": "Stated goals of improving patient experience and automating intake align with CRM capabilities."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 75,
+          "rationale": "Any enterprise-wide automation or AI initiative requires a unified data foundation to succeed."
         }
       ],
-      "initiative_theme": "Enterprise AI & Automation Enablement",
+      "initiative_theme": "Enterprise AI & Automation",
       "top_evidence": [
         {
           "signal": "Intermountain Health Taps Notable for Enterprise-Wide AI Automation",
           "source": "TrueFoundry Deep Search",
           "date": "2024-02-14",
-          "relevance": "Confirms major investment in AI automation, establishing a key competitor and strategic direction."
+          "relevance": "Confirms strategic focus on AI/automation, but the signal is extremely stale and names a competitor."
         }
       ],
       "competitive_landscape": {
@@ -1842,16 +1839,515 @@
         "confidence": "high"
       },
       "outreach": {
-        "why_now": "After two years into their AI automation journey with Notable, Intermountain will be evaluating ROI and identifying data gaps. This is a critical window to position Innovaccer as a strategic partner for the next phase of their data and AI maturity.",
-        "target_persona": "CIO / CDO / VP of Digital Transformation",
-        "suggested_action": "Executive Briefing: The Data Foundation for Enterprise AI",
-        "suggested_asset": "Whitepaper on 'Maximizing ROI from Healthcare Automation with a Unified Data Platform'",
-        "priority_tier": "high"
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CDO / Chief Analytics Officer / Chief Experience Officer",
+        "suggested_action": "Discovery Call",
+        "suggested_asset": "The Next Wave of Healthcare AI: From Workflow Automation to Population Health",
+        "priority_tier": "standard"
       },
       "tier": "Strategics",
       "ae": "Baz Patel",
       "sdr": "Runit Abraham",
       "state": "UT",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Bon Secours Mercy Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than two years old, making it difficult to assess current priorities.",
+        "Account is an existing customer for the core Health Cloud, making a new RFP for those products unlikely; focus is on upsell/cross-sell which may not follow a formal RFP process."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Cured",
+          "fit_score": 95,
+          "rationale": "Directly aligns with the strategic mandate of the first-ever Chief Digital Officer hired in late 2023."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Logical analytics extension for a large existing data platform customer looking to leverage AI."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 80,
+          "rationale": "Addresses network leakage and physician alignment, a common challenge for large systems post-M&A."
+        }
+      ],
+      "initiative_theme": "Digital Patient Engagement and Experience Transformation",
+      "top_evidence": [
+        {
+          "signal": "Bon Secours Mercy Health Appoints First Chief Digital Officer",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-11-28",
+          "relevance": "Points to a major strategic initiative around digital front door and patient experience, a key trigger for Cured."
+        },
+        {
+          "signal": "Bon Secours Mercy Health Selects the Innovaccer Health Cloud to Advance Its Population Health and Value-Based Care Strategy",
+          "source": "Procurement Search (award)",
+          "date": "Not Applicable",
+          "relevance": "Confirms BSMH is a major existing customer, framing any new opportunity as an upsell/expansion rather than net-new."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Chief Digital Officer, VP Patient Experience, Chief Marketing Officer",
+        "suggested_action": "Executive Business Review (EBR) to showcase success with the existing platform and introduce expansion opportunities.",
+        "suggested_asset": "Innovaccer 'Digital Front Door' strategy guide or a Cured case study on patient engagement ROI.",
+        "priority_tier": "standard"
+      },
+      "tier": "Strategics",
+      "ae": "Joseph Thompson",
+      "sdr": "Radhika Arora",
+      "state": "OH",
+      "signals_count": 2
+    },
+    {
+      "account_name": "Capital Health Plan",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than 11 months old, significantly reducing confidence in near-term intent.",
+        "Lack of recent information on the new CEO's strategic initiatives or technology roadmap since her appointment in May 2024."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-11-01",
+        "latest": "2027-06-30"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "A new CEO is the strongest trigger for a foundational data platform review to enable any new strategy."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Increased market competition necessitates stronger value-based care performance and cost management."
+        },
+        {
+          "product": "Cured",
+          "fit_score": 80,
+          "rationale": "Competitive pressure makes member acquisition, experience, and retention a top business priority."
+        }
+      ],
+      "initiative_theme": "Post-Leadership Transition Strategic Modernization",
+      "top_evidence": [
+        {
+          "signal": "Capital Health Plan Appoints New President and CEO",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-05-02",
+          "relevance": "A new CEO is a major catalyst for strategic and technology re-evaluation, even if the signal is dated."
+        },
+        {
+          "signal": "New FSU Health Hospital Creates Regional Competitive Pressure",
+          "source": "Google News Trigger Scan",
+          "date": "2025-03-26",
+          "relevance": "Increased competition creates urgency for improved efficiency, member experience, and VBC performance."
+        },
+        {
+          "signal": "New CEO Appointed After 44-Year Incumbent Retires",
+          "source": "Google News Trigger Scan",
+          "date": "2023-08-28",
+          "relevance": "Superseded by the more recent CEO appointment, but reinforces the major leadership shift after long-term stability."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CEO, COO, Chief Strategy Officer, CIO",
+        "suggested_action": "Competitive Readiness Assessment",
+        "suggested_asset": "Case Study: Regional Payer Drives Growth with a Unified Data Strategy",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Innovaccer admin",
+      "sdr": "Dhanvir Singh",
+      "state": "FL",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Physicians Health Plan Of Northern Indiana",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are over a year old, making the current status of their technology and M&A integration initiatives unknown.",
+        "Key decisions regarding post-acquisition technology consolidation may have already been made in the 15 months since the acquisition was announced."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-09-30"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "The acquisition by Priority Health creates a critical need for a unified data platform to consolidate disparate systems."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 80,
+          "rationale": "Post-acquisition need to standardize care management programs, creating a long-term replacement opportunity for incumbent ZeOmega."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 75,
+          "rationale": "The combined entity requires a sophisticated analytics suite to manage a larger, more complex population and business."
+        }
+      ],
+      "initiative_theme": "Post-Acquisition Technology & Data Stack Modernization",
+      "top_evidence": [
+        {
+          "signal": "Priority Health Completes Acquisition of PHP, Forcing Tech Stack Integration & Modernization",
+          "source": "Google News Trigger Scan",
+          "date": "2024-12-03",
+          "relevance": "This M&A event is the single largest strategic driver for data platform consolidation, care management standardization, and analytics modernization."
+        },
+        {
+          "signal": "PHP of Northern Indiana Taps Evernorth for Pharmacy Benefit Management",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-11-14",
+          "relevance": "Identifies a key partner (Evernorth) and a recent major platform decision, informing the competitive and integration landscape."
+        },
+        {
+          "signal": "Physicians Health Plan of Northern Indiana (PHPNI) Selects ZeOmega\u2019s Jiva Platform for Integrated Care Management",
+          "source": "Procurement Search (award)",
+          "date": "2021-10-01",
+          "relevance": "Identifies the long-standing incumbent for care management (ZeOmega), indicating a potential future replacement cycle."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "ZeOmega",
+          "Evernorth"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CIO / Chief Data Officer / VP of IT Strategy / VP of Population Health",
+        "suggested_action": "Post-Merger Data Strategy Assessment",
+        "suggested_asset": "Payer M&A Integration Case Study",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "David Kaskoun",
+      "sdr": "Sonali Dabas",
+      "state": "IN",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Longevity Health Plan",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (over 4 months old, most over a year), drastically reducing near-term RFP probability.",
+        "The organization may have already implemented solutions to address the pain points identified in 2023-2025."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Multiple M&A/JV events create an urgent, foundational need for a unified data platform."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 90,
+          "rationale": "Stated focus on top CMS Star Ratings and managing high-risk populations requires advanced care management."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Joint ventures with Humana and Infinity necessitate a robust payer-provider collaboration platform."
+        }
+      ],
+      "initiative_theme": "Post-Expansion VBC & Data Integration",
+      "top_evidence": [
+        {
+          "signal": "Commitment to Top CMS Star Ratings Requires Advanced Quality Analytics",
+          "source": "Google News Trigger Scan",
+          "date": "2025-10-15",
+          "relevance": "Directly connects their expansion strategy to the need for an advanced quality analytics solution."
+        },
+        {
+          "signal": "New Joint Venture Signals I-SNP Expansion and Need for System Integration",
+          "source": "Google News Trigger Scan",
+          "date": "2024-10-02",
+          "relevance": "Explicitly calls out the need for system and data integration following a new joint venture."
+        },
+        {
+          "signal": "Joint Venture with Humana Drives Expansion into 27 Texas Communities",
+          "source": "Google News Trigger Scan",
+          "date": "2024-05-01",
+          "relevance": "Massive expansion creates significant data aggregation and operational complexity challenges."
+        },
+        {
+          "signal": "Investment in Innovative Member Benefits Indicates Focus on Whole-Person Care",
+          "source": "Google News Trigger Scan",
+          "date": "2023-10-30",
+          "relevance": "Shows a need to integrate data from point solutions to build a comprehensive member view."
+        },
+        {
+          "signal": "Longevity Health Plan Partners with Healthmap Solutions for Kidney Health Management",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-06-13",
+          "relevance": "Signals a commitment to leveraging data and analytics for value-based care in high-risk populations."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Healthmap Solutions"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Their significant expansion efforts in 2024-2025 likely created data and workflow integration challenges that are now impacting their ability to scale VBC and quality initiatives.",
+        "target_persona": "Chief Operating Officer / VP of Analytics / Chief Medical Officer",
+        "suggested_action": "Post-Expansion Integration & VBC Maturity Assessment",
+        "suggested_asset": "Case Study: How a leading MA plan unified data after multiple acquisitions to improve Star Ratings.",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "NY",
+      "signals_count": 5
+    },
+    {
+      "account_name": "First Choice Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "Extreme signal staleness; all available intelligence is over two years old.",
+        "The initiatives indicated by the 2023-2024 signals have likely already been addressed with a technology purchase.",
+        "Lack of recent information on the current state of the Premera alliance and its technology stack."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Essential for integrating data and managing services across the complex Premera alliance."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 90,
+          "rationale": "Directly enables the payer-provider collaboration and data sharing required by the strategic alliance."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 85,
+          "rationale": "Crucial for optimizing and managing referrals across the newly expanded and blended provider network."
+        }
+      ],
+      "initiative_theme": "Post-Alliance Data Integration & Network Optimization",
+      "top_evidence": [
+        {
+          "signal": "First Choice Health and Premera Blue Cross Form Strategic Alliance to Expand Network Access",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-12-12",
+          "relevance": "A foundational strategic shift requiring robust data integration, network management, and collaboration platforms."
+        },
+        {
+          "signal": "Leadership Expansion Signals Strategic Push for Market Growth and New Offerings",
+          "source": "Google News Trigger Scan",
+          "date": "2024-07-18",
+          "relevance": "Indicates a mandate for growth that would rely on a strong data and analytics foundation to succeed."
+        },
+        {
+          "signal": "New Chief Sales & Marketing Officer Signals Growth and Differentiation Strategy",
+          "source": "Google News Trigger Scan",
+          "date": "2024-07-18",
+          "relevance": "Points to a need for member engagement and analytics tools to support market differentiation."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CIO / Chief Strategy Officer / VP of Network Management",
+        "suggested_action": "Post-Alliance Technology Strategy Assessment",
+        "suggested_asset": "Case Study: Payer-Provider Data Collaboration for Network Expansion",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "state": "WA",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Moda Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (over 1-3 years old), significantly reducing their predictive power for near-term RFPs.",
+        "Solutions for the initiatives mentioned (member engagement, behavioral health) may have already been procured or the projects deprioritized."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-09-01"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "Underpins all potential initiatives by unifying disparate data to drive efficiency and analytics."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Enables payer-provider collaboration needed to improve quality and manage costs under financial pressure."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 75,
+          "rationale": "Directly addresses financial pressures by improving care management for high-cost, at-risk populations."
+        }
+      ],
+      "initiative_theme": "Operational Efficiency and Analytics Modernization",
+      "top_evidence": [
+        {
+          "signal": "Moda Health Faces Financial Pressure After Credit Rating Downgrade, Signaling Need for Efficiency",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-09",
+          "relevance": "Strongest underlying driver; creates urgency for ROI-driven tech investments to improve financial health."
+        },
+        {
+          "signal": "Moda Health Launches New Member Rewards Program, Focusing on Engagement",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-14",
+          "relevance": "Indicates a strategic focus on member engagement which requires a robust data and analytics foundation."
+        },
+        {
+          "signal": "Moda Health Expands into Measurement-Based Behavioral Care via Partnership",
+          "source": "Google News Trigger Scan",
+          "date": "2022-10-18",
+          "relevance": "Highlights a classic data integration challenge (3rd party data) that our platform is built to solve."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "CFO / COO / CIO",
+        "suggested_action": "Data ROI Workshop",
+        "suggested_asset": "Health Plan ROI and Cost Savings Case Study",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "state": "OR",
+      "signals_count": 3
+    },
+    {
+      "account_name": "Eisai",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The sole signal is nearly two years old (freshness: 0.05), suggesting any initial RFPs for the announced initiative have likely passed.",
+        "The deep, multi-year strategic partnership with Microsoft indicates they are a heavily entrenched incumbent for cloud, AI, and data infrastructure."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Directly aligns with their stated strategy of leveraging generative AI for their dementia ecosystem."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 85,
+          "rationale": "A foundational healthcare data platform is required to power the analytics and AI initiatives announced."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 75,
+          "rationale": "The goal of creating a 'dementia ecosystem' implies a need for a payer-provider collaboration platform."
+        }
+      ],
+      "initiative_theme": "AI-driven Dementia Ecosystem Development",
+      "top_evidence": [
+        {
+          "signal": "Eisai and Microsoft Launch Multi-year Strategic Partnership for Digital Transformation in Dementia",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-05-20",
+          "relevance": "Confirms a massive, long-term strategic investment in AI, cloud, and data analytics, but the signal's age reduces immediate probability."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Microsoft"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Chief Digital Officer / Head of Dementia Franchise / VP of IT Strategy",
+        "suggested_action": "Strategic AI Roadmap Session",
+        "suggested_asset": "Innovaccer & Microsoft Azure: Better Together for Life Sciences",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "NJ",
       "signals_count": 1
     },
     {
@@ -1861,7 +2357,7 @@
         "180_days": 0.1,
         "365_days": 0.2
       },
-      "confidence": "high",
+      "confidence": "low",
       "uncertainty_drivers": [
         "Exact contract term for the January 2024 ZeOmega renewal is unknown.",
         "Scope of ZeOmega implementation may still leave gaps for point solution RFPs."
@@ -1909,17 +2405,197 @@
         "confidence": "high"
       },
       "outreach": {
-        "why_now": "Their recent renewal with ZeOmega underscores their commitment to data-driven care, but highlights the need for a foundational data platform (Gravity) to truly create the 'unified data ecosystem' they desire.",
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
         "target_persona": "CIO, Chief Data Officer (CDO), VP of Analytics",
         "suggested_action": "Unified Data Ecosystem Strategy Workshop",
         "suggested_asset": "Innovaccer Payer Data Platform Whitepaper",
-        "priority_tier": "high"
+        "priority_tier": "standard"
       },
       "tier": "Top",
       "ae": "John Specht",
       "sdr": "Ritika Shaw",
       "state": "WV",
       "signals_count": 2
+    },
+    {
+      "account_name": "Exelixis",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "Single signal is extremely stale (>2 years old), making it a poor predictor of current needs.",
+        "Significant market mismatch: Exelixis is a life sciences/biopharma company, while Innovaccer's portfolio is primarily for providers and payers."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2027-03-04",
+        "latest": "2027-09-04"
+      },
+      "product_fit": [
+        {
+          "product": "Galaxy",
+          "fit_score": 25,
+          "rationale": "Albeit for drug discovery, their investment in GenAI indicates a data-savvy culture and potential interest in advanced analytics."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 20,
+          "rationale": "Potential need for unifying complex R&D or real-world evidence data, though a non-standard use case for our platform."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 5,
+          "rationale": "Extremely low-probability fit for potential real-world evidence data collaboration initiatives with health systems."
+        }
+      ],
+      "initiative_theme": "AI/GenAI application in life sciences R&D",
+      "top_evidence": [
+        {
+          "signal": "Exelixis Invests $80M in Generative AI for Cancer Drug Discovery with Insilico Medicine",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-10-02",
+          "relevance": "Indicates a major strategic commitment to AI and data, but the signal is very old and the partner is already chosen."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Insilico Medicine"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Chief Information Officer / VP of R&D Informatics",
+        "suggested_action": "Exploratory discussion",
+        "suggested_asset": "Innovaccer's Real-World Evidence Platform Overview",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "CA",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Endo International",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only signal is over two years old (freshness_weight: 0.05), making its current relevance highly speculative.",
+        "The timing and priority of IT initiatives following the 2024 bankruptcy sale are unknown without fresher intelligence.",
+        "As a pharmaceutical company, Endo's core needs differ from traditional provider/payer targets, potentially limiting the fit for some products."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Pharmacy Network",
+          "fit_score": 90,
+          "rationale": "Directly aligns with their core specialty pharma business; post-restructuring creates a strong need for operational efficiency."
+        },
+        {
+          "product": "Gravity",
+          "fit_score": 75,
+          "rationale": "The formation of a new entity from acquired assets necessitates data consolidation and establishing a single source of truth."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 70,
+          "rationale": "New leadership post-acquisition will require advanced, easy-to-use analytics to guide strategy and monitor performance."
+        }
+      ],
+      "initiative_theme": "Post-Restructuring Operational & Data Platform Modernization",
+      "top_evidence": [
+        {
+          "signal": "Endo International Wins Court Approval for $6B Bankruptcy Sale to Lenders",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-23",
+          "relevance": "This massive corporate restructuring signals a long-term need to consolidate systems and optimize operations under new ownership."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "COO / CFO / CIO / Head of Specialty Pharmacy Operations",
+        "suggested_action": "Executive Roundtable on Post-Restructuring Synergy Realization",
+        "suggested_asset": "Whitepaper: 'The Data-First Approach to Post-Acquisition Integration in Life Sciences'",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "PA",
+      "signals_count": 1
+    },
+    {
+      "account_name": "Sarepta Therapeutics",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All intelligence is extremely stale (24+ months old), making it an unreliable predictor of current needs.",
+        "The outcome of the 2024 data leadership hire and any subsequent platform decisions are unknown."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-11-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Directly addresses the past need to mature the enterprise data platform and governance."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Aligns with the leadership role's focus on leading enterprise analytics initiatives."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 70,
+          "rationale": "Could support patient journey analytics and outcomes research within a therapeutics context."
+        }
+      ],
+      "initiative_theme": "Enterprise Data Platform Modernization and Analytics Strategy",
+      "top_evidence": [
+        {
+          "signal": "Sarepta Actively Hiring Sr. Director to Lead Enterprise Data & Analytics Strategy",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-03-15",
+          "relevance": "Indicated a major strategic investment in enterprise data, analytics, and governance, though the signal is now very dated."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "No recent signals detected (older than ~8 months). Monitor for new activity before outreach.",
+        "target_persona": "Sr. Director, Enterprise Data & Analytics / CDO",
+        "suggested_action": "Strategic Maturity Assessment",
+        "suggested_asset": "Innovaccer's GenAI for Life Sciences Whitepaper",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "state": "MA",
+      "signals_count": 1
     }
   ]
 }
