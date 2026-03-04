@@ -1149,5 +1149,32 @@
     },
     "recommended_action": "Review award for Organon. Deadline: TBD. Coordinate response with Gina Black.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304191411_0",
+    "created_at": "2026-03-04T19:14:11.733005",
+    "account_name": "CenCal Health",
+    "doc_type": "intent_to_award",
+    "headline": "Intent to Award Notification - RFP 24005 \u2013 Enterprise Data Platform",
+    "summary": "CenCal Health has posted a notice of its intent to award a contract to Cozeva for its Enterprise Data Platform (EDP). The original RFP sought proposals for a modern solution to replace the organization's legacy data warehouse. The new platform is intended to provide enhanced data integration, management, advanced analytics, and reporting capabilities to support various health plan functions.",
+    "source_url": "https://www.cencalhealth.org/doing-business-with-us/",
+    "deadline": "May 24, 2024 (Proposal Deadline - Closed)",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Atlas",
+      "Flow",
+      "Cured",
+      "Comet",
+      "Gravity"
+    ],
+    "fit_score": 1.0,
+    "routing": {
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "tier": "Top",
+      "state": "CA"
+    },
+    "recommended_action": "Review intent_to_award for CenCal Health. Deadline: May 24, 2024 (Proposal Deadline - Closed). Coordinate response with Michael Rime.",
+    "status": "new"
   }
 ]

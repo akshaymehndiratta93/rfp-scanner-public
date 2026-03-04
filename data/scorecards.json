@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T19:02:58.773874",
-  "total_accounts": 45,
-  "last_batch_scored": 2,
-  "last_batch_no_signals": 3,
+  "generated_at": "2026-03-04T19:14:11.725881",
+  "total_accounts": 46,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -2745,6 +2745,79 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "TX",
       "signals_count": 1
+    },
+    {
+      "account_name": "CenCal Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All signals are over a year old, dramatically reducing their predictive power.",
+        "Status and satisfaction with the Cozeva Enterprise Data Platform, awarded in mid-2024, is unknown."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-10-01",
+        "latest": "2027-03-31"
+      },
+      "product_fit": [
+        {
+          "product": "Comet",
+          "fit_score": 75,
+          "rationale": "CalAIM requires advanced care management which may be a gap in their new EDP."
+        },
+        {
+          "product": "Humbi",
+          "fit_score": 70,
+          "rationale": "Strong need for SDoH/Health Equity solutions for Medicaid plans under CalAIM."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 65,
+          "rationale": "Payer-provider collaboration is critical for CalAIM's network requirements."
+        }
+      ],
+      "initiative_theme": "CalAIM Gap-Filling & Optimization",
+      "top_evidence": [
+        {
+          "signal": "Intent to Award Notification - RFP 24005 \u2013 Enterprise Data Platform",
+          "source": "Procurement Search (intent_to_award)",
+          "date": "2024-05-24",
+          "relevance": "Indicates they selected competitor Cozeva for their data platform, closing the window for Gravity."
+        },
+        {
+          "signal": "CenCal Health Expanding Services and Implementing CalAIM, Driving Need for Data Integration & Care Coordination Tech",
+          "source": "Google News Trigger Scan",
+          "date": "2025-04-03",
+          "relevance": "Confirms the primary business driver (CalAIM) but is stale; needs are likely being met by Cozeva."
+        },
+        {
+          "signal": "CenCal Health Appoints New Chief Information Officer to Lead Tech Strategy",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-20",
+          "relevance": "Key decision-maker identified, but the signal is over 2 years old; his strategy is likely already set."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Cozeva"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "Their new data platform from Cozeva has been in place for over a year. It's an opportune time to explore functional gaps in meeting advanced CalAIM requirements for care management or SDoH.",
+        "target_persona": "VP of Care Management / Director of Population Health",
+        "suggested_action": "Gap Assessment",
+        "suggested_asset": "CalAIM Success with California Health Plans Case Study",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "CA",
+      "signals_count": 3
     },
     {
       "account_name": "The Health Plan",
