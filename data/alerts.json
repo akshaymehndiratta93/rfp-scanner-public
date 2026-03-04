@@ -1017,5 +1017,31 @@
     },
     "recommended_action": "Review award for MVP Health Care. Deadline: N/A. Coordinate response with John Specht.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304174854_0",
+    "created_at": "2026-03-04T17:48:54.870781",
+    "account_name": "Daiichi Sankyo",
+    "doc_type": "award",
+    "headline": "Daiichi Sankyo and ConcertAI Announce a New Multi-Year Collaboration to Advance Evidence Generation and Clinical Development in Oncology",
+    "summary": "Daiichi Sankyo has selected ConcertAI for a multi-year collaboration to utilize its real-world data (RWD), AI technology, and Digital Trial Solution. The partnership aims to support Daiichi Sankyo's oncology portfolio by enhancing evidence generation and optimizing clinical trial design and execution. This functions as a vendor selection announcement for a data platform and clinical data services.",
+    "source_url": "https://www.daiichisankyo.com/media/press_release/detail/index_5516.html",
+    "deadline": "Not Applicable",
+    "estimated_value": "Not disclosed",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "tier": "Top",
+      "state": "NJ"
+    },
+    "recommended_action": "Review award for Daiichi Sankyo. Deadline: Not Applicable. Coordinate response with Shyam Dattani.",
+    "status": "new"
   }
 ]
