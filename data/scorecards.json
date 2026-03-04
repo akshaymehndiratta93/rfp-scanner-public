@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T20:54:22.411698",
-  "total_accounts": 60,
+  "generated_at": "2026-03-04T21:04:17.379974",
+  "total_accounts": 61,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -3504,6 +3504,77 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "GA",
       "signals_count": 4
+    },
+    {
+      "account_name": "Strive Health",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are extremely stale (older than 6 months), making it impossible to determine if a buying cycle was already initiated and completed.",
+        "No recent information on their technology stack or procurement activities following their major 2025 funding round."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Massive funding to scale their platform necessitates a unified data foundation for VBC operations."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 95,
+          "rationale": "Their core business is an AI-powered value-based kidney care model, directly aligning with Comet's capabilities."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 90,
+          "rationale": "Partnership expansions (e.g., Zing Health) require robust payer-provider data collaboration tools."
+        }
+      ],
+      "initiative_theme": "VBC Technology Platform Modernization & Scaling",
+      "top_evidence": [
+        {
+          "signal": "Strive Health Raises $550M to Scale AI-Powered Kidney Care Platform",
+          "source": "Google News Trigger Scan",
+          "date": "2025-09-09",
+          "relevance": "Massive capital infusion signals a mandate to invest in scalable data, AI, and care management platforms."
+        },
+        {
+          "signal": "Strive Health Scales VBC Model with Zing Health Partnership Expansion",
+          "source": "Google News Trigger Scan",
+          "date": "2025-03-11",
+          "relevance": "VBC partnership expansion creates a clear need for data integration and interoperability solutions."
+        },
+        {
+          "signal": "Strive Health Appoints New Chief Financial Officer",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-06-12",
+          "relevance": "A new CFO focused on scaling high-growth companies historically indicates a focus on ROI and enabling technology."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "Strive's 2025 growth initiatives created significant technology needs. It's critical to re-engage now to understand what solutions were implemented and identify emerging gaps in their VBC platform as they continue to scale.",
+        "target_persona": "CTO / CPO / VP of Analytics / VP of VBC Technology",
+        "suggested_action": "Strategic VBC Platform Scalability Assessment",
+        "suggested_asset": "Case Study: Scaling a Specialty-Focused Value-Based Care Model",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "Will Pettinger",
+      "sdr": "Alishah Rehman",
+      "state": "CO",
+      "signals_count": 3
     },
     {
       "account_name": "The Health Plan",
