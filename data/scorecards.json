@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T19:48:41.529047",
-  "total_accounts": 53,
-  "last_batch_scored": 2,
-  "last_batch_no_signals": 3,
+  "generated_at": "2026-03-04T20:07:24.384253",
+  "total_accounts": 57,
+  "last_batch_scored": 4,
+  "last_batch_no_signals": 1,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3226,6 +3226,73 @@
       "signals_count": 3
     },
     {
+      "account_name": "Pfizer",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.35
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than two years old, making it difficult to assess the current state of IT integration initiatives.",
+        "The incumbent competitor (Saama) has an established and recently expanded partnership in the core clinical data platform space."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "The massive Seagen acquisition necessitates a multi-year, large-scale data and systems integration, a core use case for Gravity."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Pfizer's stated focus on AI-powered platforms presents an opportunity to position Galaxy for analytics use cases beyond the incumbent's scope."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 75,
+          "rationale": "Post-merger, harmonizing data sharing with external partners for the new, integrated Oncology Division is a likely challenge."
+        }
+      ],
+      "initiative_theme": "Post-M&A Data & Systems Integration (Seagen Acquisition)",
+      "top_evidence": [
+        {
+          "signal": "Pfizer Finalizes $43B Seagen Acquisition, Kicking Off Massive IT and Systems Integration",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-12-14",
+          "relevance": "This M&A is the primary long-term driver for a potential large-scale data platform (Gravity) opportunity."
+        },
+        {
+          "signal": "Expanded Partnership to Scale AI-powered Clinical Data Platform",
+          "source": "Procurement Search (award)",
+          "date": "N/A",
+          "relevance": "Confirms Saama Technologies is a deeply embedded competitor in the clinical data platform space, representing a significant barrier."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Saama Technologies"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "The multi-year integration following the massive Seagen acquisition is likely entering a new, complex phase. We can offer a modern data platform to accelerate value realization and unify disparate data estates.",
+        "target_persona": "CIO / CDO / VP, R&D IT / Head of Oncology Division IT",
+        "suggested_action": "M&A Data Integration Assessment",
+        "suggested_asset": "Case Study: Post-Merger Data Unification for a Top 5 Pharma",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Shyam Dattani",
+      "sdr": "Aditya Nandwana",
+      "state": "NY",
+      "signals_count": 2
+    },
+    {
       "account_name": "The Health Plan",
       "rfp_probability": {
         "90_days": 0.05,
@@ -3721,6 +3788,195 @@
       "sdr": "Abhinav Pandey",
       "state": "WY",
       "signals_count": 2
+    },
+    {
+      "account_name": "Colorado Access",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than two years old, indicating intelligence is stale.",
+        "A major competitive win by Cognizant for the core data platform in 2024 likely locks Innovaccer out of foundational opportunities for the next 3-5 years.",
+        "The outcome of the mid-2024 Population Health RFP is unknown but has certainly been decided, further reducing near-term probability."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2027-03-01",
+        "latest": "2027-09-30"
+      },
+      "product_fit": [
+        {
+          "product": "Humbi",
+          "fit_score": 55,
+          "rationale": "Potential as a bolt-on solution to address specific health equity or SDoH program gaps not covered by the core platform."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 50,
+          "rationale": "Could fill a niche need for payer-provider collaboration if the new Cognizant platform has limitations in this area."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 45,
+          "rationale": "Future opportunity for an advanced analytics/GenAI layer once their new data foundation is fully implemented and mature."
+        }
+      ],
+      "initiative_theme": "Post-Platform Implementation Gap Filling",
+      "top_evidence": [
+        {
+          "signal": "Colorado Access Selects Cognizant for Cloud Data Platform Modernization",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-25",
+          "relevance": "Confirms a recent, foundational platform decision with a major competitor, drastically lowering probability for a Gravity sale."
+        },
+        {
+          "signal": "Population Health, Care Management and Utilization Management Platform",
+          "source": "Procurement Search (RFP)",
+          "date": "2024-06-21",
+          "relevance": "Indicates a procurement cycle for a Comet-like solution has already passed, with a decision likely made in late 2024."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Cognizant"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "The core platform decision has been made. The goal is to monitor the Cognizant implementation for potential gaps (e.g., in SDoH, provider collaboration) and position Innovaccer as a best-in-class partner for future, specialized needs.",
+        "target_persona": "Chief Data Officer (CDO) / VP of Population Health",
+        "suggested_action": "Strategic Nurturing / Competitive Intelligence Monitoring",
+        "suggested_asset": "Whitepaper on 'Maximizing ROI from your new Cloud Data Warehouse with Specialized Analytics'",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Hannah Schuyler",
+      "sdr": "Abhinav Pandey",
+      "state": "CO",
+      "signals_count": 2
+    },
+    {
+      "account_name": "Clover Health",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.2
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The sole signal is over two years old, making it highly unreliable for near-term predictions.",
+        "Clover's SaaS commercialization strategy may have evolved, stalled, or been abandoned since the announcement.",
+        "It is unknown if they are pursuing a build vs. buy strategy for the underlying platform."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-09-01"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Essential foundation for a multi-tenant, scalable SaaS platform to ingest and unify customer data."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 90,
+          "rationale": "Enables the core payer-provider data sharing and collaboration required for their commercial offering."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 85,
+          "rationale": "Can enhance their 'Clover Assistant' AI or provide powerful new analytics capabilities for their SaaS customers."
+        }
+      ],
+      "initiative_theme": "SaaS platform foundation for commercial AI offering",
+      "top_evidence": [
+        {
+          "signal": "Clover Health Partners with Semler Scientific to Commercialize Clover Assistant as SaaS Offering",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-02-22",
+          "relevance": "Indicates a major strategic pivot to a SaaS model, requiring a scalable data platform foundation."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "In-house Build"
+        ],
+        "confidence": "low"
+      },
+      "outreach": {
+        "why_now": "Acknowledging their strategic pivot to commercialize Clover Assistant, how is the underlying data platform scaling to support a multi-tenant SaaS model? Innovaccer provides the foundation for such initiatives.",
+        "target_persona": "Chief Technology Officer, Chief Product Officer, Head of Semler-Clover partnership",
+        "suggested_action": "Platform Scalability Assessment",
+        "suggested_asset": "Innovaccer as a Platform (PaaS) Whitepaper",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "NJ",
+      "signals_count": 1
+    },
+    {
+      "account_name": "City of Hope",
+      "rfp_probability": {
+        "90_days": 0.05,
+        "180_days": 0.1,
+        "365_days": 0.15
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The primary signal regarding M&A integration and a new CIO is over two years old (freshness: 0.05), making it highly likely the core project is complete.",
+        "There is no recent information on current strategic priorities, budget cycles, or dissatisfaction with existing data infrastructure."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2027-01-01",
+        "latest": "2027-12-31"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Directly addresses the core need for post-acquisition data integration and unification around a new Epic EHR."
+        },
+        {
+          "product": "Flow",
+          "fit_score": 85,
+          "rationale": "Addresses the challenge of integrating the acquired CTCA network to standardize referrals and reduce leakage."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 80,
+          "rationale": "Represents the logical next step after data unification to enable advanced analytics and an enterprise AI strategy."
+        }
+      ],
+      "initiative_theme": "Post-M&A Data Integration & Analytics Modernization",
+      "top_evidence": [
+        {
+          "signal": "City of Hope Appoints New Enterprise CIO to Lead Post-Acquisition Tech Integration",
+          "source": "TrueFoundry Deep Search",
+          "date": "2023-10-24",
+          "relevance": "Appointed a new CIO to lead post-acquisition (CTCA) tech integration and a massive Epic migration, a core trigger for data unification."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [],
+        "confidence": "none"
+      },
+      "outreach": {
+        "why_now": "With the Epic migration and CTCA integration likely stabilized, the focus may shift to activating that unified data. How is City of Hope planning to leverage its integrated data asset for enterprise analytics and AI-driven insights?",
+        "target_persona": "Enterprise CIO (Kristin Hahn)",
+        "suggested_action": "Post-Merger Analytics Maturity Workshop",
+        "suggested_asset": "Case Study: Post-M&A Data Unification for a National Health System",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Anirudh kanwar",
+      "sdr": "Yash raj",
+      "state": "CA",
+      "signals_count": 1
     }
   ]
 }
