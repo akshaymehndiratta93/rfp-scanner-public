@@ -1069,5 +1069,85 @@
     },
     "recommended_action": "Review award for CSL Behring. Deadline: N/A. Coordinate response with Gina Black.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304181015_0",
+    "created_at": "2026-03-04T18:10:15.202529",
+    "account_name": "Otsuka Pharmaceutical",
+    "doc_type": "award",
+    "headline": "Otsuka and Holmusk Announce Collaboration to Use Real-World Evidence to Improve Behavioral Health",
+    "summary": "This is an announcement of a vendor selection and collaboration. Otsuka has selected Holmusk to co-develop a digital health platform to support patients and clinicians in managing serious mental illness (SMI). The collaboration will leverage Holmusk's flagship real-world evidence platform, NeuroBlu, which contains longitudinal data from a large behavioral health electronic health record (EHR) system.",
+    "source_url": "https://holmusk.com/news/otsuka-and-holmusk-announce-collaboration-to-use-real-world-evidence-to-improve-behavioral-health",
+    "deadline": null,
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Atlas",
+      "Cured",
+      "Comet"
+    ],
+    "fit_score": 0.9,
+    "routing": {
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "tier": "Top",
+      "state": "NJ"
+    },
+    "recommended_action": "Review award for Otsuka Pharmaceutical. Deadline: TBD. Coordinate response with Gina Black.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304181015_1",
+    "created_at": "2026-03-04T18:10:15.202544",
+    "account_name": "Boehringer Ingelheim",
+    "doc_type": "award",
+    "headline": "Aigenpulse Collaborates With Boehringer Ingelheim to Streamline Drug Discovery & Development",
+    "summary": "Boehringer Ingelheim selected Aigenpulse to implement its CytoML Experiment Suite. The goal is to create a unified, GxP-compliant data and analysis platform for complex flow cytometry data from preclinical and clinical studies, integrating disparate data sources to improve decision-making in drug discovery.",
+    "source_url": "https://www.businesswire.com/news/home/20230620577783/en/Aigenpulse-Collaborates-With-Boehringer-Ingelheim-to-Streamline-Drug-Discovery-Development",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Comet",
+      "Galaxy",
+      "Atlas",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "tier": "Top",
+      "state": "CT"
+    },
+    "recommended_action": "Review award for Boehringer Ingelheim. Deadline: N/A. Coordinate response with Gina Black.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304181015_2",
+    "created_at": "2026-03-04T18:10:15.202550",
+    "account_name": "Organon",
+    "doc_type": "award",
+    "headline": "Organon Selects Veeva as Commercial Technology Foundation Partner for CRM, Data, and Analytics",
+    "summary": "This is a vendor selection announcement. Organon, a new global healthcare company, has selected Veeva Systems to establish its core commercial technology foundation. The partnership includes the adoption of Veeva CRM, Veeva Link, Veeva OpenData, and Veeva Nitro. Veeva Nitro is a commercial data warehouse platform for the life sciences industry, directly addressing the user's query for 'enterprise data warehouse' and 'data integration platform'. This establishes the foundational data and analytics infrastructure for Organon's commercial operations following its spinoff from Merck.",
+    "source_url": "https://www.veeva.com/resources/organon-selects-veeva-as-commercial-technology-foundation-partner-for-crm-data-and-analytics/",
+    "deadline": null,
+    "estimated_value": "Not mentioned",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Cured",
+      "Galaxy",
+      "Pharmacy Network"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "Gina Black",
+      "sdr": "Kumar Shanu Goswami",
+      "tier": "Top",
+      "state": "NJ"
+    },
+    "recommended_action": "Review award for Organon. Deadline: TBD. Coordinate response with Gina Black.",
+    "status": "new"
   }
 ]
