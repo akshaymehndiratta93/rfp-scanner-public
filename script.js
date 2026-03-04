@@ -3,6 +3,8 @@
    ═══════════════════════════════════════════════════════ */
 
 const API_BASE = "http://localhost:5001/api";
+const DATA_BASE = window.location.pathname.includes("/frontend/") ? "../data" : "./data";
+
 
 document.addEventListener("DOMContentLoaded", () => {
     initNavigation();
@@ -46,7 +48,7 @@ async function loadStats() {
         return;
     }
     try {
-        const res = await fetch("../data/scorecards.json");
+        const res = await fetch(`${DATA_BASE}/scorecards.json`);
         const data = await res.json();
         const scorecards = data.scorecards || [];
 
@@ -59,7 +61,7 @@ async function loadStats() {
         document.getElementById("stat-outreach").textContent = outreach;
 
         // Load alerts count
-        const alertRes = await fetch("../data/alerts.json");
+        const alertRes = await fetch(`${DATA_BASE}/alerts.json`);
         const alertData = await alertRes.json();
         document.getElementById("stat-alerts").textContent = alertData.length || 0;
         document.getElementById("alert-badge").textContent = alertData.length || 0;
@@ -84,7 +86,7 @@ async function loadScorecards() {
     const product = document.getElementById("productFilter").value;
 
     try {
-        const res = await fetch("../data/scorecards.json");
+        const res = await fetch(`${DATA_BASE}/scorecards.json`);
         const data = await res.json();
         let scorecards = data.scorecards || [];
 
@@ -211,7 +213,7 @@ function showDetail(card) {
 // ─── Outreach ───────────────────────────────────────────
 async function loadOutreach() {
     try {
-        const res = await fetch("../data/outreach_list.json");
+        const res = await fetch(`${DATA_BASE}/outreach_list.json`);
         const data = await res.json();
         const grid = document.getElementById("outreachGrid");
 
@@ -246,7 +248,7 @@ async function loadOutreach() {
 // ─── Alerts ─────────────────────────────────────────────
 async function loadAlerts() {
     try {
-        const res = await fetch("../data/alerts.json");
+        const res = await fetch(`${DATA_BASE}/alerts.json`);
         const data = await res.json();
         const feed = document.getElementById("alertsFeed");
 
@@ -286,7 +288,7 @@ async function loadAlerts() {
 // ─── Leadership ─────────────────────────────────────────
 async function loadLeadership() {
     try {
-        const res = await fetch("../data/scorecards.json");
+        const res = await fetch(`${DATA_BASE}/scorecards.json`);
         const data = await res.json();
         const scorecards = data.scorecards || [];
 
