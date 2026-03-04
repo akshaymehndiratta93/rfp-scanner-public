@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-04T20:32:05.327834",
-  "total_accounts": 58,
-  "last_batch_scored": 0,
-  "last_batch_no_signals": 5,
+  "generated_at": "2026-03-04T20:45:07.592466",
+  "total_accounts": 59,
+  "last_batch_scored": 1,
+  "last_batch_no_signals": 4,
   "scorecards": [
     {
       "account_name": "Cencora",
@@ -3364,6 +3364,67 @@
       "sdr": "Vignesh P",
       "state": "SC",
       "signals_count": 3
+    },
+    {
+      "account_name": "Alignment Healthcare",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.15,
+        "365_days": 0.25
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "The only available signal is nearly two years old, making its predictive power for a near-term RFP very weak.",
+        "The 2025 expansion initiative mentioned in the signal is long past; any major procurement for it likely occurred in 2024."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-09-01"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 90,
+          "rationale": "Required to unify member, provider, and clinical data from newly entered markets to feed their proprietary AVA platform."
+        },
+        {
+          "product": "Comet",
+          "fit_score": 85,
+          "rationale": "Essential for scaling care management operations to a larger, more diverse MA population post-expansion."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 80,
+          "rationale": "Needed to establish data sharing and collaboration with new provider networks in expansion states for VBC success."
+        }
+      ],
+      "initiative_theme": "Post-Expansion Operational Scaling & VBC Optimization",
+      "top_evidence": [
+        {
+          "signal": "Alignment Healthcare Announces Major Medicare Advantage Expansion for 2025",
+          "source": "Fierce Healthcare",
+          "date": "2024-06-10",
+          "relevance": "Indicates massive, albeit past, data, care, and network scaling challenges that may be creating ongoing operational pain points."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Proprietary 'AVA' Platform"
+        ],
+        "confidence": "high"
+      },
+      "outreach": {
+        "why_now": "The dust has now settled on your 2025 market expansion. We can help you optimize the data integration and care coordination architecture required to manage these new populations and provider networks effectively.",
+        "target_persona": "Chief Technology Officer / Chief Medical Officer / VP of Network Strategy",
+        "suggested_action": "Post-Expansion Technology & VBC Maturity Assessment",
+        "suggested_asset": "Case Study: 'How a National MA Plan Scaled VBC Operations Across 5 New Markets'",
+        "priority_tier": "standard"
+      },
+      "tier": "Top",
+      "ae": "Michael Rime",
+      "sdr": "Dhanvir Singh",
+      "state": "CA",
+      "signals_count": 1
     },
     {
       "account_name": "The Health Plan",

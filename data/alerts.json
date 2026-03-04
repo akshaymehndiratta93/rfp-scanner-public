@@ -1499,5 +1499,59 @@
     },
     "recommended_action": "Review award for Arkansas Blue Cross And Blue Shield. Deadline: N/A. Coordinate response with John Specht.",
     "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304204507_0",
+    "created_at": "2026-03-04T20:45:07.623739",
+    "account_name": "Elevance Health",
+    "doc_type": "award",
+    "headline": "Elevance Health to Redefine Personalized Healthcare Experiences at Scale with the Databricks Lakehouse Platform",
+    "summary": "This is a vendor selection announcement. Elevance Health has selected the Databricks Lakehouse Platform to unify its data and AI capabilities. The initiative is focused on building predictive models and delivering personalized, proactive healthcare insights. This strategic move directly impacts their enterprise data platform, data integration, and population health management infrastructure.",
+    "source_url": "https://www.databricks.com/company/newsroom/press-releases/elevance-health-redefine-personalized-healthcare-experiences-scale",
+    "deadline": "N/A",
+    "estimated_value": "Not specified",
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "IN"
+    },
+    "recommended_action": "Review award for Elevance Health. Deadline: N/A. Coordinate response with John Specht.",
+    "status": "new"
+  },
+  {
+    "alert_id": "alert_20260304204507_1",
+    "created_at": "2026-03-04T20:45:07.623773",
+    "account_name": "Amida Care",
+    "doc_type": "award",
+    "headline": "Amida Care Selects ZeOmega's Jiva Platform for Integrated Health Care Management",
+    "summary": "Following an extensive RFP process in 2022 for a Care Management and Population Health IT Platform, Amida Care has selected and announced ZeOmega's Jiva platform as its new population health management solution. The platform is intended to enhance integrated care management, utilization management, member engagement, and advanced analytics.",
+    "source_url": "https://www.businesswire.com/news/home/20230321005118/en/Amida-Care-Selects-ZeOmega%E2%80%99s-Jiva-Platform-for-Integrated-Health-Care-Management",
+    "deadline": null,
+    "estimated_value": null,
+    "products_relevant": [
+      "Gravity",
+      "Comet",
+      "Atlas",
+      "Galaxy",
+      "Humbi"
+    ],
+    "fit_score": 0.95,
+    "routing": {
+      "ae": "John Specht",
+      "sdr": "Ritika Shaw",
+      "tier": "Top",
+      "state": "NY"
+    },
+    "recommended_action": "Review award for Amida Care. Deadline: TBD. Coordinate response with John Specht.",
+    "status": "new"
   }
 ]
