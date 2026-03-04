@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-04T22:13:23.290333",
-  "total_accounts": 68,
+  "generated_at": "2026-03-04T22:24:13.643566",
+  "total_accounts": 69,
   "last_batch_scored": 1,
   "last_batch_no_signals": 4,
   "scorecards": [
@@ -3790,6 +3790,79 @@
       "sdr": "Kumar Shanu Goswami",
       "state": "IL",
       "signals_count": 1
+    },
+    {
+      "account_name": "Capital BlueCross",
+      "rfp_probability": {
+        "90_days": 0.1,
+        "180_days": 0.2,
+        "365_days": 0.3
+      },
+      "confidence": "low",
+      "uncertainty_drivers": [
+        "All available signals are more than 2 years old, making near-term intent difficult to predict.",
+        "The status of the 'Vincere' JV's technology stack is unknown; they may have already selected a long-term partner."
+      ],
+      "predicted_rfp_window": {
+        "earliest": "2026-09-01",
+        "latest": "2027-03-04"
+      },
+      "product_fit": [
+        {
+          "product": "Gravity",
+          "fit_score": 95,
+          "rationale": "Essential for unifying data across the plan and its two health system JV partners (WellSpan, Penn Medicine)."
+        },
+        {
+          "product": "Atlas",
+          "fit_score": 95,
+          "rationale": "Purpose-built for the payer-provider collaboration model at the core of the 'Vincere' joint venture."
+        },
+        {
+          "product": "Galaxy",
+          "fit_score": 90,
+          "rationale": "Addresses the JV's stated goal to leverage advanced analytics for population health and cost reduction."
+        }
+      ],
+      "initiative_theme": "VBC & Pop Health Analytics Platform for 'Vincere' Joint Venture",
+      "top_evidence": [
+        {
+          "signal": "Capital BlueCross Launches 'Vincere', a Population Health Joint Venture with Two Major Health Systems",
+          "source": "TrueFoundry Deep Search",
+          "date": "2024-01-11",
+          "relevance": "Major strategic initiative requires a foundational data, analytics, and collaboration platform for the new JV."
+        },
+        {
+          "signal": "Capital BlueCross Partners with Mark Cuban's Cost Plus Drugs to Lower Rx Costs",
+          "source": "Google News Trigger Scan",
+          "date": "2022-10-06",
+          "relevance": "Indicates a focus on cost reduction and partnerships that require pharmacy and medical data integration."
+        },
+        {
+          "signal": "Capital BlueCross Expands Digital Health Services with Mental Health App",
+          "source": "Google News Trigger Scan",
+          "date": "2021-01-20",
+          "relevance": "Shows historical interest in digital health solutions, creating data integration and ROI measurement challenges."
+        }
+      ],
+      "competitive_landscape": {
+        "competitors_detected": [
+          "Undisclosed incumbent for Vincere JV"
+        ],
+        "confidence": "low"
+      },
+      "outreach": {
+        "why_now": "The 'Vincere' JV is now over two years old; it's a critical time to evaluate if their initial technology choices are delivering the expected ROI or if data and collaboration gaps are hindering VBC success.",
+        "target_persona": "VP of Strategy / CDO / Executive Director of Vincere / VP Value-Based Care",
+        "suggested_action": "Payer-Provider JV Technology ROI Workshop",
+        "suggested_asset": "Case Study: 'Driving ROI in Payer-Provider Collaborations'",
+        "priority_tier": "high"
+      },
+      "tier": "Top",
+      "ae": "Alexander J. Keltner",
+      "sdr": "Abhishek Gautam",
+      "state": "PA",
+      "signals_count": 3
     },
     {
       "account_name": "The Health Plan",
